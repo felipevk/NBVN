@@ -243,6 +243,52 @@ label intro_continue:
 
     "Mas que cena. Normalmente eu acharia graça disso, mas por algum motivo, não consigo."
 
+    hide fabio
+
+    hide galdino
+
+    "As ultimas introduções ocorrem normalmente. Após o último aluno se apresentar, Galdino se levanta."
+
+    show galdino nobook neutral at center
+
+    g "Agora que todos nos conhecemos, vou falar um pouco sobre o que vocês devem esperar da primeira semana na Academia Novel Brasil."
+
+    g "Iremos abordar os conceitos básicos de webnovels e escrita. Não será necessário nenhum conhecimento prévio sobre estes assuntos, podem ficar tranquilos."
+
+    g "Porém, quero que saibam que estarão sendo avaliados durante este processo. Durante as aulas, farei perguntas sobre os tópicos e espero que me respondam corretamente!"
+
+    "De repente, o ar da sala mudou. Os alunos agora claramente passaram a prestar mais atenção no professor."
+
+    show nebi armsbehind smiling at right
+
+    n "A-avaliação?"
+
+    hide nebi
+
+    show galdino nobook amused
+
+    g "De novo, não espero que ninguém aqui já saiba de tudo. Todas as perguntas serão relativas ao assunto da aula."
+
+    g "Desde que prestem atenção, com certeza se sairão bem."
+
+    show galdino nobook neutral
+
+    g "No final desta semana, vocês receberão meus comentários em relação ao seu desempenho."
+
+    show galdino nobook amused
+
+    g "Alguma pergunta?"
+
+    show galdino nobook neutral
+
+    "Nenhum aluno em particular se pronunciou, mas os murmuros tomam conta da sala."
+
+    "Mal botamos os pés aqui e já estamos sendo avaliados. Bom, acho que é isso que se espera de uma escola deste calibre."
+
+    g "Já que vocês não tem nenhuma pergunta, vamos partir para a nossa primeira aula."
+
+    g "O assunto de hoje é direto ao ponto: Vamos falar sobre {b}o que é uma webnovel.{/b}"
+
     # á à ã é ê É í ô ó õ ú ç
 
 label day2:
