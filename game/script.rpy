@@ -8,6 +8,7 @@ define f_u = Character("????", color="#c8c8ff")
 define g_u = Character("Professor", color="#c8c8ff")
 define p = Character("[name]")
 
+default score = 0
 default likesBread = False
 
 label start:
@@ -22,7 +23,7 @@ label day1:
 
     "Hoje é meu primeiro dia na Academia Novel Brasil."
 
-    "Este lugar basicamente é o maior formador de talentos de webnovels no país inteiro."
+    "Este lugar basicamente é o maior formador de talentos de web novels no país inteiro."
 
     "Depois de muita insistência e convecimento da minha parte, meus pais finalmente concordaram em me matricular aqui!"
 
@@ -118,7 +119,7 @@ label day1:
 
     "Galdino Velasco..."
 
-    g "Serei o seu professor durante este ano. Tenho dado aula nesta instituição a mais de dez anos. Apesar disso, a arte da escrita, sobretudo de webnovels, ainda tem um enorme espaço de crescimento no nosso país."
+    g "Serei o seu professor durante este ano. Tenho dado aula nesta instituição a mais de dez anos. Apesar disso, a arte da escrita, sobretudo de web novels, ainda tem um enorme espaço de crescimento no nosso país."
 
     g "Espero ver grandes obras vindo dos escritores desta classe, e que atraiam ainda mais pessoas para este meio."
 
@@ -126,7 +127,7 @@ label day1:
 
     "Os alunos começam a murmurar entre si. Apesar do discurso ter sido meio... cafona, não há dúvidas de que causou uma certa impressão na sala."
 
-    "Parando pra pensar, a maioria dos meus amigos da minha escola antiga nunca nem ouviram falar em webnovels. Talvez ele esteja certo. "
+    "Parando pra pensar, a maioria dos meus amigos da minha escola antiga nunca nem ouviram falar em web novels. Talvez ele esteja certo. "
 
     g "Agora, eu quero ouvir vocês. Gostaria que cada um se apresente brevemente para a classe!"
 
@@ -140,7 +141,7 @@ label day1:
 
     n_u "Bom dia! Meu nome é Nebi!"
 
-    n "Meu passatempo favorito é ler livros e webnovels, e sempre quis escrever a minha propria história! Conto com a ajuda de todos para nos tornamos grandes escritores!"
+    n "Meu passatempo favorito é ler livros e web novels, e sempre quis escrever a minha propria história! Conto com a ajuda de todos para nos tornamos grandes escritores!"
 
     hide nebi
 
@@ -209,9 +210,9 @@ label intro_continue:
 
     show fabio sheathed smug at center
 
-    f_u "Saudações! Podem me chamar de Fábio."
+    f_u "Saudações! Podem me chamar de Fábio. Tenho bastante experiência com escrita. Dois meses! Qualquer dúvida que tiverem, podem me perguntar!"
 
-    f "Este é o meu nome humano. Caso estejam curiosos, o meu nome real foi selado para conter uma grande ameaça!"
+    f "Inclusive, Fábio é o meu nome humano. Caso estejam curiosos, o meu nome real foi selado para conter uma grande ameaça!"
 
     "Lá vem..."
 
@@ -253,7 +254,7 @@ label intro_continue:
 
     g "Agora que todos nos conhecemos, vou falar um pouco sobre o que vocês devem esperar da primeira semana na Academia Novel Brasil."
 
-    g "Iremos abordar os conceitos básicos de webnovels e escrita. Não será necessário nenhum conhecimento prévio sobre estes assuntos, podem ficar tranquilos."
+    g "Iremos abordar os conceitos básicos de web novels e escrita. Não será necessário nenhum conhecimento prévio sobre estes assuntos, podem ficar tranquilos."
 
     g "Porém, quero que saibam que estarão sendo avaliados durante este processo. Durante as aulas, farei perguntas sobre os tópicos e espero que me respondam corretamente!"
 
@@ -287,7 +288,162 @@ label intro_continue:
 
     g "Já que vocês não tem nenhuma pergunta, vamos partir para a nossa primeira aula."
 
-    g "O assunto de hoje é direto ao ponto: Vamos falar sobre {b}o que é uma webnovel.{/b}"
+    g "O assunto de hoje é direto ao ponto: Vamos falar sobre {b}o que é uma web novel.{/b}"
+
+    g "Uma web novel é simplesmente uma novel, um romance, feita para a internet. Diferente de um livro, os capitulos são lançados separadamente."
+
+    g "Muitas pessoas confundem light novels com web novels. A maior diferença é no metodo de publicação."
+
+    g "Light novels são publicadas através de editoras, em formato físico. Enquanto que web novels estão na web, geralmente de forma independente ou não-exclusiva."
+
+    g "Claro, nada impede que um autor de uma web novel popular seja abordado por uma editora, e a sua obra seja publicada como light novel. Isso ocorre bastante, fora do país"
+
+    g "Quanto às semelhanças, ambas web novels e light novels apresentam um estilo de escrita menos rebuscado, comparado com romances tradicionais."
+
+    g "O público-alvo destas mídias é de uma faixa etária de jovens, que buscam uma leitura mais acessivel."
+
+    g "Sobretudo com web novels, que podem ser lidas num celular, acessibilidade é essencial!"
+
+    g "Mantenham em mente que, mesmo que o seu texto pareça curto na tela do computador, ele também precisa ser facilmente lido em uma tela menor de celular."
+
+    g "Perguntas?"
+
+    "Nenhum aluno se pronuncia. Porém, percebo que todos estão claramente concentrados no professor. Alguns estão até fazendo anotacoes, incluindo a Nebi."
+
+    g "Muito bem. Para finalizar a aula de hoje, vamos falar sobre sites brasileiros de web novels."
+
+    g "Minhas recomendações pessoais são a {a=https://kiniga.com}Kiniga{/a} e a {a=https://novelmania.com.br}Novel Mania{/a}"
+
+    g "Em ambos os sites vocês podem ter acesso a múltiplas obras originais brasileiras, ou até obras internacionais, traduzidas para o português."
+
+    show galdino nobook amused
+
+    g "Vocês também podem postar suas obras nestes sites, desde que sejam bem escritas!"
+
+    show galdino nobook neutral
+
+    g "Agora vamos ver quem estava prestando atenção na aula."
+
+    "Galdino observa os alunos, e seu olhar para na minha direção."
+
+    g "[name], certo?"
+
+    p "S-sim, professor!"
+
+    menu:
+        g "Me responda, o que é uma web novel?"
+
+        "É um romance publicado em bancas.":
+
+            jump q1_a1
+
+        "É uma história publicada na internet, independente de editoras.":
+
+            jump q1_a2
+
+        "São textos feitos fora do brasil que são traduzidos para o português.":
+
+            jump q1_a3
+
+    label q1_a1:
+
+    g "A resposta está... incorreta. Como o nome diz, web novels são postadas na internet."
+
+    jump q2
+
+    label q1_a2:
+
+    $ score += 1
+
+    g "A resposta está correta! Essa é uma definição muito importante para vocês, autores."
+
+    g "Entender os elementos do meio que você se encontra é essencial para que se tire o maior proveito possível dele."
+
+    g "O mesmo vale para filmes, jogos, musica, etc. Faça bom uso da mídia, e sua obra terá apenas a ganhar com isso."
+
+    jump q2
+
+    label q1_a3:
+
+    g "A resposta está incorreta. Web novels podem ser feitas em qualquer idioma, inclusive em português."
+
+    show galdino nobook amused
+
+    g "Se esse não fosse o caso, pra que estaríamos aqui?"
+
+    show galdino nobook neutral
+
+    jump q2
+
+    label q2:
+
+    g "Próxima pergunta!"
+
+    "Tem mais?"
+
+    g "Só mais uma..."
+
+    menu:
+        g "Qual a diferença entre web novels e light novels?"
+
+        "Web novels são publicadas na internet, enquanto que light novels são publicadas fisicamente, por editoras.":
+
+            jump q2_a1
+
+        "Nenhuma.":
+
+            jump q2_a2
+
+        "Web novels são publicadas por editoras, e light novels são independentes.":
+
+            jump q2_a3
+
+    label q2_a1:
+
+    $ score += 1
+
+    g "Correto! Que bom que está prestando atenção."
+
+    "Moleza!"
+
+    jump day1_class_end
+
+    label q2_a2:
+
+    g "Errado. Muitas pessoas acham que não tem diferença, mas light novels são publicadas por editoras, em bancas e livrarias, enquanto que web novels estão na... web."
+
+    g "Entendido?"
+
+    p "Entendido..."
+
+    jump day1_class_end
+
+    label q2_a3:
+
+    g "Incorreto. Na verdade é o oposto: web novels são, na sua maioria, independentes; light novels são publicadas por editoras."
+
+    "Verdade..."
+
+    jump day1_class_end
+
+    label day1_class_end:
+
+    "O sino bate."
+
+    g "Bom, isso conclui a nossa primeira aula. Este é o primeiro passo nas suas jornadas para se tornarem escritores."
+
+    g "Amanhã falaremos um pouco sobre elementos de escrita. Até a próxima!"
+
+    hide galdino
+
+    "O professor deixa a sala, e os alunos começam a se preparar para sair."
+
+    "Este primeiro dia foi bem interessante. O professor parece entender bem sobre web novels, enquanto os alunos são bem concentrados."
+
+    "Inclusive, o cansaço tá batendo. Hora de pegar o metrô pra casa."
+
+    scene bg classroom
+    with fade
 
     # á à ã é ê É í ô ó õ ú ç
 
