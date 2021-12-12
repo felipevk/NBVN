@@ -445,6 +445,32 @@ label intro_continue:
     scene bg classroom
     with fade
 
+    "Antes de voltar para o dormitório, decido fazer umas compras para a semana."
+
+    "O lado bom de ter me perdido de manhã foi que encontrei este supermercado que fica no caminho para a escola."
+
+    "Não tenho o costume de cozinhar, mas fica bem mais em conta do que comer fora, ou pedir delivery."
+
+    "Assim que termino de comprar tudo que preciso, retomo o caminho pra casa."
+
+    scene bg classroom
+    with fade
+
+    "Este é o dormitório que irei ficar durante a escola. Ele foi feito para estudantes de fora desta cidade."
+
+    "Acredito que a maioria do pessoal que está aqui são de outras escolas, já que não vi ninguém pegando o mesmo caminho que eu peguei para a Novel Brasil."
+
+    "Me dirijo a geladeira da cozinha. Cada um tem um espaço reservado nela. Coloco as compras que fiz na minha prateleira."
+
+    "Quando termino de arrumar, percebo que ainda sobrou uma prateleira vazia. Acho isso meio estranho, pois tenho certeza de que este lugar estava sem vagas após a minha inscrição."
+
+    "Bom, tanto faz. Pego o que vou jantar, e como lá mesmo na cozinha."
+
+    scene bg classroom
+    with fade
+
+    "Bom, tanto faz. Pego o que vou jantar, e como lá mesmo na cozinha."
+
     # á à ã é ê É í ô ó õ ú ç
 
 label day2:
