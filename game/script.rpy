@@ -18,8 +18,11 @@ label start:
         name = name.strip() or "Protagonista"
 
 label day1:
+
     scene bg classroom
     with fade
+
+    "Dia 1 - Segunda-feira"
 
     "Hoje é meu primeiro dia na Academia Novel Brasil."
 
@@ -430,9 +433,9 @@ label intro_continue:
 
     "O sino bate."
 
-    g "Bom, isso conclui a nossa primeira aula. Este é o primeiro passo nas suas jornadas para se tornarem escritores."
+    g "Bom, com isso concluímos a nossa aula. Este é o primeiro passo nas suas jornadas para se tornarem escritores."
 
-    g "Amanhã falaremos um pouco sobre elementos de escrita. Até a próxima!"
+    g "Amanhã falaremos um pouco sobre gêneros de web novels. Tenham um bom descanso, e até a próxima!"
 
     hide galdino
 
@@ -466,14 +469,90 @@ label intro_continue:
 
     "Bom, tanto faz. Pego o que vou jantar, e como lá mesmo na cozinha."
 
+    "Ao terminar de comer, decido subir para o meu quarto. Mas antes que eu possa sair da cozinha, uma figura familiar surge."
+
+    show fabio sheathed smug at center
+
+    f "!!"
+
+    p "Hum? Você não é o... Fábio?"
+
+    f "O Próprio! Fez bem em não usar o meu nome selado, hehehe!"
+
+    "Nunca que vou falar um nome ridículo daqueles! Deve ser por isso que foi selado."
+
+    p "É… Pode deixar."
+
+    f "E você se chama [name], certo?"
+
+    p "Isso."
+
+    "Estou surpreso que ele se lembrou do meu nome."
+
+    f "E aí?"
+
+    p "O que?"
+
+    f "O que você já escreveu? Me mostre aí!"
+
+    p "Ah! Eu não tenho nada aqui comigo..."
+
+    f "Nada? Que chato, hein?"
+
+    p "Bom, ainda quero aprender mais nas aulas. Daí eu vejo de escrever algo. Aliás, você disse que já escreve a dois meses, certo?"
+
+    f "Isso! Já evoluí bastante nesse tempo! Me considero um autor de rank S, ou pelo menos rank A!"
+
+    p "Como assim? O que isso significa?"
+
+    "Fabio pára por um momento para pensar na minha pergunta."
+
+    f "Não importa! O que importa é que você tem muito a aprender comigo! Além de escrever, também já assisti e analisei centenas de animes!"
+
+    p "Ah, é? Também curto animes!"
+
+    "Espero que ele seja menos chato sobre isso"
+
+    f "Qual o tamanho do seu MyAnimeList?"
+
+    p "Hum? Ah, aquele site pra catalogar o que você assistiu? Nunca usei ele."
+
+    f "Como assim? E se considera um otaku? E qual é a sua waifu? Não me diga que é a..."
+
+    p "Já tá meio tarde, né? A viagem pra cá também foi meio cansativa, então acho que to indo dormir. Até mais!"
+
+    f "Até..."
+
     scene bg classroom
     with fade
 
-    "Bom, tanto faz. Pego o que vou jantar, e como lá mesmo na cozinha."
+    "Enfim, estou no meu quarto."
+
+    "Apesar de ter usado isso como desculpa pra fugir, este dia realmente foi cheio."
+
+    "Uma nova cidade. Uma nova escola. Web novels. Colegas de sala peculiares..."
+
+    "Será que eu vou dar conta de escrever minha própria história? Pra falar a verdade, não sei bem sobre o que eu gostaria de escrever."
+
+    "Bom, as aulas acabaram de começar. Acho que tenho tempo suficiente pra decidir isso. Agora vou dormir."
+
+    jump day2
+
+label day2:
+    scene bg classroom
+    with fade
+
+    "Dia 2 - Terça-feira"
+
+    show galdino nobook neutral at center
+
+    g "Quero que me respondam: O que vocês gostariam de escrever?"
+
+    "Eh???"
 
     # á à ã é ê É í ô ó õ ú ç
 
-label day2:
+
 
 label day3:
 
