@@ -179,7 +179,7 @@ label day1:
 
 label intro1:
 
-    "A reação da turma é parecida com as reações às outras apresentações até entao. Talvez seja melhor desse jeito, sem causar uma impressão negativa."
+    "A reação da turma é parecida com as reações às outras apresentações até então. Talvez seja melhor desse jeito, sem causar uma impressão negativa."
 
     jump intro_continue
 
@@ -517,7 +517,7 @@ label intro_continue:
 
     p "Hum? Ah, aquele site pra catalogar o que você assistiu? Nunca usei ele."
 
-    f "Como assim? E se considera um otaku? E qual é a sua waifu? Não me diga que é a..."
+    f "Como assim? E se considera um otaku? Qual é a sua waifu? Não me diga que é a..."
 
     p "Já tá meio tarde, né? A viagem pra cá também foi meio cansativa, então acho que to indo dormir. Até mais!"
 
@@ -548,16 +548,145 @@ label day2:
 
     g "Quero que me respondam: O que vocês gostariam de escrever?"
 
-    "Eh???"
+    "O que???"
+
+    g "Estamos em uma academia de escritores, eventualmente vocês irão escrever web novels. Talvez alguns até já tenham começado."
+
+    g "Levante a mão caso você já esteja escrevendo algo."
+
+    "Cerca de cinco ou seis pessoas levantaram a mão, incluindo o Fábio."
+
+    g "Agora levante a mão caso você já tenha uma ideia para a sua história."
+
+    "Desta vez, muitos outros ergueram suas mãos. Acho que mais da metade da sala já sabe sobre o que quer escrever."
+
+    g "Muito bem. A aula de hoje será sobre gêneros de web novels. Abordaremos alguns dos mais populares, e discutiremos o porque de serem tão populares."
+
+    g "Para os escritores que ainda não se sabem sobre o que querem escrever, espero que essa aula sirva de incentivo para que se decidam."
+
+label day2_afterclass:
+    "Os alunos começam a se arrumar para sair. Antes que Galdino saia da sala, me dirijo a ele."
+
+    p "Com licença, professor?"
+
+    show galdino nobook neutral at center
+
+    g "Alguma dúvida, [name]?"
+
+    p "Sim. Sobre o que o senhor falou no começo da aula..."
+
+    "Pouco a pouco os alunos saem da sala. Ao final da minha frase, a maioria das pessoas já se retiraram."
+
+    p "Pra falar a verdade, mesmo gostando de ler web novels, eu não faço a mínima ideia sobre que tipo de história eu quero escrever."
+
+    "Enquanto eu falo, o professor me observa com atenção, como um médico escutando um paciente falando de seus sintomas."
+
+    p "Mas eu ainda quero escrever uma história! Eu só não sei sobre o que..."
+
+    p "Por acaso o senhor teria uma dica a respeito disso?"
+
+    "O professor está pensativo. Talvez minha pergunta tenha sido muito vaga? Ou talvez ele esteja incomodado por eu estar tirando dúvidas após o horário da aula."
+
+    g "[name], por acaso você conhece o parque municipal?"
+
+    p "Parque? Hum... Não. Na verdade eu me mudei ontem pra cá"
+
+    g "Perfeito. Então esta é a minha dica pra você."
+
+    p "Qual?"
+
+    g "Vá visitar o parque. Dar uma caminhada. Respirar um ar puro."
+
+    p "Ué, mas pra que?"
+
+    g "Você parece estar com muitos pensamentos na cabeça. Alguns ajudam, outros nem tanto. Por isso a minha recomendaçao é que você vá dar uma volta pra espairecer."
+
+    p "Mas e a minha novel? Eu queria começar o quanto antes."
+
+    g "Por enquanto, o seu foco é limpar a cabeça. É o que faço quando tenho dificuldades. E acredite, acontece bastante!"
+
+    p "Sério? Bom, se o senhor tá falando..."
+
+    g "Depois que fizer isso, a gente conversa, ok?"
+
+    p "Ok!"
+
+    g "Até amanhã, [name]!"
+
+    hide galdino
+
+    "Bom, ainda não entendi exatamente como isso vai me ajudar, mas não custa nada tentar. Decido ir visitar o parque após o almoço."
+
+    scene bg classroom
+    with fade
+
+    "Este é o parque municipal que o professor Galdino mencionou."
+
+    "Ele fica meio perto da escola, então foi fácil chegar nele. Nenhum ponto em especial se destaca, mas o local como um todo parece ser muito bem cuidado."
+
+    "Definitivamente é bom ter um pouco de contato com a natureza, estando no meio de uma cidade grande. O ar daqui parece mais leve e pacífico."
+
+    "Como estamos em um dia de semana, não vejo muitas pessoas por aqui. Uma senhora idosa está sentada em um banco, um casal andando de mãos dadas próximo ao jardim, e..."
+
+    p "Nebi?"
+
+    n "Hum?"
+
+    show nebi armsbehind smiling at center
+
+    menu:
+        n "Ah! Olá!"
+
+        "Lembra de mim? Meu nome é [name].":
+
+            jump nebi_greeting
+
+        "Você me ajudou quando eu não conseguia encontrar a sala.":
+
+            jump nebi_greeting
+
+        "Não vai me dizer que já se esqueceu do meu rosto...":
+
+            jump nebi_greeting
+
+label nebi_greeting:
+
+    n "Claro que lembro de você, [name]!"
+
+if likesBread:
+    jump nebi_remembers_bread
+else:
+    jump nebi_park_continue
+
+label nebi_remembers_bread:
+
+    n "Você gosta de pão, né? Hihihi!"
+
+    p "É..."
+
+    "Não vão se esquecer disso tão cedo..."
+
+    jump nebi_park_continue
+
+label nebi_park_continue:
+
+    n "Você também veio conhecer o parque?"
+
+    p "Sim! Me falaram bem daqui, então resolvi vir conferir."
 
     # á à ã é ê É í ô ó õ ú ç
-
-
+    # não está
 
 label day3:
 
+    "Dia 3 - Quarta-feira"
+
 label day4:
 
+    "Dia 4 - Quinta-feira"
+
 label day5:
+
+    "Dia 5 - Sexta-feira"
 
     return
