@@ -67,11 +67,11 @@ label day1:
 
     n_u "1-D? Acredito que se encontra no segundo andar."
 
-    n_u "Inclusive, é pra lá que estou indo! Tambem sou da 1-D. Vem comigo!"
+    n_u "Inclusive, é pra lá que estou indo! Também sou da 1-D. Vem comigo!"
 
     p "Serio? Que alívio!"
 
-    n_u "Bom, assumindo que o e-mail enviado pela escola esteja correto! Tambem é a minha primeira vez por aqui."
+    n_u "Bom, assumindo que o e-mail enviado pela escola esteja correto! Também é a minha primeira vez por aqui."
 
     p "...Isso estava no e-mail?"
 
@@ -233,7 +233,7 @@ label intro_continue:
 
     show galdino nobook frown at right
 
-    g "Vou ter que pedir para que voce me entregue esta espada."
+    g "Vou ter que pedir para que você me entregue esta espada."
 
     g "Não permitimos armas nesta escola, e provavelmente em nenhuma outra escola."
 
@@ -672,12 +672,147 @@ label nebi_park_continue:
 
     n "Você também veio conhecer o parque?"
 
-    p "Sim! Me falaram bem daqui, então resolvi vir conferir."
+    p "Sim! Me falaram bem daqui, então resolvi vir e conferir."
+
+    n "Quer dar uma volta comigo, então?"
+
+    p "Claro!"
+
+    hide nebi
+
+    "Me junto à Nebi e começamos a passear pelo parque."
+
+    "Após uns vinte minutos, percebo que a atmosfera tranquila do local acabou fazendo com que a gente só andasse sem falar quase nada."
+
+    "Talvez a essa altura seria bom puxar algum assunto com ela."
+
+    menu:
+        "O que eu faço?"
+
+        "Falo de alguma coisa para quebrar o gelo":
+
+            jump try_talk
+
+        "Continuo sem falar nada":
+
+            jump keep_quiet
+
+label try_talk:
+
+    p "Então, Nebi, você é nova por aqui?"
+
+    show nebi armsbehind smiling at center
+
+    n "Sou sim! Vim do interior do estado, de uma cidadezinha que fica a umas quatro horas daqui."
+
+    jump question_city
+
+label keep_quiet:
+
+    "Decido não falar nada por enquanto. Melhor não forçar conversa e soar esquisito."
+
+    n "Hum... "
+
+    show nebi armsbehind smiling at center
+
+    n "Então, [name], você também se mudou pra cá recentemente?"
+
+    p "Hum? Ah, sim! Hoje é só o meu segundo dia aqui."
+
+    jump question_city
+
+label question_city:
+
+    menu:
+        n "E de onde você veio?"
+
+        "De outra cidade, parecida com essa.":
+
+            n "Então você deve se sentir à vontade por aqui! Eu ainda estou me acostumando com cidades grandes..."
+
+        "De uma cidade pequena, em outro estado.":
+
+            n "É mesmo? Deve ser cansativo vir de outro estado e ter aula no mesmo dia, não?"
+
+            p "Foi um pouco, sim. Mas hoje já estou ok!"
+
+        "Também vim do interior do estado.":
+
+            n "Que legal! E fica longe daqui?"
+
+            p "Não muito longe. Duas horas, ou menos."
+
+    p "E o que está achando da Novel Brasil?"
+
+    n "Bom, ainda é meio cedo pra ter uma opinião forte, mas por enquanto está sendo muito divertido!"
+
+    n "Eu nunca achei que um dia iria assistir um professor em uma sala de aula falando sobre as novels que eu leio na internet!"
+
+    n "É muito legal ver este meio sendo valorizado. Como o professor Velasco disse, ainda existem poucas web novels brasileiras, se comparado as outros países."
+
+    p "E você costuma ler novels em outros idiomas?"
+
+    n "Eu arranho um pouco no inglês, então já li algumas. Mas nada se compara a ler algo na nossa língua materna!"
+
+    n "Por isso eu acho o máximo que a Novel Brasil ajude tantos escritores a começar."
+
+    n "E eu mal posso esperar pra ter uma obra minha publicada e lida por várias outras pessoas!"
+
+    p "Eu também! Aliás, sobre o que você vai escrever?"
+
+    "Ao ouvir a minha pergunta, Nebi rapidamente vira a sua atenção para uns patos que estão na lagoa."
+
+    n "Olha só esses patinhos fofinhos! Será que consigo chegar perto deles?"
+
+    p "Acho que não..."
+
+    hide nebi
+
+    "Nebi se dirige à lagoa com um andar levemente desajeitado. Corro atrás dela, pra me certificar que ela não caia na água."
+
+    scene bg classroom
+    with fade
+
+    "O passeio inteiro pelo parque leva algumas horas. Após isso, nos dirigimos para a entrada."
+
+    show nebi armsbehind smiling at center
+
+    n "Eu não fazia ideia de que esse lugar era tão grande! Não esperava encontrar tanta natureza por aqui."
+
+    p "Realmente, por um momento esqueci que estávamos em uma cidade grande."
+
+    n "Pra falar a verdade, eu nem notei o tempo passando. Já está na minha hora!"
+
+    n "Obrigado por me acompanhar hoje! Te vejo amanhã, na escola?"
+
+    p "Sim, nos vemos amanhã!"
+
+    hide nebi
+
+    "Após nos despedirmos, vou até a estação do metrô."
+
+    scene bg classroom
+    with fade
+
+    "Foi uma surpresa ter encontrado a Nebi no parque. No começo me senti um pouco de receio de não conseguir conversar com ela, mas ela acabou se mostrando ser uma pessoa bem tranquila."
+
+    "Acabei não pegando nenhuma rede social dela, mas espero que a gente continue se falando."
+
+    "E o passeio realmente ajudou a acalmar um pouco a minha mente. Talvez isso venha em parte pelo atividade fisica, e em parte de ter conversado com a Nebi."
+
+    "Continuo sem nenhuma ideia para uma história, mas tenho a sensacao de vai ficar tudo bem."
+
+    "Sim. Vai ficar tudo bem."
+
+    jump day3
 
     # á à ã é ê É í ô ó õ ú ç
     # não está
 
 label day3:
+
+    scene bg classroom
+    with fade
 
     "Dia 3 - Quarta-feira"
 
