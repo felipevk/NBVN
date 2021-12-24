@@ -10,6 +10,8 @@ define p = Character("[name]")
 
 default score = 0
 default likesBread = False
+default drinkChoice = 0
+default coffeChoice = 0
 
 label start:
 
@@ -806,15 +808,136 @@ label question_city:
 
     jump day3
 
-    # á à ã é ê É í ô ó õ ú ç
-    # não está
-
 label day3:
 
     scene bg classroom
     with fade
 
     "Dia 3 - Quarta-feira"
+
+label day3_afterclass:
+
+    scene bg classroom
+    with fade
+
+    "Ao sair da sala, vejo alguns dos alunos no corredor, conversando entre si. Nebi também se encontra no corredor, mas ela não parece estar esperando alguém."
+
+    "Assim que ela me vê, ela vem em minha direção."
+
+    show nebi armsbehind smiling at center
+
+    n "[name]! Vamos visitar outro lugar hoje?"
+
+    "A pergunta súbita me pega de surpresa?"
+
+    p "Hum, o que? Agora?"
+
+    "Nebi sacode a cabeça positivamente."
+
+    n "Se estiver livre, claro!"
+
+    p "Estou, sim. Mas pra onde vamos?"
+
+    n "É surpresa! Hihi!"
+
+    p "Ok, agora quero saber... Aceito o convite!"
+
+    n "Então vamos! Serei sua guia mais uma vez."
+
+    hide nebi
+
+    "E pensar que ambos somos novos na cidade. Ela já parece estar totalmente à vontade."
+
+    scene bg classroom
+    with fade
+
+    "Após uma curta viagem de ônibus, e alguns minutos andando, parece que chegamos no nosso destino: Café Memoria."
+
+    "É fácil de perceber a empolgação estampada na cara da Nebi. Talvez este tipo de estabelecimento não seja comum pra ela."
+
+    show nebi armsbehind smiling at center
+
+    n "Caraca! É bem maior do que eu imaginava!"
+
+    p "O que te fez escolher esse café em especial?"
+
+    n "É o que tem as melhores notas da região. Fiz uma pesquisa na noite passada."
+
+    p "Realmente se preparou, hein?"
+
+    n "É claro! Afinal, é aqui que encontraremos a arma secreta para nos tornarmos grandes escritores!"
+
+    p "Como assim? Arma secreta?"
+
+    n "Vamos entrar, [name]?"
+
+    hide nebi
+
+    p "Espera aí!"
+
+    scene bg classroom
+    with fade
+
+    "Ao entrar no local, consigo sentir uma atmosfera relaxante e convidativa. Realmente parece fazer jus ao título de café mais bem avaliado."
+
+    "O lugar possui alguns fregueses. Alguns estão bebendo de suas xícaras enquanto conversam, e outros estão comendo. Ninguém parece estar com pressa de ir para outro canto."
+
+    "Vejo que Nebi já está se dirigindo a uma das mesas vazias. Apresso o passo para me juntar a ela."
+
+    show nebi armsbehind smiling at center
+
+    n "O que você vai pedir?"
+
+    p "Deixa eu ver o menu..."
+
+    "Começo a folhear o cardápio. Os preços são até que generosos para um lugar arrumadinho assim. Além de vários tipos de café, eles também tem doces, salgados, e outras bebidas."
+
+    menu:
+        p "Acho que vou só pegar algo pra beber."
+
+        "Suco de laranja.":
+
+            $ drinkChoice = 0
+
+        "Milkshake.":
+
+            $ drinkChoice = 1
+
+        "Chá de boldo.":
+
+            $ drinkChoice = 2
+
+    "Assim que decido o que pedir, o garçom aparece. Olho para a Nebi, mas ela ainda está tentando escolher algo."
+
+    n "Er... Eu vou querer..."
+
+    n "Um café! E dois pães de queijo!"
+
+    n "É assim que se pede café? Desculpa, é que eu nunca tomei!"
+
+    p "Bom, geralmente você pede para que coloquem algo..."
+
+    menu:
+        n "O que eu coloco? Alguma sugestão?"
+
+        "Leite.":
+
+            $ coffeChoice = 0
+
+        "Açúcar.":
+
+            $ coffeChoice = 1
+
+        "Vai puro, mesmo.":
+
+            $ coffeChoice = 2
+
+    n "Ok! Vou seguir a sua sugestão."
+
+    "O garçom anota nossos pedidos e se retira. Agora é a hora perfeita para matar a minha curiosidade."
+
+    # á à ã é ê É í ô ó õ ú ç
+    # não está
 
 label day4:
 
