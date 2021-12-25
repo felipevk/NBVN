@@ -71,7 +71,7 @@ label day1:
 
     n_u "Inclusive, é pra lá que estou indo! Também sou da 1-D. Vem comigo!"
 
-    p "Serio? Que alívio!"
+    p "Sério? Que alívio!"
 
     n_u "Bom, assumindo que o e-mail enviado pela escola esteja correto! Também é a minha primeira vez por aqui."
 
@@ -828,7 +828,7 @@ label day3_afterclass:
 
     n "[name]! Vamos visitar outro lugar hoje?"
 
-    "A pergunta súbita me pega de surpresa?"
+    "A pergunta súbita me pega de surpresa."
 
     p "Hum, o que? Agora?"
 
@@ -838,7 +838,7 @@ label day3_afterclass:
 
     p "Estou, sim. Mas pra onde vamos?"
 
-    n "É surpresa! Hihi!"
+    n "É segredo! Hihi!"
 
     p "Ok, agora quero saber... Aceito o convite!"
 
@@ -935,6 +935,193 @@ label day3_afterclass:
     n "Ok! Vou seguir a sua sugestão."
 
     "O garçom anota nossos pedidos e se retira. Agora é a hora perfeita para matar a minha curiosidade."
+
+    p "Agora me conta, Nebi. Qual é a arma secreta que você tava falando?"
+
+    n "É o café!"
+
+    p "Café? Mas por que?"
+
+    n "Uma fonte confiável me disse que os maiores escritores começam seu dia com uma xícara de café, para ativarem seus neurônios e se manterem criativos durante o dia inteiro!"
+
+    p "É mesmo? Bom, até que faz sentido."
+
+    n "O café também ajuda os seres humanos a desbloquearem parte do potencial oculto de nossos cérebros! Mas eles não querem que saibamos disso!"
+
+    p "Eles, quem?"
+
+    n "Hum... Não tenho certeza."
+
+    "Nebi parece estar orgulhosa de si mesma."
+
+    p "Quem foi que te contou isso? Foi o Galdino?"
+
+    n "Não, foi o Fábio!"
+
+    p "Ah, tá..."
+
+    "E pensar que eu quase tinha comprado essa ideia. A última parte acabou entregando tudo."
+
+    p "Bom, eu acho melhor tomar cuidado com o que o Fábio conta. Ele pode ser bastante... empolgado às vezes."
+
+    n "Você acha que ele tava mentindo??"
+
+    p "Tenho certeza."
+
+    n "Poxa..."
+
+    "Agora ela está claramente chateada. Por que estou me sentindo a pessoa malvada desta conversa?"
+
+    "É... Veja bem... Talvez ele não esteja completamente errado! Acho que já li algo sobre escritores sempre beberem café!"
+
+    n "Sério?"
+
+    p "Sim! Já esse lance de desbloquear o seu cérebro parece abobrinha."
+
+    "O garçom chega com o nosso pedido."
+
+    "Provo um pouco da minha bebida."
+
+    if drinkChoice == 0:
+        "O suco veio bem azedo, do jeito que eu gosto."
+    elif drinkChoice == 1:
+        "O milkshake tem um gosto doce, mas não muito exagerado como os de fast food tradicionais. Nada mal."
+    elif drinkChoice == 2:
+        "Me surpreendi ao ver que tinham chá de boldo no menu. O gosto é forte e amargo, como esperado."
+
+    "Parece que fiz uma boa escolha. Enquanto isso, Nebi encara o seu café."
+
+    "Ela me olha de volta, e empurra o seu prato levemente em minha direção."
+
+    menu:
+        n "Pão de queijo. Pega um, uai!"
+
+        "Aceito.":
+
+            "Aceito a oferta e pego um dos pães de queijo. O gosto é muito bom e a textura é macia. Claramente acabou de ser feito."
+            p "Tá muito bom. Obrigado, Nebi!"
+
+        "Recuso.":
+
+            p "Não precisa! Tô guardando espaço pro jantar."
+            n "Ok!"
+
+    p "Como está o seu café?"
+
+    n "Vou provar agora!"
+
+    "Nebi pega a xícara com as duas mãos e toma um gole do café."
+
+    n "Hum..."
+
+    if coffeChoice == 0:
+        jump coffe_notgreat
+    elif coffeChoice == 1:
+        jump coffe_great
+    elif coffeChoice == 2:
+        jump coffe_awful
+
+label coffe_notgreat:
+    n "Não é ruim, mas também não é tão bom. Achei que sentiria um gosto mais forte."
+
+    p "Talvez o leite tenha diluído demais o sabor original."
+
+    n "Talvez. Mesmo assim, obrigado pela dica!"
+
+    jump tasting_end
+
+label coffe_great:
+    n "Achei bem gostoso! Sinto um pouco de amargura, mas o açúcar faz com que não fique forte demais."
+
+    n "Acho que encontrei o meu tipo de café! Muito obrigado pela dica!"
+
+    p "Hehe, de nada..."
+
+    jump tasting_end
+
+label coffe_awful:
+    n "Blergh..."
+
+    n "É bem amargo, né?"
+
+    p "É o que as pessoas costumam falar quando provam café puro."
+
+    n "Pra falar a verdade, não gostei muito..."
+
+    p "Talvez eu deveria ter sugerido que colocasse algo pra melhorar o gosto."
+
+    n "Não tem problema! É sempre bom saber qual é o sabor puro!"
+
+    n "Na próxima, eu escolho algo pra botar nele!"
+
+    jump tasting_end
+
+label tasting_end:
+
+    n "Bom, essa foi uma grande experiência..."
+
+    n "...que acabou não ajudando tanto."
+
+    "Nebi solta um leve suspiro."
+
+    p "Você tá bem?"
+
+    n "Sim, eu só..."
+
+    n "Na verdade, tenho um problema."
+
+    p "Qual problema?"
+
+    n "Pra falar a verdade, eu não sei sobre o que escrever!"
+
+    p "!!!"
+
+    n "Acabei pedindo dicas para o Fábio porque ele já escreve a história dele."
+
+    n "Apesar de ter entrado na Novel Brasil, tento escrever e não consigo. Acredita nisso?"
+
+    p "Claro que acredito! Comigo tem sido a mesma coisa."
+
+    p "Ontem eu fui no parque porque estava tentando ter ideia sobre o que escrever."
+
+    p "Isso estava me incomodando bastante, até que eu encontrei você por lá."
+
+    n "É mesmo? Eu não fazia ideia."
+
+    n "E o que você decidiu?"
+
+    p "Olha, na verdade eu ainda não sei sobre o que escrever. Mas vou continuar me esforçando nas aulas e lendo mais. Eventualmente vou encontrar algo."
+
+    p "E com certeza, você também vai!"
+
+    "Percebo que ela se sente um pouco menos preocupada."
+
+    n "Quer saber? Concordo com você, [name]!"
+
+    n "Irei me focar nos estudos, e não vou deixar que isso me incomode tanto."
+
+    n "Além do mais, mesmo que minha primeira ideia dê errado, as outras 48 sairão ainda melhores!"
+
+    p "Isso aí!"
+
+    p "Peraí, como é??"
+
+    n "Atualmente eu tenho 49 ideias de web novels, mas não consigo me decidir por qual começar! Isso tava me preocupando bastante, mas com a sua ajuda, me sinto mais tranquila!"
+
+    p "D-de nada..."
+
+    n "Tenho ideias para novels de cultivo, algumas de isekai, uma de romance, uma de artes marciais com sistema de mmo, outra de..."
+
+    hide nebi
+
+    "E isso se alongou por algum tempo. Ela falou de alguns gêneros que nunca ouvi falar."
+
+    "Sinto que vou acabar aprendendo bastante com a Nebi. Sua paixão pela leitura e por web novels é incomparável."
+
+    "Depois de terminarmos nosso lanche, nos despedimos, e retorno para casa."
+
+    scene bg classroom
+    with fade
 
     # á à ã é ê É í ô ó õ ú ç
     # não está
