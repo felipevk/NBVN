@@ -1118,17 +1118,155 @@ label tasting_end:
 
     "Sinto que vou acabar aprendendo bastante com a Nebi. Sua paixão pela leitura e por web novels é incomparável."
 
-    "Depois de terminarmos nosso lanche, nos despedimos, e retorno para casa."
+    "Depois de terminarmos nosso lanche, nos despedimos e retorno para casa."
 
     scene bg classroom
     with fade
 
-    # á à ã é ê É í ô ó õ ú ç
-    # não está
+    "Ao chegar no dormitório, preparo algo pra jantar."
+
+    "A geladeira ainda possui um espaço vazio. Antes eu achava que estava faltando um aluno, mas percebi que tem uma pessoa que não toca nela desde o primeiro dia."
+
+    "E falando nele..."
+
+    show fabio sheathed smug at right
+
+    f "Yo!"
+
+    p "Oi, Fábio."
+
+    f "Comendo um rango, aí?"
+
+    p "Estou, sim. Por que não vem comer, também?"
+
+    f "Ah, bem... É que eu já jantei..."
+
+    p "É mesmo? Não vi. Jantou fora?"
+
+    f "Isso..."
+
+    p "E você sempre come fora? Não fica muito caro?"
+
+    f "M-mas é claro que não! Sempre estou cozinhando aqui, v-você que nunca viu!"
+
+    p "Não tem nada seu na geladeira, como que você cozinha assim?"
+
+    "Fábio não conseguia encontrar uma desculpa convincente, e apenas continuou calado."
+
+    p "Você não sabe cozinhar, Fábio?"
+
+    f "Absurdo! E-eu sou um grande cozinheiro! Assisti todos os episódios de Shokugeki no Soma!"
+
+    p "Eu sabia..."
+
+    p "Quer ajuda? Eu não sei fazer tanta coisa, mas consigo te ensinar algo bem básico. O que acha?"
+
+    f "Eu... Eu recuso!"
+
+    p "??"
+
+    f "..."
+
+    f "Eu tenho um Rei Demônio selado dentro de mim! Sua energia me torna 250\% mais forte do que um humano comum. Não preciso destas futilidades!"
+
+    f "Além disso, quando o meu treinamento quântico for completado, serei reconhecido pelos oito grande demônios como o herdeiro da espada suprema! Terei milhares de servos para cozinhar pra mim!"
+
+    f "Os desafios que irei enfrentar são grande demais para perder tempo aprendendo uma arte mundana, e..."
+
+    "Ele não consegue parar de falar. Acho que quebrei o garoto."
+
+    "Vou pedir ajuda pra Nebi, amanhã. Quem sabe ela me ajuda a convencê-lo."
+
+    f "...saiba que eu também sou o campeão das sete estrelas de safira! Assim que eu encontrar as quatro esmeraldas do coração, que estão espalhadas ao redor do mundo, eu irei..."
+
+    "Que sono. Acho melhor ir pra cama por hoje."
+
+    p "Vou dormir. Boa noite, Fábio."
+
+    f "Boa Noite!"
 
 label day4:
 
+    scene bg classroom
+    with fade
+
     "Dia 4 - Quinta-feira"
+
+label day4_afterclass:
+
+    scene bg classroom
+    with fade
+
+    "Assim que a aula termina, explico para a Nebi sobre o Fábio. Nebi prontamente vai atrás dele, e nos encontramos mais uma vez na sala de aula."
+
+    show nebi armsbehind smiling at right
+    show fabio sheathed smug at left
+
+    n "Fábio, você precisa aprender a cozinhar! Senão você vai gastar muito dinheiro comendo fora!"
+
+    f "Urgh!"
+
+    p "[name] me contou sobre isso. Podemos te ajudar a fazer algo!"
+
+    f "Pois saiba que você está enganada! Minhas habilidades simplesmente foram seladas quando eu enfrentei o príncipe dos vampiros pelo controle do..."
+
+    "Do nada, Nebi pega o Fábio pelo braço e caminha em direção a saída."
+
+    f "M-mas o que é isso? Será o início de uma história de amor entre duas almas predestinadas?"
+
+    n "Fica quieto! Vamos agora no supermercado. E eu não quero ouvir um piu sobre poderes selados, entendido?"
+
+    f "S-sim, senhora!"
+
+    p "Vamos, [name]!"
+
+    "Esse é um lado da Nebi que eu não esperava ver..."
+
+    scene bg classroom
+    with fade
+
+    "Fomos ao supermercado comprar ingredientes, e de lá viemos para o dormitório. Aparentemente, podemos ter visitantes até antes do anoitecer."
+
+    "Desembrulhamos as compras e colocamos tudo no balcão da cozinha. Nebi lava as suas mãos e nos fala para fazermos o mesmo."
+
+    show nebi armsbehind smiling at right
+    show fabio sheathed smug at left
+
+    n "Muito bem! Vamos rever o que compramos hoje!"
+
+    n "Peito de frango, alho, mostarda, cogumelos, creme de leite e batata palha!"
+
+    n "O que acha que podemos fazer com isso, Fábio?"
+
+    f "Hum... Meu conhecimento de alquimia está meio enferrujado. Por acaso iremos transmutar a pedra filosofal?"
+
+    p "Minha nossa..."
+
+    n "Errado. Vamos fazer strogonoff."
+
+    n "[name]! Por acaso vocês tem maionese, ketchup, sal e pimenta sobrando?"
+
+    p "Temos, sim!"
+
+    n "Perfeito. Então está decidido. Você vai aprender a fazer um strogonoff decente, esse será o seu primeiro prato!"
+
+    f "Sim... sensei!"
+
+    n "Sensei??"
+
+    f "Me ensine os segredos desta arte proibida! Prometo que serei um discípulo digno!"
+
+    n "Hunf. Muito bem, mãos a obra!"
+
+    "No final das contas, ele acabou dando o braço a torcer, do jeito dele."
+
+    scene bg classroom
+    with fade
+
+    ""
+
+    # á à ã â é ê É í ô ó õ ú ç
+    # não está
 
 label day5:
 
