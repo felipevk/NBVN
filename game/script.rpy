@@ -295,7 +295,7 @@ label intro_continue:
 
     g "O assunto de hoje é direto ao ponto: Vamos falar sobre {b}o que é uma web novel.{/b}"
 
-    g "Uma web novel é simplesmente uma novel, um romance, feita para a internet. Diferente de um livro, os capitulos são lançados separadamente."
+    g "Uma web novel é simplesmente uma novel, um romance, feita para a internet. Diferente de um livro, os capítulos são lançados separadamente."
 
     g "Muitas pessoas confundem light novels com web novels. A maior diferença é no metodo de publicação."
 
@@ -1242,7 +1242,7 @@ label day4_afterclass:
 
     p "Minha nossa..."
 
-    n "Errado. Vamos fazer strogonoff."
+    n "Errado. Vamos fazer strogonoff de frango."
 
     n "[name]! Por acaso vocês tem maionese, ketchup, sal e pimenta sobrando?"
 
@@ -1256,19 +1256,171 @@ label day4_afterclass:
 
     f "Me ensine os segredos desta arte proibida! Prometo que serei um discípulo digno!"
 
-    n "Hunf. Muito bem, mãos a obra!"
+    n "Hunf. Muito bem, mãos à obra!"
 
     "No final das contas, ele acabou dando o braço a torcer, do jeito dele."
 
     scene bg classroom
     with fade
 
-    ""
+    show nebi armsbehind smiling at right
+
+    n "Me passa a panela e a frigideira, [name]?"
+
+    p "Aqui está."
+
+    n "Pode ligar o fogão, Fábio?"
+
+    show fabio sheathed smug at left
+
+    f "Er... meu nível de maestria neste equipamento ainda não é grão-mestre, mas talvez eu..."
+
+    n "Vou te mostrar como ligar. Nunca use um fogão sem saber como funciona!"
+
+    f "Sim, mestre!"
+
+    scene bg classroom
+    with fade
+
+    show nebi armsbehind smiling at right
+
+    n "Fábio, usa o pegador pra virar o frango."
+
+    show fabio sheathed smug at left
+
+    "Fábio se aproxima da frigideira, mas ao sentir o calor, dá um passo pra trás."
+
+    f "As chamas infernais são muito poderosas!"
+
+    n "É só virar com cuidado, sem deixar o azeite respingar."
+
+    f "C-certo!"
+
+    "Parece que de alguma forma a Nebi conseguiu entender como o Fábio funciona!"
+
+    "Lentamente Fábio consegue virar as peças de frango."
+
+    f "Eu dominei as chamas negras do inferno!"
+
+    p "Muito bem."
+
+    scene bg classroom
+    with fade
+
+    "Após alguns minutos, a comida fica pronta. Falo para Nebi e Fábio se sentarem à mesa, e sirvo o strogonoff em três pratos."
+
+    p "Bom apetite, pessoal."
+
+    show nebi armsbehind smiling at right
+
+    n "Hehe!"
+
+    show fabio sheathed smug at left
+
+    f "Itadakimassu!"
+
+    "Damos a primeira garfada, e... está ótimo!"
+
+    "Apesar das medidas terem sido feitas \"no olho\", deu tudo certo."
+
+    "Olho para os dois. Nebi também parece ter gostado, já que ela não parou de comer desde a primeira mordida."
+
+    "Fábio está com os braços cruzados, pensando. Ele fica assim por alguns segundos, e decide falar."
+
+    f "A qualidade deste prato certamente evoluirá as minhas células gourmet. Bom trabalho à todos!"
+
+    p "...De nada?"
+
+    f "Hoje, vocês se mostraram dignos de meu respeito. Acho justo que façamos um pacto!"
+
+    f "Deste dia em diante, esta será oficialmente conhecida como a aliança humano-demônio-jinchuuriki-vampiro-shinigami da Novel Brasil!"
+
+    p "Deixa eu adivinhar: Nós somos os humanos, e você é o resto?"
+
+    f "Muito astuto! Não espero nada menos de um membro da aliança!"
+
+    n "Então quer dizer que somos amigos!"
+
+    f "Sempre que estiverem em apuros, lhes emprestarei um pouco do meu poder selado! Estarão segundos comigo."
+
+    p "Legal..."
+
+    n "Conto com você, Fábio!"
+
+    f "Hehe..."
+
+    "Sinto que esse é o momento perfeito para conhecer o Fábio de verdade."
+
+    p "Tenho uma pergunta, Fábio... Como era a sua antiga escola, antes de você vir pra Novel Brasil?"
+
+    f "Oh! Você gostaria de conhecer a história do seu aliado? Pois bem, lhe contarei."
+
+    p "Ok."
+
+    "Fábio coloca seus talheres no prato, fazendo uma cara pensativa, como se fosse um personagem que está prestes a iniciar um monólogo importante."
+
+    f "Eu estudei em um colégio religioso. O rei dem... O diretor era muito restrito no código de conduta. Não podíamos falar sequer um piu durante as dez horas de aula."
+
+    "Acho que entendi porque a Nebi conseguiu botar ele nos eixos, mais cedo."
+
+    n "Minha nossa! E o que os seus amigos achavam disso?"
+
+    f "Eu não tinha nenhum amigo..."
+
+    n "!!"
+
+    f "Eu tentei interagir com alguns deles, depois das aulas. Perguntava pra eles quais eram suas waifus preferidas e quais animes da temporada eles estavam assistindo."
+
+    f "Acabou que nenhum deles gostava dessas coisas. Eles me achavam estranho. Eu sempre era zoado, depois das aulas."
+
+    f "Os meus pais acabaram me tirando da escola antes do ano terminar. Então eu passei o resto do ano lendo web novels, e foi aí que comecei a escrever."
+
+    f "Então eles me matricularam na Novel Brasil. Uma escola onde todos escrevem web novels!"
+
+    f "Finalmente encontrei um lugar onde posso ser reconhecido por quem sou de verdade."
+
+    p "Eu não fazia ideia..."
+
+    "Ao perceber que havia saído do personagem, Fábio pigarreou e retomou sua postura de sempre."
+
+    f "Bom, já que vocês me ensinaram a técnica secreta do strogonoff de frango, acho que isso é o mínimo que posso fazer em troca!"
+
+    p "Obrigado por compartilhar sua história conosco. Viver num ritmo rígido desses, e ser zoado por todos deve ser muito ruim mesmo."
+
+    p "Mas eu acho que você poderia maneirar um pouquinho qua-"
+
+    n "Pode contar com a gente, Fábio! Te aceitamos do jeito que você é! Certo, [name]?"
+
+    p "Certo..."
+
+    f "Hehe! Sabia que havia escolhido os súditos perfeitos para o meu império!"
+
+    p "Achava que fossemos aliados..."
+
+    hide nebi
+    hide fabio
+
+    "E a conversa se alongou até o final do dia."
+
+    "Ao anoitecer, Nebi se despediu e foi para sua casa. Fábio e eu ficamos lavando louça por um tempo."
+
+    "Colocamos alguns dos ingredientes restantes na geladeira. Deve ter o suficiente pra fazer outro prato amanhã. Seria bom ele aprender a fazer outra coisa, no fim de semana."
+
+    "Depois disso, vou para o meu quarto, ler algumas web novels."
+
+    "Amanhã é o final da nossa primeira semana na academia. Também será o dia que o Galdino nos dará o resultado das nossas avaliações iniciais."
+
+    "Mas é melhor não se preocupar com isso, por enquanto. Senão não vou cair no sono."
+
+    "Em vez disso, vou checar os capítulos que foram postados na Kiniga nessa semana. Ainda não li nada desde que cheguei aqui..."
 
     # á à ã â é ê É í ô ó õ ú ç
     # não está
 
 label day5:
+
+    scene bg classroom
+    with fade
 
     "Dia 5 - Sexta-feira"
 
