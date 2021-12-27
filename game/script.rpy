@@ -1222,7 +1222,7 @@ label day4_afterclass:
 
     "Esse é um lado da Nebi que eu não esperava ver..."
 
-    scene bg classroom
+    scene bg kitchen
     with fade
 
     "Fomos ao supermercado comprar ingredientes, e de lá viemos para o dormitório. Aparentemente, podemos ter visitantes até antes do anoitecer."
@@ -1260,7 +1260,7 @@ label day4_afterclass:
 
     "No final das contas, ele acabou dando o braço a torcer, do jeito dele."
 
-    scene bg classroom
+    scene bg kitchen
     with fade
 
     show nebi armsbehind smiling at right
@@ -1279,7 +1279,7 @@ label day4_afterclass:
 
     f "Sim, mestre!"
 
-    scene bg classroom
+    scene bg kitchen
     with fade
 
     show nebi armsbehind smiling at right
@@ -1304,7 +1304,7 @@ label day4_afterclass:
 
     p "Muito bem."
 
-    scene bg classroom
+    scene bg kitchen
     with fade
 
     "Após alguns minutos, a comida fica pronta. Falo para Nebi e Fábio se sentarem à mesa, e sirvo o strogonoff em três pratos."
