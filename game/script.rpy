@@ -458,7 +458,7 @@ label intro_continue:
 
     "Assim que termino de comprar tudo que preciso, retomo o caminho pra casa."
 
-    scene bg classroom
+    scene bg kitchen
     with fade
 
     "Este é o dormitório que irei ficar durante a escola. Ele foi feito para estudantes de fora desta cidade."
@@ -525,7 +525,7 @@ label intro_continue:
 
     f "Até..."
 
-    scene bg classroom
+    scene bg bedroom night
     with fade
 
     "Enfim, estou no meu quarto."
@@ -537,8 +537,6 @@ label intro_continue:
     "Será que eu vou dar conta de escrever minha própria história? Pra falar a verdade, não sei bem sobre o que eu gostaria de escrever."
 
     "Bom, as aulas acabaram de começar. Acho que tenho tempo suficiente pra decidir isso. Agora vou dormir."
-
-    jump day2
 
 label day2:
     scene bg classroom
@@ -562,9 +560,272 @@ label day2:
 
     "Desta vez, muitos outros ergueram suas mãos. Acho que mais da metade da sala já sabe sobre o que quer escrever."
 
-    g "Muito bem. A aula de hoje será sobre gêneros de web novels. Abordaremos alguns dos mais populares, e discutiremos o porque de serem tão populares."
+    g "Muito bem. A aula de hoje será sobre tipos de web novels. Abordaremos alguns dos mais populares, e discutiremos o porque de serem tão populares."
 
-    g "Para os escritores que ainda não se sabem sobre o que querem escrever, espero que essa aula sirva de incentivo para que se decidam."
+    g "Para os escritores que ainda não se sabem sobre o que querem escrever, espero que essa aula sirva de incentivo para vocês."
+
+    g "Vamos começar deixando uma coisa clara: Web novels podem ter os mesmos gêneros de quaisquer outras obras de ficção."
+
+    g "Ação, aventura, fantasia, romance, terror, comédia, drama, sci-fi. Web novels ainda podem ter características de todos estes grupos."
+
+    g "Porém, ao longo dos anos, certos sub-gêneros passaram a aparecer mais e mais entre as web novels mais populares."
+
+    g "Um exemplo perfeito são as obras de {b}isekai{/b}."
+
+    g "Web novels de Isekai são aquelas onde o protagonista, geralmente uma pessoa de um mundo normal, é transportada ou reencarnada em um mundo de fantasia."
+
+    g "Os poderes do protagonista dependem de cada autor."
+
+    g "Em algumas obras, ele pode renascer exatamente como estava no mundo real, ou seja, sem nenhum poder especial. Ou então ele pode ser tão ou mais poderoso do que os seres deste mundo."
+
+    g "Isekai é claramente derivado de histórias de fantasia. A maior vantagem narrativa deste sub-gênero é a facilidade que o autor tem para apresentar o seu mundo para o leitor."
+
+    show nebi armsbehind smiling at left
+
+    n "Como assim, professor?"
+
+    hide nebi
+
+    g "Digamos que eu esteja escrevendo uma história de fantasia. Nesta história, eu tenho um mundo completamente diferente do mundo real, onde o protagonista nasceu e viveu."
+
+    g "Digamos que neste mundo, a chuva é verde devido ao excesso de um certo elemento químico no ar. Como eu poderia apresentar esta informação para o leitor?"
+
+    g "Talvez eu possa criar uma cena onde algum cidadão pergunta para o protagonista sobre o fenômeno... Mas será que isso seria certo?"
+
+    "Alguns alunos começam a murmurar."
+
+    g "Eu estabeleci que esta chuva ocorre normalmente neste mundo. Então pra que o protagonista precisaria explicar isso para alguém deste mundo? Não faz muito sentido, concordam?"
+
+    g "Já em histórias de isekai, nós temos um personagem que ainda está se habituando com o mundo à sua volta, exatamente como o leitor!"
+
+    g "Faz todo o sentido que coisas comuns daquele lugar precisem ser explicadas para o protagonista, e por consequência, para o leitor."
+
+    "Após a explicação, Galdino vai a sua mesa e toma um copo d'água. Ao terminar, ele retoma a aula."
+
+    g "O próximo sub-gênero que iremos abordar é o de {b}sistema{/b}."
+
+    g "Histórias de sistemas são aquelas em que as regras, o sistema de poder, é claramente definido para os personagens e para o leitor."
+
+    g "Mas o que isso significa? Primeiro, precisamos entender o que são sistemas de poderes."
+
+    g "Sistemas de poderes estão presentes em diversos meios. É um conjunto de regras que dita o que pode e o que não pode ser feito com os poderes e habilidades do mundo onde se passa a obra."
+
+    g "Por exemplo, em uma história de magos, geralmente o autor tem em mente como uma magia pode ser feita, quais são suas limitações, e o que não pode ser resolvido com magia."
+
+    g "Um sistema de poder pode ser algo que apenas o autor esteja ciente, ou pode ser exposto para o leitor. Contudo, uma vez que esteja definido, o autor precisa mantê-lo consistente durante a obra."
+
+    g "Mesmo que o autor não aborde o sistema em detalhes durante a história, falhar em seguí-lo pode causar inconsistências na narrativa, e potencialmente frustar quem estiver lendo."
+
+    g "No caso de histórias de sistemas, as regras e mecânicas estão explicitamente expostas para o leitor e para o personagem principal. "
+
+    g "Geralmente, mas não sempre, estas histórias se passam em um mundo com mecânicas similares a um videogame. O protagonista e outros personagens podem ter acesso a um menu com seus atributos, poder, pontos de vida, etc."
+
+    g "Existem pessoas que se interessam em entender os mínimos detalhes de uma habilidade, ao ponto de querer saber até os valores numéricos envolvidos no cálculo de dano. Estes serão os seus leitores mais fiéis."
+
+    g "Tendo dito tudo isso, lhes pergunto: É permitido quebrar as regras, em uma história de sistema?"
+
+    "A classe começa a debater entre si. A maioria das pessoas parece acreditar que não. Eu não tenho muita certeza."
+
+    g "Sim, você pode. Porém, caso faça, é bom que tenha um motivo muito convincente para isso! Senão seus leitores podem achar que você estava apenas sendo preguiçoso e procurando um atalho para continuar a história!"
+
+    g "Então tenham muito cuidado ao fazerem isso. Mas saibam que, sim, é possível."
+
+    g "E pra finalizar o assunto desta aula, falarei sobre histórias de {b}cultivo{/b}."
+
+    g "Quem aqui conhece ou já leu uma novel de cultivo?"
+
+    "A maioria dos alunos levanta a mão."
+
+    g "E quem aqui pode me explicar o que é uma história de cultivo?"
+
+    "Todas as mãos se abaixaram."
+
+    g "Pois bem. O cultivo é um modelo de narrativa muito visto em web novels chinesas. Esse tipo de novel se foca na {b}fantasia de progressão{/b}."
+
+    g "No cultivo, vocês verão o protagonista evoluir constantemente. Mas essa evolução geralmente segue conceitos de filosofia orientais, principalmente taoísta "
+
+    g "No modelo \"ocidental\", o crescimento geralmente ocorre ao se interagir com o ambiente externo. Ao derrotar inimigos, ou realizar missões."
+
+    g "Já no cultivo, o crescimento ocorre de forma interna, através do aperfeiçoamento de seu corpo e de sua alma. Se tornar mais forte com meditação, ao ponto de se alcançar a imortalidade, é algo relativamente comum neste meio."
+
+    g "Artes marciais e conflitos envolvendo deuses também são recorrentes. Neste tipo de novel, os leitores desejam ver o protagonista sempre tornando-se mais e mais forte."
+
+    show fabio sheathed smug at left
+
+    f "Cultivo é brabo demais! Hehehe!"
+
+    hide fabio
+
+    g "Muito bem. Agora que falamos dos sub-gêneros mais populares, vamos para as perguntas!"
+
+    g "[name]! Gostaria de responder essa?"
+
+    p "Claro!"
+
+    menu:
+        g "O que é uma web novel de sistema?"
+
+        "É uma história onde o protagonista vai para outro mundo.":
+
+            jump q4_a1
+
+        "São web novels onde o sistema de regras e poderes é mostrado para o leitor.":
+
+            jump q4_a2
+
+        "São histórias de romance com várias garotas afim de um rapaz.":
+
+            jump q4_a3
+
+label q4_a1:
+
+    g "Incorreto. Estas são histórias de isekai."
+
+    g "Web novels de sistema ocorrem quando o protagonista está completamente ciente das regras e mecânicas dos poderes do mundo da história."
+
+    jump q5
+
+label q4_a2:
+
+    $ score += 1
+
+    g "Correto!"
+
+    g "Em histórias de sistema, vocês verão o protagonista acessando suas informações de forma semelhante a um jogador de rpg."
+
+    jump q5
+
+label q4_a3:
+
+    g "Incorreto. Estas são histórias de harém."
+
+    g "Web novels de sistema ocorrem quando o protagonista está completamente ciente das regras e mecânicas dos poderes do mundo da história."
+
+    jump q5
+
+label q5:
+
+    g "Próxima pergunta!"
+
+    menu:
+        g "Qual destas alternativas melhor descreve uma história de isekai?"
+
+        "São web novels onde o personagem principal evoluí através de meditação.":
+
+            jump q5_a1
+
+        "É quando o protagonista se torna super poderoso.":
+
+            jump q5_a2
+
+        "São histórias onde o protagonista é transportado para um mundo alternativo.":
+
+            jump q5_a3
+
+label q5_a1:
+
+    g "Errado. Talvez você esteja pensando em web novels de cultivo."
+
+    g "Em isekais, o protagonista certamente pode evoluir. Mas o conceito principal deste sub-gênero é o de que o personagem principal é transportado para um mundo diferente do seu."
+
+    g "A partir desta premissa, se o protagonista evoluirá ou não, depende do autor."
+
+    jump q6
+
+label q5_a2:
+
+    g "Incorreto."
+
+    g "Enquanto que é verdade que muitos protagonistas de isekais eventualmente se tornam super poderosos, esta não é uma característica essencial."
+
+    g "Em muitas obras de isekai, o personagem principal mantém as mesmas capacidades físicas de quando estava no mundo real, resolvendo problemas usando sua inteligência ou criatividade."
+
+    g "O conceito principal do isekai é o de uma pessoa que foi transportada para um mundo diferente do seu, e aprendendo a viver neste mundo."
+
+    jump q6
+
+label q5_a3:
+
+    $ score += 1
+
+    g "Correto!"
+
+    g "Este sub-gênero também é popular em animes e light novels. A maior vantagem de isekais está na facilidade de introduzir conceitos de um mundo novo, tanto para o protagonista quanto para o leitor."
+
+    jump q6
+
+label q6:
+
+    g "Agora, para a última pergunta..."
+
+    menu:
+        g "Como você define uma web novel de cultivo?"
+
+        "São web novels chinesas.":
+
+            jump q6_a1
+
+        "É uma história que se passa em um videogame.":
+
+            jump q6_a2
+
+        "São histórias onde o protagonista constantemente evoluí seu corpo e espírito.":
+
+            jump q6_a3
+
+label q6_a1:
+
+    g "Incorreto."
+
+    g "Apenas ser chinesa não categoriza uma obra como cultivo."
+
+    g "Obras de cultivo se tratam de fantasias de progressão, onde o personagem principal busca o aperfeiçoamento de corpo e alma, em muitos casos alcançando a imortalidade."
+
+    g "O desenvolvimento do personagem segue um modelo de progressão oriental, muito visto em novels chinesas, mas atualmente existem diversas web novels de cultivo que não são chinesas."
+
+    jump day2_classend
+
+label q6_a2:
+
+    g "Incorreto."
+
+    g "Obras de cultivo se tratam de fantasias de progressão, onde o personagem principal busca o aperfeiçoamento de corpo e alma, em muitos casos alcançando a imortalidade."
+
+    g "Histórias de cultivo podem se passar em um videogame, mas isto não é o suficiente para definir o gênero."
+
+    jump day2_classend
+
+label q6_a3:
+
+    $ score += 1
+
+    g "Resposta correta!"
+
+    g "Web novels de cultivo são perfeitas para leitores que gostam de acompanhar o crescimento de um personagem. A diferença de poder entre o protagonista no começo e no final da obra são gritantes."
+
+    g "Contudo, uma crítica comum a este gênero é a constante repetição do ritmo. Alguns leitores podem achar obras de cultivo, especialmente as mais longas, entediantes e não muito criativas."
+
+    show fabio sheathed smug at left
+
+    f "Hunf! Bando de nerds!"
+
+    hide fabio
+
+    jump day2_classend
+
+label day2_classend:
+
+    g "E com isso, terminamos nossa segunda aula. "
+
+    g "Certamente existem outros sub-gêneros, mas esta aula ficaria muito longa se falássemos de todos."
+
+    g "Temos harém, dungeon attack, mmo's, realidade virtual, slice of life, e muitos outros."
+
+    g "Sugiro que, quando forem ler suas web novels favoritas, prestem atenção nas tags as quais elas pertencem. Procurem por outras histórias com a mesma tag, e tentem identificar os elementos em comum entre elas."
+
+    g "Que fique de tarefa de casa para a turma. Obrigado, e tenham uma boa tarde!"
+
+    hide galdino
 
 label day2_afterclass:
     "Os alunos começam a se arrumar para sair. Antes que Galdino saia da sala, me dirijo a ele."
@@ -1415,7 +1676,7 @@ label day4_afterclass:
     "Em vez disso, vou checar os capítulos que foram postados na Kiniga nessa semana. Ainda não li nada desde que cheguei aqui..."
 
     # á à ã â é ê É í ô ó õ ú ç
-    # não está
+    # não são está ção ções
 
 label day5:
 
