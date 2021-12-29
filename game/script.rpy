@@ -28,7 +28,7 @@ label day1:
 
     "Hoje é meu primeiro dia na Academia Novel Brasil."
 
-    "Este lugar basicamente é o maior formador de talentos de web novels no país inteiro."
+    "Este lugar basicamente é o maior formador de talentos de webnovels no país inteiro."
 
     "Depois de muita insistência e convecimento da minha parte, meus pais finalmente concordaram em me matricular aqui!"
 
@@ -124,7 +124,7 @@ label day1:
 
     "Galdino Velasco..."
 
-    g "Serei o seu professor durante este ano. Tenho dado aula nesta instituição a mais de dez anos. Apesar disso, a arte da escrita, sobretudo de web novels, ainda tem um enorme espaço de crescimento no nosso país."
+    g "Serei o seu professor durante este ano. Tenho dado aula nesta instituição a mais de dez anos. Apesar disso, a arte da escrita, sobretudo de webnovels, ainda tem um enorme espaço de crescimento no nosso país."
 
     g "Espero ver grandes obras vindo dos escritores desta classe, e que atraiam ainda mais pessoas para este meio."
 
@@ -132,7 +132,7 @@ label day1:
 
     "Os alunos começam a murmurar entre si. Apesar do discurso ter sido meio... cafona, não há dúvidas de que causou uma certa impressão na sala."
 
-    "Parando pra pensar, a maioria dos meus amigos da minha escola antiga nunca nem ouviram falar em web novels. Talvez ele esteja certo. "
+    "Parando pra pensar, a maioria dos meus amigos da minha escola antiga nunca nem ouviram falar em webnovels. Talvez ele esteja certo. "
 
     g "Agora, eu quero ouvir vocês. Gostaria que cada um se apresente brevemente para a classe!"
 
@@ -146,7 +146,7 @@ label day1:
 
     n_u "Bom dia! Meu nome é Nebi!"
 
-    n "Meu passatempo favorito é ler livros e web novels, e sempre quis escrever a minha propria história! Conto com a ajuda de todos para nos tornamos grandes escritores!"
+    n "Meu passatempo favorito é ler livros e webnovels, e sempre quis escrever a minha propria história! Conto com a ajuda de todos para nos tornamos grandes escritores!"
 
     hide nebi
 
@@ -259,7 +259,7 @@ label intro_continue:
 
     g "Agora que todos nos conhecemos, vou falar um pouco sobre o que vocês devem esperar da primeira semana na Academia Novel Brasil."
 
-    g "Iremos abordar os conceitos básicos de web novels e escrita. Não será necessário nenhum conhecimento prévio sobre estes assuntos, podem ficar tranquilos."
+    g "Iremos abordar os conceitos básicos de webnovels e escrita. Não será necessário nenhum conhecimento prévio sobre estes assuntos, podem ficar tranquilos."
 
     g "Porém, quero que saibam que estarão sendo avaliados durante este processo. Durante as aulas, farei perguntas sobre os tópicos e espero que me respondam corretamente!"
 
@@ -293,21 +293,21 @@ label intro_continue:
 
     g "Já que vocês não tem nenhuma pergunta, vamos partir para a nossa primeira aula."
 
-    g "O assunto de hoje é direto ao ponto: Vamos falar sobre {b}o que é uma web novel.{/b}"
+    g "O assunto de hoje é direto ao ponto: Vamos falar sobre {b}o que é uma webnovel.{/b}"
 
-    g "Uma web novel é simplesmente uma novel, um romance, feita para a internet. Diferente de um livro, os capítulos são lançados separadamente."
+    g "Uma webnovel é simplesmente uma novel, um romance, feita para a internet. Diferente de um livro, os capítulos são lançados separadamente."
 
-    g "Muitas pessoas confundem light novels com web novels. A maior diferença é no metodo de publicação."
+    g "Muitas pessoas confundem light novels com webnovels. A maior diferença é no metodo de publicação."
 
-    g "Light novels são publicadas através de editoras, em formato físico. Enquanto que web novels estão na web, geralmente de forma independente ou não-exclusiva."
+    g "Light novels são publicadas através de editoras, em formato físico. Enquanto que webnovels estão na web, geralmente de forma independente ou não-exclusiva."
 
-    g "Claro, nada impede que um autor de uma web novel popular seja abordado por uma editora, e a sua obra seja publicada como light novel. Isso ocorre bastante, fora do país"
+    g "Claro, nada impede que um autor de uma webnovel popular seja abordado por uma editora, e a sua obra seja publicada como light novel. Isso ocorre bastante, fora do país"
 
-    g "Quanto às semelhanças, ambas web novels e light novels apresentam um estilo de escrita menos rebuscado, comparado com romances tradicionais."
+    g "Quanto às semelhanças, ambas webnovels e light novels apresentam um estilo de escrita menos rebuscado, comparado com romances tradicionais."
 
     g "O público-alvo destas mídias é de uma faixa etária de jovens, que buscam uma leitura mais acessivel."
 
-    g "Sobretudo com web novels, que podem ser lidas num celular, acessibilidade é essencial!"
+    g "Sobretudo com webnovels, que podem ser lidas num celular, acessibilidade é essencial!"
 
     g "Mantenham em mente que, mesmo que o seu texto pareça curto na tela do computador, ele também precisa ser facilmente lido em uma tela menor de celular."
 
@@ -315,7 +315,7 @@ label intro_continue:
 
     "Nenhum aluno se pronuncia. Porém, percebo que todos estão claramente concentrados no professor. Alguns estão até fazendo anotacoes, incluindo a Nebi."
 
-    g "Muito bem. Para finalizar a aula de hoje, vamos falar sobre sites brasileiros de web novels."
+    g "Muito bem. Para finalizar a aula de hoje, vamos falar sobre sites brasileiros de webnovels."
 
     g "Minhas recomendações pessoais são a {a=https://kiniga.com}Kiniga{/a} e a {a=https://novelmania.com.br}Novel Mania{/a}"
 
@@ -336,7 +336,7 @@ label intro_continue:
     p "S-sim, professor!"
 
     menu:
-        g "Me responda, o que é uma web novel?"
+        g "Me responda, o que é uma webnovel?"
 
         "É um romance publicado em bancas.":
 
@@ -352,7 +352,7 @@ label intro_continue:
 
     label q1_a1:
 
-    g "A resposta está... incorreta. Como o nome diz, web novels são postadas na internet."
+    g "A resposta está... incorreta. Como o nome diz, webnovels são postadas na internet."
 
     jump q2
 
@@ -370,7 +370,7 @@ label intro_continue:
 
     label q1_a3:
 
-    g "A resposta está incorreta. Web novels podem ser feitas em qualquer idioma, inclusive em português."
+    g "A resposta está incorreta. webnovels podem ser feitas em qualquer idioma, inclusive em português."
 
     show galdino nobook amused
 
@@ -389,9 +389,9 @@ label intro_continue:
     g "Só mais uma..."
 
     menu:
-        g "Qual a diferença entre web novels e light novels?"
+        g "Qual a diferença entre webnovels e light novels?"
 
-        "Web novels são publicadas na internet, enquanto que light novels são publicadas fisicamente, por editoras.":
+        "webnovels são publicadas na internet, enquanto que light novels são publicadas fisicamente, por editoras.":
 
             jump q2_a1
 
@@ -399,7 +399,7 @@ label intro_continue:
 
             jump q2_a2
 
-        "Web novels são publicadas por editoras, e light novels são independentes.":
+        "webnovels são publicadas por editoras, e light novels são independentes.":
 
             jump q2_a3
 
@@ -415,7 +415,7 @@ label intro_continue:
 
     label q2_a2:
 
-    g "Errado. Muitas pessoas acham que não tem diferença, mas light novels são publicadas por editoras, em bancas e livrarias, enquanto que web novels estão na... web."
+    g "Errado. Muitas pessoas acham que não tem diferença, mas light novels são publicadas por editoras, em bancas e livrarias, enquanto que webnovels estão na... web."
 
     g "Entendido?"
 
@@ -425,7 +425,7 @@ label intro_continue:
 
     label q2_a3:
 
-    g "Incorreto. Na verdade é o oposto: web novels são, na sua maioria, independentes; light novels são publicadas por editoras."
+    g "Incorreto. Na verdade é o oposto: webnovels são, na sua maioria, independentes; light novels são publicadas por editoras."
 
     "Verdade..."
 
@@ -437,13 +437,13 @@ label intro_continue:
 
     g "Bom, com isso concluímos a nossa aula. Este é o primeiro passo nas suas jornadas para se tornarem escritores."
 
-    g "Amanhã falaremos um pouco sobre gêneros de web novels. Tenham um bom descanso, e até a próxima!"
+    g "Amanhã falaremos um pouco sobre gêneros de webnovels. Tenham um bom descanso, e até a próxima!"
 
     hide galdino
 
     "O professor deixa a sala, e os alunos começam a se preparar para sair."
 
-    "Este primeiro dia foi bem interessante. O professor parece entender bem sobre web novels, enquanto os alunos são bem concentrados."
+    "Este primeiro dia foi bem interessante. O professor parece entender bem sobre webnovels, enquanto os alunos são bem concentrados."
 
     "Inclusive, o cansaço tá batendo. Hora de pegar o metrô pra casa."
 
@@ -532,7 +532,7 @@ label intro_continue:
 
     "Apesar de ter usado isso como desculpa pra fugir, este dia realmente foi cheio."
 
-    "Uma nova cidade. Uma nova escola. Web novels. Colegas de sala peculiares..."
+    "Uma nova cidade. Uma nova escola. webnovels. Colegas de sala peculiares..."
 
     "Será que eu vou dar conta de escrever minha própria história? Pra falar a verdade, não sei bem sobre o que eu gostaria de escrever."
 
@@ -550,7 +550,7 @@ label day2:
 
     "O que???"
 
-    g "Estamos em uma academia de escritores, eventualmente vocês irão escrever web novels. Talvez alguns até já tenham começado."
+    g "Estamos em uma academia de escritores, eventualmente vocês irão escrever webnovels. Talvez alguns até já tenham começado."
 
     g "Levante a mão caso você já esteja escrevendo algo."
 
@@ -560,19 +560,19 @@ label day2:
 
     "Desta vez, muitos outros ergueram suas mãos. Acho que mais da metade da sala já sabe sobre o que quer escrever."
 
-    g "Muito bem. A aula de hoje será sobre tipos de web novels. Abordaremos alguns dos mais populares, e discutiremos o porque de serem tão populares."
+    g "Muito bem. A aula de hoje será sobre tipos de webnovels. Abordaremos alguns dos mais populares, e discutiremos o porque de serem tão populares."
 
     g "Para os escritores que ainda não se sabem sobre o que querem escrever, espero que essa aula sirva de incentivo para vocês."
 
-    g "Vamos começar deixando uma coisa clara: Web novels podem ter os mesmos gêneros de quaisquer outras obras de ficção."
+    g "Vamos começar deixando uma coisa clara: webnovels podem ter os mesmos gêneros de quaisquer outras obras de ficção."
 
-    g "Ação, aventura, fantasia, romance, terror, comédia, drama, sci-fi. Web novels ainda podem ter características de todos estes grupos."
+    g "Ação, aventura, fantasia, romance, terror, comédia, drama, sci-fi. webnovels ainda podem ter características de todos estes grupos."
 
-    g "Porém, ao longo dos anos, certos sub-gêneros passaram a aparecer mais e mais entre as web novels mais populares."
+    g "Porém, ao longo dos anos, certos sub-gêneros passaram a aparecer mais e mais entre as webnovels mais populares."
 
     g "Um exemplo perfeito são as obras de {b}isekai{/b}."
 
-    g "Web novels de Isekai são aquelas onde o protagonista, geralmente uma pessoa de um mundo normal, é transportada ou reencarnada em um mundo de fantasia."
+    g "webnovels de Isekai são aquelas onde o protagonista, geralmente uma pessoa de um mundo normal, é transportada ou reencarnada em um mundo de fantasia."
 
     g "Os poderes do protagonista dependem de cada autor."
 
@@ -640,7 +640,7 @@ label day2:
 
     "Todas as mãos se abaixaram."
 
-    g "Pois bem. O cultivo é um modelo de narrativa muito visto em web novels chinesas. Esse tipo de novel se foca na {b}fantasia de progressão{/b}."
+    g "Pois bem. O cultivo é um modelo de narrativa muito visto em webnovels chinesas. Esse tipo de novel se foca na {b}fantasia de progressão{/b}."
 
     g "No cultivo, vocês verão o protagonista evoluir constantemente. Mas essa evolução geralmente segue conceitos de filosofia orientais, principalmente taoísta "
 
@@ -663,13 +663,13 @@ label day2:
     p "Claro!"
 
     menu:
-        g "O que é uma web novel de sistema?"
+        g "O que é uma webnovel de sistema?"
 
         "É uma história onde o protagonista vai para outro mundo.":
 
             jump q4_a1
 
-        "São web novels onde o sistema de regras e poderes é mostrado para o leitor.":
+        "São webnovels onde o sistema de regras e poderes é mostrado para o leitor.":
 
             jump q4_a2
 
@@ -681,7 +681,7 @@ label q4_a1:
 
     g "Incorreto. Estas são histórias de isekai."
 
-    g "Web novels de sistema ocorrem quando o protagonista está completamente ciente das regras e mecânicas dos poderes do mundo da história."
+    g "webnovels de sistema ocorrem quando o protagonista está completamente ciente das regras e mecânicas dos poderes do mundo da história."
 
     jump q5
 
@@ -699,7 +699,7 @@ label q4_a3:
 
     g "Incorreto. Estas são histórias de harém."
 
-    g "Web novels de sistema ocorrem quando o protagonista está completamente ciente das regras e mecânicas dos poderes do mundo da história."
+    g "webnovels de sistema ocorrem quando o protagonista está completamente ciente das regras e mecânicas dos poderes do mundo da história."
 
     jump q5
 
@@ -710,7 +710,7 @@ label q5:
     menu:
         g "Qual destas alternativas melhor descreve uma história de isekai?"
 
-        "São web novels onde o personagem principal evoluí através de meditação.":
+        "São webnovels onde o personagem principal evoluí através de meditação.":
 
             jump q5_a1
 
@@ -724,7 +724,7 @@ label q5:
 
 label q5_a1:
 
-    g "Errado. Talvez você esteja pensando em web novels de cultivo."
+    g "Errado. Talvez você esteja pensando em webnovels de cultivo."
 
     g "Em isekais, o protagonista certamente pode evoluir. Mas o conceito principal deste sub-gênero é o de que o personagem principal é transportado para um mundo diferente do seu."
 
@@ -759,9 +759,9 @@ label q6:
     g "Agora, para a última pergunta..."
 
     menu:
-        g "Como você define uma web novel de cultivo?"
+        g "Como você define uma webnovel de cultivo?"
 
-        "São web novels chinesas.":
+        "São webnovels chinesas.":
 
             jump q6_a1
 
@@ -781,7 +781,7 @@ label q6_a1:
 
     g "Obras de cultivo se tratam de fantasias de progressão, onde o personagem principal busca o aperfeiçoamento de corpo e alma, em muitos casos alcançando a imortalidade."
 
-    g "O desenvolvimento do personagem segue um modelo de progressão oriental, muito visto em novels chinesas, mas atualmente existem diversas web novels de cultivo que não são chinesas."
+    g "O desenvolvimento do personagem segue um modelo de progressão oriental, muito visto em novels chinesas, mas atualmente existem diversas webnovels de cultivo que não são chinesas."
 
     jump day2_classend
 
@@ -801,7 +801,7 @@ label q6_a3:
 
     g "Resposta correta!"
 
-    g "Web novels de cultivo são perfeitas para leitores que gostam de acompanhar o crescimento de um personagem. A diferença de poder entre o protagonista no começo e no final da obra são gritantes."
+    g "webnovels de cultivo são perfeitas para leitores que gostam de acompanhar o crescimento de um personagem. A diferença de poder entre o protagonista no começo e no final da obra são gritantes."
 
     g "Contudo, uma crítica comum a este gênero é a constante repetição do ritmo. Alguns leitores podem achar obras de cultivo, especialmente as mais longas, entediantes e não muito criativas."
 
@@ -821,7 +821,7 @@ label day2_classend:
 
     g "Temos harém, dungeon attack, mmo's, realidade virtual, slice of life, e muitos outros."
 
-    g "Sugiro que, quando forem ler suas web novels favoritas, prestem atenção nas tags as quais elas pertencem. Procurem por outras histórias com a mesma tag, e tentem identificar os elementos em comum entre elas."
+    g "Sugiro que, quando forem ler suas webnovels favoritas, prestem atenção nas tags as quais elas pertencem. Procurem por outras histórias com a mesma tag, e tentem identificar os elementos em comum entre elas."
 
     g "Que fique de tarefa de casa para a turma. Obrigado, e tenham uma boa tarde!"
 
@@ -840,7 +840,7 @@ label day2_afterclass:
 
     "Pouco a pouco os alunos saem da sala. Ao final da minha frase, a maioria das pessoas já se retiraram."
 
-    p "Pra falar a verdade, mesmo gostando de ler web novels, eu não faço a mínima ideia sobre que tipo de história eu quero escrever."
+    p "Pra falar a verdade, mesmo gostando de ler webnovels, eu não faço a mínima ideia sobre que tipo de história eu quero escrever."
 
     "Enquanto eu falo, o professor me observa com atenção, como um médico escutando um paciente falando de seus sintomas."
 
@@ -862,7 +862,7 @@ label day2_afterclass:
 
     p "Ué, mas pra que?"
 
-    g "Você parece estar com muitos pensamentos na cabeça. Alguns ajudam, outros nem tanto. Por isso a minha recomendaçao é que você vá dar uma volta pra espairecer."
+    g "Você parece estar com muitos pensamentos na cabeça. Alguns ajudam, outros nem tanto. Por isso a minha recomendação é que você vá dar uma volta pra espairecer."
 
     p "Mas e a minha novel? Eu queria começar o quanto antes."
 
@@ -1011,7 +1011,7 @@ label question_city:
 
     n "Eu nunca achei que um dia iria assistir um professor em uma sala de aula falando sobre as novels que eu leio na internet!"
 
-    n "É muito legal ver este meio sendo valorizado. Como o professor Velasco disse, ainda existem poucas web novels brasileiras, se comparado as outros países."
+    n "É muito legal ver este meio sendo valorizado. Como o professor Velasco disse, ainda existem poucas webnovels brasileiras, se comparado as outros países."
 
     p "E você costuma ler novels em outros idiomas?"
 
@@ -1075,6 +1075,330 @@ label day3:
     with fade
 
     "Dia 3 - Quarta-feira"
+
+    show galdino nobook neutral at center
+
+    g "Bom dia a todos!"
+
+    g "Espero que a aula de ontem tenham lhe deixado com vontade de escrever, pois faremos um pouco disso hoje!"
+
+    g "Para começarmos, vou precisar de dois voluntários. Alguém está disposto a me ajudar?"
+
+    "Algumas mãos se erguem."
+
+    g "Vamos ver... Fábio e Nebi."
+
+    g "Gostaria que ambos escrevessem uma breve cena de diálogo entre dois personagens: Um mecânico e um cliente tendo seu carro consertado. O mecânico irá falar o preço do conserto, o cliente tentará pechinchar, mas o mecânico não aceitará a proposta."
+
+    g "Basta que o trecho tenha três ou quatro falas. Ok?"
+
+    show nebi armsbehind smiling at left
+
+    show fabio sheathed smug at right
+
+    n "C-certo!"
+
+    f "Moleza!"
+
+    "Os dois imediamente começam a escrever."
+
+    hide nebi
+
+    hide fabio
+
+    g "Enquanto isso, vamos iniciar uma conversa sobre discursos em narrativas."
+
+    g "Na língua portuguesa, existem dois tipos de discursos: Direto e indireto."
+
+    "Enquanto fala, Galdino se levanta em direção a lousa para escrever algo."
+
+    g "O discurso direto é a reprodução exata da fala de um personagem. Este é o discurso mais comumente utilizado em narrativas, sobretudo webnovels."
+
+    g "Este é um exemplo de discurso direto."
+
+    "Galdino termina de escrever e dá um passo pro lado, revelando o que escreveu no quadro."
+
+    "{i}— Eu sou inocente, meritíssimo — afirmou o jovem na cadeira do réu.{/i}"
+
+    g "O outro tipo de discurso é o indireto. No discurso indireto, o narrador usa as próprias palavras para contar o que foi dito pelo personagem."
+
+    "Galdino volta a escrever enquanto fala."
+
+    g "O discurso direto soa como se o narrador estivesse realmente relatando o que aconteceu para outra pessoa."
+
+    g "Como podem ver aqui."
+
+    "{i}O jovem na cadeira do réu afirmou para o juiz que era inocente.{/i}"
+
+    g "Como estão indo, Nebi e Fábio?"
+
+    "Fábio se levanta rapidamente."
+
+    show fabio sheathed smug at right
+
+    f "Acabei!"
+
+    show nebi armsbehind smiling at left
+
+    p "Aqui também!"
+
+    g "Excelente. Vamos ver o trecho do Fábio."
+
+    "{i}O mecânico disse \"O preço, é duzentos reais.\", daí o cliente respondeu: \"Que caro! Pode fazer 100?\" e o mecânico falou não...{/i}"
+
+    "Galdino fica pensativo por um minuto."
+
+    g "Posso comentar sobre o que escreveu, Fábio?"
+
+    f "Claro, professor! Curtiu?"
+
+    g "Existem diversos problemas com os discursos neste texto. Os dois primeiros discursos são diretos, mas não estão usando o travessão."
+
+    g "O discurso direto com aspas é comum em narrativas em inglês, mas para português é preferível que se use o travessão."
+
+    "Galdino mais uma vez se dirige ao quadro para escrever."
+
+    g "Aqui está uma versão com os discursos corrigidos. Também tomei a liberdade de corrigir outros erros."
+
+    "{i}— O preço é duzentos reais — disse o mecânico.\n— Que caro! Pode fazer por cem?\n— Não — respondeu o mecânico, enquanto soltava um suspiro.{/i}"
+
+    g "Como podem ver, também alterei a resposta do mecânico para um discurso direto."
+
+    g "Na versão original, o discurso indireto terminava em três pontos, o que deixava incerto se isso fazia parte da reação do mecânico ou se foi uma colocação do narrador."
+
+    g "Para simplificar, transformei os três pontos em um suspiro do mecânico."
+
+    f "Hunf! Estava quase tudo certo!"
+
+    g "Agora vamos ver o trecho da Nebi."
+
+    hide fabio
+
+    "Nebi está claramente ansiosa. Eu também estaria, depois dessa."
+
+    "Galdino reproduz o texto de Nebi no quadro."
+
+    "{i}— Aqui está o preço do serviço. 1000 reais. — Disse o mecânico.\n— Absurdo! Isso tá muito caro. Não podemos negociar um valor mais interessante para nós dois?\nO mecânico respondeu: — Infelizmente, nossos preços são fixos no país inteiro.{/i}"
+
+    g "Hum..."
+
+    g "Esta versão é melhor. Mas ainda não segue completamente a norma."
+
+    g "Alguém aqui conhece o {b}verbo dicendi{/b}?"
+
+    "A turma começa a murmurar. Parece que ninguém está confiante o suficiente para responder o professor."
+
+    "Galdino retorna ao texto de Nebi e sublinha algumas palavras."
+
+    "{i}— Aqui está o preço do serviço. 1000 reais. — {u}Disse{/u} o mecânico.\n— Absurdo! Isso tá muito caro. Não podemos negociar um valor mais interessante para nós dois?\nO mecânico {u}respondeu{/u}: — Infelizmente, nossos preços são fixos no país inteiro.{/i}"
+
+    g "Verbos dicendi indicam o modo que o locutor se expressou durante o discurso direto. "
+
+    g "Dicendi vem do latim, e significa \"dizer\". Também são conhecidos como {b}verbos de elocução{/b} ou {b}declaração{/b}."
+
+    g "Outros exemplos de verbos dicendi incluem: Perguntar, contestar, concordar, exclamar, pedir, ordenar, entre outros."
+
+    g "Porém, a Nebi cometeu um erro ao usar o dicendi. O verbo dicendi usado após o fala é considerado parte do mesmo período. Isso significa que a fala não é pontuada, e o dicendi é escrito com letra minúscula."
+
+    g "O primeiro discurso pode ser corrigido assim:"
+
+    "{i}— Aqui está o preço do serviço. 1000 reais — disse o mecânico.{/i}"
+
+    n "Oh! Não fazia ideia disso!"
+
+    g "Percebem a diferença? Pode até parecer meio esquisito, mas esta é a norma."
+
+    g "Uma coisa importante a se notar é que se o trecho narrativo não começar com o verbo dicendi, o discurso deve ser pontuado, e o trecho narrativo deve ser iniciado com letra maiúscula."
+
+    g "Um exemplo disso seria:"
+
+    "{i}— Aqui está o preço do serviço. 1000 reais. — O mecânico disso ao cliente.{/i}"
+
+    g "Outra coisa que notei no texto da Nebi foi o uso do narrador para introduzir a última fala do mecânico."
+
+    "{i}O mecânico respondeu: — Infelizmente, nossos preços são fixos no país inteiro.{/i}"
+
+    g "Isto não está errado. Mas é incomum de se ver."
+
+    g "Isso é chamado de {b}discurso direto normatizado{/b}. Quando o parágrafo começa com o discurso seguido da narração, no caso do primeiro parágrafo, este é chamado de {b}discurso direto convencionado{/b}."
+
+    g "Por enquanto, minha recomendação é de que você evite este formato. Este trecho poderia ser reescrito da seguinte forma:"
+
+    "{i}— Infelizmente, nossos preços são fixos no país inteiro — respondeu o mecânico.{/i}"
+
+    n "Entendi! Obrigado pela correção, professor!"
+
+    hide nebi
+
+    g "Outra forma de usar o travessão é quando o narrador insere uma informação no meio do discurso direto."
+
+    g "Veja este exemplo:"
+
+    "{i}— Seu poder é incomparável — exclamou o guerreiro, ofegante — e não acredito que ninguém aqui será capaz de detê-lo!{/i}"
+
+    g "Como podem ver, nem mesmo o trecho de narração é pontuado, já que ainda nos encontramos no mesmo período."
+
+    g "A segunda oração é uma oração subordinada à primeira, portanto sendo parte do mesmo período."
+
+    g "Caso a continuação do discurso seja outro período, o trecho narrativo deve ser pontuado. Vejamos outro exemplo."
+
+    "{i}— Não temam, cidadãos — afirmou José. — A ajuda está a caminho!{/i}"
+
+    g "Estamos entendidos? Para mais detalhes neste assunto, recomendo dois artigos do grimório do escritor: Um sobre o {a=https://grimorioescritor.blogspot.com/2021/03/aspas-dois-pontos-ou-hifen-nao-use.html}uso do travessão{/a}. e outro sobre o {a=https://grimorioescritor.blogspot.com/2021/09/dicendi-que-mane-dicendi.html}verbo dicendi{/a}"
+
+    g "Agora vamos para as perguntas! [name]!"
+
+    p "Aqui!"
+
+    menu:
+        g "Qual é o símbolo mais recomendado para ser usado no discurso direto?"
+
+        "Travessão.":
+
+            jump q7_a1
+
+        "Aspas.":
+
+            jump q7_a2
+
+        "Ponto e vírgula.":
+
+            jump q7_a3
+
+label q7_a1:
+
+    $ score += 1
+
+    g "Correto! Vocês se surpreenderiam com a quantidade de obras que são recusadas em sites de webnovels por não utilizarem travessão nos diálogos."
+
+    show fabio sheathed smug at right
+
+    f "Então deve ser por isso..."
+
+    hide fabio
+
+    jump q8
+
+label q7_a2:
+
+    g "Errado. Para webnovels, aspas são melhores utilizadas para expressar pensamentos, ou servir como uma citação. Um exemplo disso seria quando o narrador descreve os conteúdos de um bilhete."
+
+    g "Em vez de aspas, a melhor recomendação é que se use o travessão."
+
+    jump q8
+
+label q7_a3:
+
+    g "Errado. Para webnovels, a melhor recomendação é que se use o travessão."
+
+    jump q8
+
+label q8:
+
+    g "Próxima pergunta..."
+
+    menu:
+        g "O que é o verbo dicendi?"
+
+        "É um verbo intransitivo.":
+
+            jump q8_a1
+
+        "São verbos em terceira pessoa.":
+
+            jump q8_a2
+
+        "É o verbo que indica como um personagem expressou a sua fala.":
+
+            jump q8_a3
+
+label q8_a1:
+
+    g "Incorreto."
+
+    g "O verbo dicendi indica o modo que o discurso foi emitido. A fala de um personagem pode ter sido {i}dita{/i}, {i}perguntada{/i} , {i}exclamada{/i}, {i}explicada{/i} ou vocalizada de outra forma."
+
+    jump q9
+
+label q8_a2:
+
+    g "Incorreto."
+
+    g "O verbo dicendi indica o modo que o discurso foi emitido. A fala de um personagem pode ter sido {i}dita{/i}, {i}perguntada{/i} , {i}exclamada{/i}, {i}explicada{/i} ou vocalizada de outra forma."
+
+    jump q9
+
+label q8_a3:
+
+    $ score += 1
+
+    g "Correto. O entendimento do verbo dicendi é essencial para se criar diálogos claros de serem lidos. E diálogos são o coração das webnovels."
+
+    jump q9
+
+label q9:
+
+    g "Agora, vamos para a última pergunta do dia."
+
+    menu:
+        g "Como é feita a pontuação quando o verbo dicendi segue o discurso direto?"
+
+        "Discurso direto é pontuado e narração começa com letra maiúscula.":
+
+            jump q9_a1
+
+        "Discurso direto começa em primeira pessoa e narração começa com letra maiúscula.":
+
+            jump q9_a2
+
+        "Discurso direto não é pontuado e o trecho narrativo começa com letra minúscula.":
+
+            jump q9_a3
+
+label q9_a1:
+
+    g "Incorreto."
+
+    g "Quando o discurso direto é seguido de um trecho narrativo que se inicia com o verbo dicendi, o discurso não é pontuado e o trecho narrativo com o verbo dicendi começa com letra maiúscula."
+
+    g "Isso se dá ao fato que ambos pertencem ao mesmo período."
+
+    g "Mas é importante notar que caso o trecho narrativo não se inicie com o dicendi, o discurso é pontuado e o trecho narrativo começa em maiúsculo"
+
+    jump day3_classend
+
+label q9_a2:
+
+    g "Incorreto."
+
+    g "Quando o discurso direto é seguido de um trecho narrativo que se inicia com o verbo dicendi, o discurso não é pontuado e o trecho narrativo com o verbo dicendi começa com letra maiúscula."
+
+    g "Isso se dá ao fato que ambos pertencem ao mesmo período."
+
+    g "Mas é importante notar que caso o trecho narrativo não se inicie com o dicendi, o discurso é pontuado e o trecho narrativo começa em maiúsculo"
+
+    jump day3_classend
+
+label q9_a3:
+
+    # score += 1
+
+    g "Correto!"
+
+    g "Mas é importante notar que caso o trecho narrativo não se inicie com o dicendi, o discurso é pontuado e o trecho narrativo começa em maiúsculo"
+
+    jump day3_classend
+
+label day3_classend:
+
+    g "E isso concluí nossa aula sobre discurso direto para webnovels!"
+
+    g "Não se preocupem caso não entendam isso imediatamente. Continuem estudando artigos sobre o assunto, e colocando em prática, e eventualmente conseguirão seguir a norma de forma natural."
+
+    g "Classe dispensada!"
+
+    # á à ã â é ê É í ô ó õ ú ç
+    # não são está ção ções
 
 label day3_afterclass:
 
@@ -1367,7 +1691,7 @@ label tasting_end:
 
     p "Peraí, como é??"
 
-    n "Atualmente eu tenho 49 ideias de web novels, mas não consigo me decidir por qual começar! Isso tava me preocupando bastante, mas com a sua ajuda, me sinto mais tranquila!"
+    n "Atualmente eu tenho 49 ideias de webnovels, mas não consigo me decidir por qual começar! Isso tava me preocupando bastante, mas com a sua ajuda, me sinto mais tranquila!"
 
     p "D-de nada..."
 
@@ -1377,7 +1701,7 @@ label tasting_end:
 
     "E isso se alongou por algum tempo. Ela falou de alguns gêneros que nunca ouvi falar."
 
-    "Sinto que vou acabar aprendendo bastante com a Nebi. Sua paixão pela leitura e por web novels é incomparável."
+    "Sinto que vou acabar aprendendo bastante com a Nebi. Sua paixão pela leitura e por webnovels é incomparável."
 
     "Depois de terminarmos nosso lanche, nos despedimos e retorno para casa."
 
@@ -1634,9 +1958,9 @@ label day4_afterclass:
 
     f "Acabou que nenhum deles gostava dessas coisas. Eles me achavam estranho. Eu sempre era zoado, depois das aulas."
 
-    f "Os meus pais acabaram me tirando da escola antes do ano terminar. Então eu passei o resto do ano lendo web novels, e foi aí que comecei a escrever."
+    f "Os meus pais acabaram me tirando da escola antes do ano terminar. Então eu passei o resto do ano lendo webnovels, e foi aí que comecei a escrever."
 
-    f "Então eles me matricularam na Novel Brasil. Uma escola onde todos escrevem web novels!"
+    f "Então eles me matricularam na Novel Brasil. Uma escola onde todos escrevem webnovels!"
 
     f "Finalmente encontrei um lugar onde posso ser reconhecido por quem sou de verdade."
 
@@ -1667,7 +1991,7 @@ label day4_afterclass:
 
     "Colocamos alguns dos ingredientes restantes na geladeira. Deve ter o suficiente pra fazer outro prato amanhã. Seria bom ele aprender a fazer outra coisa, no fim de semana."
 
-    "Depois disso, vou para o meu quarto, ler algumas web novels."
+    "Depois disso, vou para o meu quarto, ler algumas webnovels."
 
     "Amanhã é o final da nossa primeira semana na academia. Também será o dia que o Galdino nos dará o resultado das nossas avaliações iniciais."
 
