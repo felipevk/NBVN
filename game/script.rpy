@@ -1164,9 +1164,9 @@ label day3:
 
     g "Como podem ver, também alterei a resposta do mecânico para um discurso direto."
 
-    g "Na versão original, o discurso indireto terminava em três pontos, o que deixava incerto se isso fazia parte da reação do mecânico ou se foi uma colocação do narrador."
+    g "Na versão original, o discurso indireto terminava em reticências, o que deixava incerto se isso fazia parte da reação do mecânico ou se foi uma colocação do narrador."
 
-    g "Para simplificar, transformei os três pontos em um suspiro do mecânico."
+    g "Para simplificar, transformei as reticências em um suspiro do mecânico."
 
     f "Hunf! Estava quase tudo certo!"
 
@@ -1773,6 +1773,122 @@ label day4:
     with fade
 
     "Dia 4 - Quinta-feira"
+
+    show galdino nobook neutral at center
+
+    g "Bom dia, escritores. Hoje teremos mais uma aula sobre normas da língua portuguesa."
+
+    g "Pra ser específico, falaremos sobre pontuação."
+
+    g "A pontuação é outro elemento essencial na escrita. Ela representa recursos da língua falada, como pausas, ritmo e entonação."
+
+    g "Elas também servem para delimitar limites de estrutras sintáticas, mas falaremos de sintaxe em outro dia."
+
+    g "Por hoje, abordaremos três símbolos básicos de pontuação, começando pelo {b}ponto final{/b}."
+
+    g "O ponto final nada mais é do que um delimitador de períodos. Começamos a falar de períodos na aula passada, e provavelmente continuaremos a falar deles por um bom tempo."
+
+    g "Vamos ver alguns exemplos."
+
+    "{i}Fomos buscar o dinheiro no banco. A fila do caixa estava lotada de pessoas. Este vai ser um longo dia.{/i}"
+
+    g "Estes são períodos simples, cada um formado apenas por uma oração. Porém, também existem períodos compostos por duas ou mais orações."
+
+    g "Vejamos mais um exemplo."
+
+    g "{i}Sem saber de minhas intenções, a garota jogou a caixa fora. A caixa, apesar de pesada, continha apenas um objeto. Ao cair no chão, a caixa fez um barulho de vidro se espatifando.{/i}"
+
+    g "As orações de períodos compostos se interligam por coordenação ou subordinação. De qualquer forma, diferentes períodos são delimitados pelo ponto final."
+
+    g "O segundo elemento de pontuação de hoje é a {b}vírgula{/b}."
+
+    g "A vírgula possui diversas funções. Uma delas é a de separar orações em períodos compostos."
+
+    g "Orações em períodos compostos podem se conectar através de conectivos, ou do uso da vírgula. Por exemplo:"
+
+    "{i}Ao chegar na sala, sentei na única cadeira vazia, coloquei meu estojo na mesa, abri meu livro e comecei a procurar pela minha caneta da sorte.{/i}"
+
+    g "A vírgula também é utilizada ao enumerar elementos de uma lista. Cada elemento é separado por uma vírgula, exceto o penúltimo e último elemento."
+
+    g "{i}Comprei alho, ervilhas, doce de leite, arroz e frango para a ceia.{/i}"
+
+    g "Para os que prestaram atenção, este exemplo é similar ao exemplo anterior, pois tinhamos orações sequenciais, que nada mais são do que uma lista de ações."
+
+    g "A vírgula também é utilizada na separação do vocativo. Isso pode ser notado quando uma frase é adereçada a um indivíduo em específico."
+
+    g "Fábio, pode me emprestar quarenta reais?"
+
+    show fabio sheathed smug at left
+
+    f "Quarenta reais? Desculpa professor, mas não tenho nem vinte!"
+
+    g "Tudo bem, este foi apenas um exemplo do uso do vocativo."
+
+    f "Ah, claro! Obviamente eu sabia, só estava fingindo!"
+
+    hide fabio
+
+    g "Tá certo. Como vocês viram, neste caso a vírgula separou o uso do vocativo do resto da oração."
+
+    g "A vírgula também aparece no uso de apostos. Apostos são termos que surgem para explicar algo já mencionado na oração."
+
+    g "Como apostos de certa forma interrompem o fluxo da oração, são separados por vírgulas, ou outros símbolos."
+
+    g "Vejamos mais alguns exemplos."
+
+    "{i}Carolina, irmã da rainha, admirou-se com a impertinência do soldado.{/i}"
+
+    "{i}O Brasil, terra de diversas riquezas naturais, se destaca na exportação de café.{/i}"
+
+    "{i}Maurício de Sousa, um dos cartunistas mais famosos do país, será premiado no evento desta noite.{/i}"
+
+    g "Comumente se fala que a vírgula indica pausas na fala, mas os dois nem sempre estão diretamente interligados. É aí que a linguagem escrita começa divergir da linguagem falada, tendo suas próprias convenções."
+
+    g "Para saber mais sobre o uso da vírgula, recomendo este {a=https://www.todamateria.com.br/usos-da-virgula-aprenda-os-truques/}breve artigo{/a}."
+
+    g "E por último, vamos falar das {b}reticências{/b}."
+
+    g "Então... para falarmos de reticências... precisamos de..."
+
+    g "Notaram algo de diferente nesta minha última fala?"
+
+    "Nebi levanta a mão."
+
+    show nebi armsbehind smiling at right
+
+    n "Algo parece estar lhe incomodando."
+
+    g "Correto. As reticências indicam uma interrupção no fluxo normal da fala."
+
+    hide nebi
+
+    g "Isso pode ocorrer por diversos motivos. O locutor pode estar sendo interrompido por alguma influência interna ou externa. Ele pode estar sendo distraído, pode ter se esquecido do que iria falar, ou talvez esteja pensando em outras coisas no momento."
+
+    g "A frase também pode estar incompleta, seja porque algo interrompeu o locutor, ou porque o mesmo decidiu parar de falar."
+
+    g "Reticências podem indicar um certo de emoção na fala de quem as usa. Portanto, evite usá-las em um narrador onisciente, que não exibe nenhuma preferência pessoal durante a narrativa."
+
+    g "Quando bem utilizadas, reticências se tornam grandes recursos para demonstrar múltiplas emoções, dependendo do contexto."
+
+    "{i}Acabou tudo... Nós... perdemos.{/i}"
+
+    g "Podemos notar que esta fala carrega muita tristeza e lamentação."
+
+    g "Mas elas também podem enaltecer sentimentos positivos."
+
+    "{i}Está tudo bem... Porque hoje... ninguém nos derrotará!{/i}"
+
+    g "Uma dúvida comum no uso de reticências é quando se usar letra maiúscula após as reticências."
+
+    g "Voltamos então para o conceito de período. Caso as orações pertençam a períodos diferentes, ou seja, representam ideias ou sujeitos diferentes, então usamos letra maiúscula."
+
+    "{i}O rapaz era determinado... pois não deu sequer um passo para trás.{/i}{b} \(Mesmo período.\){/b}"
+
+    "{i}O rapaz era determinado... Seu amigo, porém, fugiu imediatamente.{/i}{b} \(Troca de sujeito.\){/b}"
+
+    g "Tudo certo? Então vamos ver se entenderam, mesmo."
+
+    g "[name], é a sua vez!"
 
     # á à ã â é ê É í ô ó õ ú ç
     # não são está ção ções
