@@ -1890,6 +1890,141 @@ label day4:
 
     g "[name], é a sua vez!"
 
+    menu:
+        g "Qual destes símbolos pode ser usado para separar diferentes períodos?"
+
+        "Vírgula.":
+
+            jump q9_a1
+
+        "Hífen.":
+
+            jump q9_a2
+
+        "Ponto final.":
+
+            jump q9_a3
+
+label q9_a1:
+
+    g "Errado. O certo é o ponto final."
+
+    jump q10
+
+label q9_a2:
+
+    g "Errado. O certo é o ponto final."
+
+    jump q10
+
+label q9_a3:
+
+    $ score += 1
+
+    g "Correto. O ponto final termina um período, ou seja, uma ideia. Também pode ser utilizado em abreviações, como Sr., Dr., a.C., entre outros."
+
+    jump q10
+
+label q10:
+
+    g "Próxima pergunta..."
+
+    menu:
+        g "Qual destes símbolos pode ser usado para enumerar items de uma lista?"
+
+        "Vírgula.":
+
+            jump q10_a1
+
+        "Hífen.":
+
+            jump q10_a2
+
+        "Acento agudo.":
+
+            jump q10_a3
+
+label q10_a1:
+
+    $ score += 1
+
+    g "Correto! A vírgula, assim como outros símbolos, pode ser utilizada na separação de items de uma lista."
+
+    g "Lembrem-se de que o penúltimo e último elemento não podem ser separados por vírgula. Estes necessitam de um conectivo, como {b}e/ou{/b}."
+
+    jump q11
+
+label q10_a2:
+
+    g "Errado. O hífen não pode ser utilizado neste caso."
+
+    g "Para enumerar elementos, geralmente os separamos por vírgulas."
+
+    g "Lembrem-se de que o penúltimo e último elemento não podem ser separados por vírgula. Estes necessitam de um conectivo, como {b}e/ou{/b}."
+
+    jump q11
+
+label q10_a3:
+
+    g "Errado. O acento agudo não pode ser utilizado neste caso."
+
+    g "Para enumerar elementos, geralmente os separamos por vírgulas."
+
+    g "Lembrem-se de que o penúltimo e último elemento não podem ser separados por vírgula. Estes necessitam de um conectivo, como {b}e/ou{/b}."
+
+    jump q11
+
+label q11:
+
+    g "Agora, para a última pergunta do dia..."
+
+    menu:
+        g "Qual é a função das reticências no diálogo?"
+
+        "Iniciar o discurso direto.":
+
+            jump q11_a1
+
+        "Indicar uma pausa na locução.":
+
+            jump q11_a2
+
+        "Devem ser usadas no lugar do ponto final para terminar o texto.":
+
+            jump q11_a3
+
+label q11_a1:
+
+    g "Incorreto. O discurso direto pode, sim, iniciar com reticências, mas essa não é uma função deste símbolo."
+
+    g "As reticências geralmente indicam uma pausa, uma interrupção no diálogo. Esta interrupção pode ser causada por fatores externos, como outro personagem iniciando sua fala, ou externos, como o locutor duvidando de si mesmo."
+
+    jump day4_classend
+
+label q11_a2:
+
+    $ score += 1
+
+    g "Correto!"
+
+    g "A interrupção pode ser causada por fatores externos, como outro personagem iniciando sua fala, ou externos, como o locutor duvidando de si mesmo."
+
+    jump day4_classend
+
+label q11_a3:
+
+    g "Incorreto. Você pode terminar seu texto com reticências, mas essa não é uma função inicial deste símbolo."
+
+    g "As reticências geralmente indicam uma pausa, uma interrupção no diálogo. Esta interrupção pode ser causada por fatores externos, como outro personagem iniciando sua fala, ou externos, como o locutor duvidando de si mesmo."
+
+    jump day4_classend
+
+label day4_classend:
+
+    g "Bom, esta foi a nossa aula sobre pontuação. Existem diversos recursos na internet sobre este assunto, mas eu obviamente irei recomendar o artigo do {a=https://grimorioescritor.blogspot.com/2021/01/calma-respira.html}Grimório do Escritor{/a}."
+
+    g "Se não houverem dúvidas, terminamos por aqui. Tenham uma boa tarde!"
+
     # á à ã â é ê É í ô ó õ ú ç
     # não são está ção ções
 
