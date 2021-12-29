@@ -350,13 +350,13 @@ label intro_continue:
 
             jump q1_a3
 
-    label q1_a1:
+label q1_a1:
 
     g "A resposta está... incorreta. Como o nome diz, webnovels são postadas na internet."
 
     jump q2
 
-    label q1_a2:
+label q1_a2:
 
     $ score += 1
 
@@ -368,7 +368,7 @@ label intro_continue:
 
     jump q2
 
-    label q1_a3:
+label q1_a3:
 
     g "A resposta está incorreta. webnovels podem ser feitas em qualquer idioma, inclusive em português."
 
@@ -380,7 +380,7 @@ label intro_continue:
 
     jump q2
 
-    label q2:
+label q2:
 
     g "Próxima pergunta!"
 
@@ -403,7 +403,7 @@ label intro_continue:
 
             jump q2_a3
 
-    label q2_a1:
+label q2_a1:
 
     $ score += 1
 
@@ -413,7 +413,7 @@ label intro_continue:
 
     jump day1_class_end
 
-    label q2_a2:
+label q2_a2:
 
     g "Errado. Muitas pessoas acham que não tem diferença, mas light novels são publicadas por editoras, em bancas e livrarias, enquanto que webnovels estão na... web."
 
@@ -423,7 +423,7 @@ label intro_continue:
 
     jump day1_class_end
 
-    label q2_a3:
+label q2_a3:
 
     g "Incorreto. Na verdade é o oposto: webnovels são, na sua maioria, independentes; light novels são publicadas por editoras."
 
@@ -431,7 +431,7 @@ label intro_continue:
 
     jump day1_class_end
 
-    label day1_class_end:
+label day1_class_end:
 
     "O sino bate."
 
@@ -667,25 +667,25 @@ label day2:
 
         "É uma história onde o protagonista vai para outro mundo.":
 
-            jump q4_a1
+            jump q3_a1
 
         "São webnovels onde o sistema de regras e poderes é mostrado para o leitor.":
 
-            jump q4_a2
+            jump q3_a2
 
         "São histórias de romance com várias garotas afim de um rapaz.":
 
-            jump q4_a3
+            jump q3_a3
 
-label q4_a1:
+label q3_a1:
 
     g "Incorreto. Estas são histórias de isekai."
 
     g "webnovels de sistema ocorrem quando o protagonista está completamente ciente das regras e mecânicas dos poderes do mundo da história."
 
-    jump q5
+    jump q4
 
-label q4_a2:
+label q3_a2:
 
     $ score += 1
 
@@ -693,17 +693,17 @@ label q4_a2:
 
     g "Em histórias de sistema, vocês verão o protagonista acessando suas informações de forma semelhante a um jogador de rpg."
 
-    jump q5
+    jump q4
 
-label q4_a3:
+label q3_a3:
 
     g "Incorreto. Estas são histórias de harém."
 
     g "webnovels de sistema ocorrem quando o protagonista está completamente ciente das regras e mecânicas dos poderes do mundo da história."
 
-    jump q5
+    jump q4
 
-label q5:
+label q4:
 
     g "Próxima pergunta!"
 
@@ -712,17 +712,17 @@ label q5:
 
         "São webnovels onde o personagem principal evoluí através de meditação.":
 
-            jump q5_a1
+            jump q4_a1
 
         "É quando o protagonista se torna super poderoso.":
 
-            jump q5_a2
+            jump q4_a2
 
         "São histórias onde o protagonista é transportado para um mundo alternativo.":
 
-            jump q5_a3
+            jump q4_a3
 
-label q5_a1:
+label q4_a1:
 
     g "Errado. Talvez você esteja pensando em webnovels de cultivo."
 
@@ -730,9 +730,9 @@ label q5_a1:
 
     g "A partir desta premissa, se o protagonista evoluirá ou não, depende do autor."
 
-    jump q6
+    jump q5
 
-label q5_a2:
+label q4_a2:
 
     g "Incorreto."
 
@@ -742,9 +742,9 @@ label q5_a2:
 
     g "O conceito principal do isekai é o de uma pessoa que foi transportada para um mundo diferente do seu, e aprendendo a viver neste mundo."
 
-    jump q6
+    jump q5
 
-label q5_a3:
+label q4_a3:
 
     $ score += 1
 
@@ -752,9 +752,9 @@ label q5_a3:
 
     g "Este sub-gênero também é popular em animes e light novels. A maior vantagem de isekais está na facilidade de introduzir conceitos de um mundo novo, tanto para o protagonista quanto para o leitor."
 
-    jump q6
+    jump q5
 
-label q6:
+label q5:
 
     g "Agora, para a última pergunta..."
 
@@ -763,17 +763,17 @@ label q6:
 
         "São webnovels chinesas.":
 
-            jump q6_a1
+            jump q5_a1
 
         "É uma história que se passa em um videogame.":
 
-            jump q6_a2
+            jump q5_a2
 
         "São histórias onde o protagonista constantemente evoluí seu corpo e espírito.":
 
-            jump q6_a3
+            jump q5_a3
 
-label q6_a1:
+label q5_a1:
 
     g "Incorreto."
 
@@ -785,7 +785,7 @@ label q6_a1:
 
     jump day2_classend
 
-label q6_a2:
+label q5_a2:
 
     g "Incorreto."
 
@@ -795,7 +795,7 @@ label q6_a2:
 
     jump day2_classend
 
-label q6_a3:
+label q5_a3:
 
     $ score += 1
 
@@ -1255,17 +1255,17 @@ label day3:
 
         "Travessão.":
 
-            jump q7_a1
+            jump q6_a1
 
         "Aspas.":
 
-            jump q7_a2
+            jump q6_a2
 
         "Ponto e vírgula.":
 
-            jump q7_a3
+            jump q6_a3
 
-label q7_a1:
+label q6_a1:
 
     $ score += 1
 
@@ -1277,23 +1277,23 @@ label q7_a1:
 
     hide fabio
 
-    jump q8
+    jump q7
 
-label q7_a2:
+label q6_a2:
 
     g "Errado. Para webnovels, aspas são melhores utilizadas para expressar pensamentos, ou servir como uma citação. Um exemplo disso seria quando o narrador descreve os conteúdos de um bilhete."
 
     g "Em vez de aspas, a melhor recomendação é que se use o travessão."
 
-    jump q8
+    jump q7
 
-label q7_a3:
+label q6_a3:
 
     g "Errado. Para webnovels, a melhor recomendação é que se use o travessão."
 
-    jump q8
+    jump q7
 
-label q8:
+label q7:
 
     g "Próxima pergunta..."
 
@@ -1302,41 +1302,41 @@ label q8:
 
         "É um verbo intransitivo.":
 
-            jump q8_a1
+            jump q7_a1
 
         "São verbos em terceira pessoa.":
 
-            jump q8_a2
+            jump q7_a2
 
         "É o verbo que indica como um personagem expressou a sua fala.":
 
-            jump q8_a3
+            jump q7_a3
 
-label q8_a1:
-
-    g "Incorreto."
-
-    g "O verbo dicendi indica o modo que o discurso foi emitido. A fala de um personagem pode ter sido {i}dita{/i}, {i}perguntada{/i} , {i}exclamada{/i}, {i}explicada{/i} ou vocalizada de outra forma."
-
-    jump q9
-
-label q8_a2:
+label q7_a1:
 
     g "Incorreto."
 
     g "O verbo dicendi indica o modo que o discurso foi emitido. A fala de um personagem pode ter sido {i}dita{/i}, {i}perguntada{/i} , {i}exclamada{/i}, {i}explicada{/i} ou vocalizada de outra forma."
 
-    jump q9
+    jump q8
 
-label q8_a3:
+label q7_a2:
+
+    g "Incorreto."
+
+    g "O verbo dicendi indica o modo que o discurso foi emitido. A fala de um personagem pode ter sido {i}dita{/i}, {i}perguntada{/i} , {i}exclamada{/i}, {i}explicada{/i} ou vocalizada de outra forma."
+
+    jump q8
+
+label q7_a3:
 
     $ score += 1
 
     g "Correto. O entendimento do verbo dicendi é essencial para se criar diálogos claros de serem lidos. E diálogos são o coração das webnovels."
 
-    jump q9
+    jump q8
 
-label q9:
+label q8:
 
     g "Agora, vamos para a última pergunta do dia."
 
@@ -1345,29 +1345,17 @@ label q9:
 
         "Discurso direto é pontuado e narração começa com letra maiúscula.":
 
-            jump q9_a1
+            jump q8_a1
 
         "Discurso direto começa em primeira pessoa e narração começa com letra maiúscula.":
 
-            jump q9_a2
+            jump q8_a2
 
         "Discurso direto não é pontuado e o trecho narrativo começa com letra minúscula.":
 
-            jump q9_a3
+            jump q8_a3
 
-label q9_a1:
-
-    g "Incorreto."
-
-    g "Quando o discurso direto é seguido de um trecho narrativo que se inicia com o verbo dicendi, o discurso não é pontuado e o trecho narrativo com o verbo dicendi começa com letra maiúscula."
-
-    g "Isso se dá ao fato que ambos pertencem ao mesmo período."
-
-    g "Mas é importante notar que caso o trecho narrativo não se inicie com o dicendi, o discurso é pontuado e o trecho narrativo começa em maiúsculo"
-
-    jump day3_classend
-
-label q9_a2:
+label q8_a1:
 
     g "Incorreto."
 
@@ -1379,7 +1367,19 @@ label q9_a2:
 
     jump day3_classend
 
-label q9_a3:
+label q8_a2:
+
+    g "Incorreto."
+
+    g "Quando o discurso direto é seguido de um trecho narrativo que se inicia com o verbo dicendi, o discurso não é pontuado e o trecho narrativo com o verbo dicendi começa com letra maiúscula."
+
+    g "Isso se dá ao fato que ambos pertencem ao mesmo período."
+
+    g "Mas é importante notar que caso o trecho narrativo não se inicie com o dicendi, o discurso é pontuado e o trecho narrativo começa em maiúsculo"
+
+    jump day3_classend
+
+label q8_a3:
 
     # score += 1
 
@@ -1396,9 +1396,6 @@ label day3_classend:
     g "Não se preocupem caso não entendam isso imediatamente. Continuem estudando artigos sobre o assunto, e colocando em prática, e eventualmente conseguirão seguir a norma de forma natural."
 
     g "Classe dispensada!"
-
-    # á à ã â é ê É í ô ó õ ú ç
-    # não são está ção ções
 
 label day3_afterclass:
 
@@ -1776,6 +1773,9 @@ label day4:
     with fade
 
     "Dia 4 - Quinta-feira"
+
+    # á à ã â é ê É í ô ó õ ú ç
+    # não são está ção ções
 
 label day4_afterclass:
 
