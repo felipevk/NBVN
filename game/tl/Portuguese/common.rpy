@@ -1,110 +1,110 @@
-﻿# TODO: Translation updated at 2021-12-30 13:48
+﻿# TODO: Translation updated at 2021-12-30 12:40
 
 translate Portuguese strings:
 
     # 00action_file.rpy:26
     old "{#weekday}Monday"
-    new "{#weekday}Monday"
+    new "{#weekday}Segunda-feira"
 
     # 00action_file.rpy:26
     old "{#weekday}Tuesday"
-    new "{#weekday}Tuesday"
+    new "{#weekday}Terça-feira"
 
     # 00action_file.rpy:26
     old "{#weekday}Wednesday"
-    new "{#weekday}Wednesday"
+    new "{#weekday}Quarta-feira"
 
     # 00action_file.rpy:26
     old "{#weekday}Thursday"
-    new "{#weekday}Thursday"
+    new "{#weekday}Quinta-feira"
 
     # 00action_file.rpy:26
     old "{#weekday}Friday"
-    new "{#weekday}Friday"
+    new "{#weekday}Sexta-feira"
 
     # 00action_file.rpy:26
     old "{#weekday}Saturday"
-    new "{#weekday}Saturday"
+    new "{#weekday}Sábado"
 
     # 00action_file.rpy:26
     old "{#weekday}Sunday"
-    new "{#weekday}Sunday"
+    new "{#weekday}Domingo"
 
     # 00action_file.rpy:37
     old "{#weekday_short}Mon"
-    new "{#weekday_short}Mon"
+    new "{#weekday_short}Seg"
 
     # 00action_file.rpy:37
     old "{#weekday_short}Tue"
-    new "{#weekday_short}Tue"
+    new "{#weekday_short}Ter"
 
     # 00action_file.rpy:37
     old "{#weekday_short}Wed"
-    new "{#weekday_short}Wed"
+    new "{#weekday_short}Qua"
 
     # 00action_file.rpy:37
     old "{#weekday_short}Thu"
-    new "{#weekday_short}Thu"
+    new "{#weekday_short}Qui"
 
     # 00action_file.rpy:37
     old "{#weekday_short}Fri"
-    new "{#weekday_short}Fri"
+    new "{#weekday_short}Sex"
 
     # 00action_file.rpy:37
     old "{#weekday_short}Sat"
-    new "{#weekday_short}Sat"
+    new "{#weekday_short}Sab"
 
     # 00action_file.rpy:37
     old "{#weekday_short}Sun"
-    new "{#weekday_short}Sun"
+    new "{#weekday_short}Dom"
 
     # 00action_file.rpy:47
     old "{#month}January"
-    new "{#month}January"
+    new "{#month}Janeiro"
 
     # 00action_file.rpy:47
     old "{#month}February"
-    new "{#month}February"
+    new "{#month}Fevereiro"
 
     # 00action_file.rpy:47
     old "{#month}March"
-    new "{#month}March"
+    new "{#month}Março"
 
     # 00action_file.rpy:47
     old "{#month}April"
-    new "{#month}April"
+    new "{#month}Abril"
 
     # 00action_file.rpy:47
     old "{#month}May"
-    new "{#month}May"
+    new "{#month}Maio"
 
     # 00action_file.rpy:47
     old "{#month}June"
-    new "{#month}June"
+    new "{#month}Junho"
 
     # 00action_file.rpy:47
     old "{#month}July"
-    new "{#month}July"
+    new "{#month}Julho"
 
     # 00action_file.rpy:47
     old "{#month}August"
-    new "{#month}August"
+    new "{#month}Augosto"
 
     # 00action_file.rpy:47
     old "{#month}September"
-    new "{#month}September"
+    new "{#month}Setembro"
 
     # 00action_file.rpy:47
     old "{#month}October"
-    new "{#month}October"
+    new "{#month}Outubro"
 
     # 00action_file.rpy:47
     old "{#month}November"
-    new "{#month}November"
+    new "{#month}Novembro"
 
     # 00action_file.rpy:47
     old "{#month}December"
-    new "{#month}December"
+    new "{#month}Dezembro"
 
     # 00action_file.rpy:63
     old "{#month_short}Jan"
@@ -112,7 +112,7 @@ translate Portuguese strings:
 
     # 00action_file.rpy:63
     old "{#month_short}Feb"
-    new "{#month_short}Feb"
+    new "{#month_short}Fev"
 
     # 00action_file.rpy:63
     old "{#month_short}Mar"
@@ -120,11 +120,11 @@ translate Portuguese strings:
 
     # 00action_file.rpy:63
     old "{#month_short}Apr"
-    new "{#month_short}Apr"
+    new "{#month_short}Abr"
 
     # 00action_file.rpy:63
     old "{#month_short}May"
-    new "{#month_short}May"
+    new "{#month_short}Mai"
 
     # 00action_file.rpy:63
     old "{#month_short}Jun"
@@ -136,15 +136,15 @@ translate Portuguese strings:
 
     # 00action_file.rpy:63
     old "{#month_short}Aug"
-    new "{#month_short}Aug"
+    new "{#month_short}Ago"
 
     # 00action_file.rpy:63
     old "{#month_short}Sep"
-    new "{#month_short}Sep"
+    new "{#month_short}Set"
 
     # 00action_file.rpy:63
     old "{#month_short}Oct"
-    new "{#month_short}Oct"
+    new "{#month_short}Out"
 
     # 00action_file.rpy:63
     old "{#month_short}Nov"
@@ -152,7 +152,7 @@ translate Portuguese strings:
 
     # 00action_file.rpy:63
     old "{#month_short}Dec"
-    new "{#month_short}Dec"
+    new "{#month_short}Dez"
 
     # 00action_file.rpy:240
     old "%b %d, %H:%M"
@@ -160,51 +160,51 @@ translate Portuguese strings:
 
     # 00action_file.rpy:353
     old "Save slot %s: [text]"
-    new "Save slot %s: [text]"
+    new "Salvar slot %s: [text]"
 
     # 00action_file.rpy:434
     old "Load slot %s: [text]"
-    new "Load slot %s: [text]"
+    new "Carregar slot %s: [text]"
 
     # 00action_file.rpy:487
     old "Delete slot [text]"
-    new "Delete slot [text]"
+    new "Deletar slot [text]"
 
     # 00action_file.rpy:569
     old "File page auto"
-    new "File page auto"
+    new "Arquivo página auto"
 
     # 00action_file.rpy:571
     old "File page quick"
-    new "File page quick"
+    new "Arquivo página rápido"
 
     # 00action_file.rpy:573
     old "File page [text]"
-    new "File page [text]"
+    new "Página de arquivo [text]"
 
     # 00action_file.rpy:772
     old "Next file page."
-    new "Next file page."
+    new "Próxima página de arquivo."
 
     # 00action_file.rpy:845
     old "Previous file page."
-    new "Previous file page."
+    new "Página anterior de arquivo."
 
     # 00action_file.rpy:906
     old "Quick save complete."
-    new "Quick save complete."
+    new "Salve rápido completo."
 
     # 00action_file.rpy:924
     old "Quick save."
-    new "Quick save."
+    new "Salvar rapidamente."
 
     # 00action_file.rpy:943
     old "Quick load."
-    new "Quick load."
+    new "Carregar rapidamente."
 
     # 00action_other.rpy:355
     old "Language [text]"
-    new "Language [text]"
+    new "Idioma [text]"
 
     # 00director.rpy:708
     old "The interactive director is not enabled here."
@@ -300,51 +300,51 @@ translate Portuguese strings:
 
     # 00gui.rpy:370
     old "Are you sure?"
-    new "Are you sure?"
+    new "Ter certeza?"
 
     # 00gui.rpy:371
     old "Are you sure you want to delete this save?"
-    new "Are you sure you want to delete this save?"
+    new "Tem certeza de que deseja apagar este save?"
 
     # 00gui.rpy:372
     old "Are you sure you want to overwrite your save?"
-    new "Are you sure you want to overwrite your save?"
+    new "Tem certeza de que deseja sobreescrever este save?"
 
     # 00gui.rpy:373
     old "Loading will lose unsaved progress.\nAre you sure you want to do this?"
-    new "Loading will lose unsaved progress.\nAre you sure you want to do this?"
+    new "Carregar irá apagar o progresso não salvo.\nTem certeza de que deseja fazer isso?"
 
     # 00gui.rpy:374
     old "Are you sure you want to quit?"
-    new "Are you sure you want to quit?"
+    new "Tem certeza que deseja sair?"
 
     # 00gui.rpy:375
     old "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
-    new "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
+    new "Tem certeza de que deseja voltar ao menu principal?\nProgresso não-salvo será perdido."
 
     # 00gui.rpy:376
     old "Are you sure you want to end the replay?"
-    new "Are you sure you want to end the replay?"
+    new "Tem certeza de que deseja terminar o replay?"
 
     # 00gui.rpy:377
     old "Are you sure you want to begin skipping?"
-    new "Are you sure you want to begin skipping?"
+    new "Tem certeza de que deseja começar a pular?"
 
     # 00gui.rpy:378
     old "Are you sure you want to skip to the next choice?"
-    new "Are you sure you want to skip to the next choice?"
+    new "Tem certeza de que deseja pular para a próxima escolha?"
 
     # 00gui.rpy:379
     old "Are you sure you want to skip unseen dialogue to the next choice?"
-    new "Are you sure you want to skip unseen dialogue to the next choice?"
+    new "Tem certeza de que deseja pular diálogo não-visualizado até a próxima escolha?"
 
     # 00keymap.rpy:258
     old "Failed to save screenshot as %s."
-    new "Failed to save screenshot as %s."
+    new "Failha ao salvar screenshot como %s."
 
     # 00keymap.rpy:270
     old "Saved screenshot as %s."
-    new "Saved screenshot as %s."
+    new "Screenshot salvo como %s."
 
     # 00library.rpy:146
     old "Self-voicing disabled."
@@ -400,7 +400,7 @@ translate Portuguese strings:
 
     # 00library.rpy:279
     old "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}."
-    new "This program contains free software under a number of licenses, including the MIT License and GNU Lesser General Public License. A complete list of software, including links to full source code, can be found {a=https://www.renpy.org/l/license}here{/a}."
+    new "Este programa contém software livre sob várias licenças, incluindo a Licença MIT e a Licença Pública Geral Menor GNU. Uma lista completa de software, incluindo links para o código-fonte completo, pode ser encontrada {a=https://www.renpy.org/l/license}aqui{/a}."
 
     # 00preferences.rpy:207
     old "display"
