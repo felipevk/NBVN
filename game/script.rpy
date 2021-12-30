@@ -1,12 +1,12 @@
 ﻿define config.name = _("Academia Novel Brasil")
 
-define f = Character("Fábio", color="#c8ffc8")
-define g = Character("Galdino", color="#c8c8ff")
-define n = Character("Nebi", color="#c8c8ff")
-define n_u = Character("????", color="#c8c8ff")
-define f_u = Character("????", color="#c8c8ff")
-define g_u = Character("Professor", color="#c8c8ff")
-define p = Character("[name]")
+define f = Character("Fábio", color="#84b43e")
+define g = Character("Galdino", color="#6a46b3")
+define n = Character("Nebi", color="#f96d36")
+define n_u = Character("????", color="#f96d36")
+define f_u = Character("????", color="#84b43e")
+define g_u = Character("Professor", color="#6a46b3")
+define p = Character("[name]", color ="#ffffff")
 
 default score = 0
 default likesBread = False
@@ -62,12 +62,19 @@ label day1:
     n_u "Hum?"
 
     show nebi armsbehind smiling at center
+    with dissolve
 
     n_u "Por acaso você tá perdido?"
 
     p "Sim... Não consigo encontrar a sala 1-D."
 
+    show nebi armsbehind thinking
+    with dissolve
+
     n_u "1-D? Acredito que se encontra no segundo andar."
+
+    show nebi armsbehind smiling
+    with dissolve
 
     n_u "Inclusive, é pra lá que estou indo! Também sou da 1-D. Vem comigo!"
 
@@ -88,7 +95,8 @@ label day1:
 
     "Ao me sentar, percebo que o garoto sentado na minha direita me encara de um jeito meio desconfortável."
 
-    show fabio sheathed smug at right
+    show fabio sheathed angry at right
+    with dissolve
 
     f_u "Hunf!"
 
@@ -111,10 +119,12 @@ label day1:
     f_u "Ainda não chegou..."
 
     hide fabio
+    with dissolve
 
     "Enquanto ele diz isso, a porta da sala se abre, e um adulto entra."
 
     show galdino nobook neutral at center
+    with dissolve
 
     g_u "Bom dia a todos!"
 
@@ -145,20 +155,25 @@ label day1:
     "Galdino olha em direção à garota que me ajudou anteriormente. Ela se levanta."
 
     hide galdino
+    with dissolve
 
     show nebi armsbehind smiling at center
+    with dissolve
 
     n_u "Bom dia! Meu nome é Nebi!"
 
     n "Meu passatempo favorito é ler livros e webnovels, e sempre quis escrever a minha propria história! Conto com a ajuda de todos para nos tornamos grandes escritores!"
 
     hide nebi
+    with dissolve
 
     show galdino nobook neutral at center
+    with dissolve
 
-    "Prazer em conhecer, Nebi. Próximo, por favor?"
+    g "Prazer em conhecer, Nebi. Próximo, por favor?"
 
     hide galdino
+    with dissolve
 
     "Pouco a pouco, os alunos se apresentam. A maioria possui uma história parecida com a da Nebi. Me pergunto se eles realmente sempre quiseram ser escritores, ou se apenas estão imitando a primeira ideia original..."
 
@@ -201,13 +216,15 @@ label intro3:
 
     $ likesBread = True
 
-    show galdino nobook neutral at center
+    show galdino nobook thinking at center
+    with dissolve
 
     g "Hum, ok..."
 
     g "Estava esperando algo mais... literário, mas acho que isso dá pro gasto."
 
     hide galdino
+    with dissolve
 
     "A classe gargalhou em uníssono. Acho que esse foi o pior branco que eu tive na minha vida. Felizmente esse é o tipo de coisa que pessoas esquecem logo..."
 
@@ -218,6 +235,7 @@ label intro_continue:
     "O próximo a se apresentar é o garoto de cabelo verde."
 
     show fabio sheathed smug at center
+    with dissolve
 
     f_u "Saudações! Podem me chamar de Fábio. Tenho bastante experiência com escrita. Dois meses! Qualquer dúvida que tiverem, podem me perguntar!"
 
@@ -238,14 +256,19 @@ label intro_continue:
     "O resto da classe parece estar pensando o mesmo. Todos se encontram calados, com um misto de confusão e vergonha alheia."
 
     show galdino nobook frown at right
+    with dissolve
 
     g "Vou ter que pedir para que você me entregue esta espada."
 
     g "Não permitimos armas nesta escola, e provavelmente em nenhuma outra escola."
 
+    show fabio sword embarassed
+    with dissolve
+
     f "M-mas... ela é de plástico..."
 
     show galdino nobook amused
+    with dissolve
 
     g "Sendo assim, tudo bem. Mas da próxima, me avise de que ira trazer um brinquedo para a sala."
 
@@ -254,12 +277,15 @@ label intro_continue:
     "Mas que cena. Normalmente eu acharia graça disso, mas por algum motivo, não consigo."
 
     hide fabio
+    with dissolve
 
     hide galdino
+    with dissolve
 
     "As ultimas introduções ocorrem normalmente. Após o último aluno se apresentar, Galdino se levanta."
 
     show galdino nobook neutral at center
+    with dissolve
 
     g "Agora que todos nos conhecemos, vou falar um pouco sobre o que vocês devem esperar da primeira semana na Academia Novel Brasil."
 
@@ -269,27 +295,27 @@ label intro_continue:
 
     "De repente, o ar da sala mudou. Os alunos agora claramente passaram a prestar mais atenção no professor."
 
-    show nebi armsbehind smiling at right
+    show nebi handstogether anxious at right
+    with dissolve
 
     n "A-avaliação?"
 
     hide nebi
+    with dissolve
 
     show galdino nobook amused
+    with dissolve
 
     g "De novo, não espero que ninguém aqui já saiba de tudo. Todas as perguntas serão relativas ao assunto da aula."
 
     g "Desde que prestem atenção, com certeza se sairão bem."
 
     show galdino nobook neutral
+    with dissolve
 
     g "No final desta semana, vocês receberão meus comentários em relação ao seu desempenho."
 
-    show galdino nobook amused
-
     g "Alguma pergunta?"
-
-    show galdino nobook neutral
 
     "Nenhum aluno em particular se pronunciou, mas os murmuros tomam conta da sala."
 
@@ -311,9 +337,15 @@ label intro_continue:
 
     g "O público-alvo destas mídias é de uma faixa etária de jovens, que buscam uma leitura mais acessivel."
 
+    show galdino phone amused
+    with dissolve
+
     g "Sobretudo com webnovels, que podem ser lidas num celular, acessibilidade é essencial!"
 
     g "Mantenham em mente que, mesmo que o seu texto pareça curto na tela do computador, ele também precisa ser facilmente lido em uma tela menor de celular."
+
+    show galdino nobook amused
+    with dissolve
 
     g "Perguntas?"
 
@@ -321,15 +353,17 @@ label intro_continue:
 
     g "Muito bem. Para finalizar a aula de hoje, vamos falar sobre sites brasileiros de webnovels."
 
+    show galdino nobook amused
+    with dissolve
+
     g "Minhas recomendações pessoais são a {a=https://kiniga.com}Kiniga{/a} e a {a=https://novelmania.com.br}Novel Mania{/a}"
 
     g "Em ambos os sites vocês podem ter acesso a múltiplas obras originais brasileiras, ou até obras internacionais, traduzidas para o português."
 
-    show galdino nobook amused
-
     g "Vocês também podem postar suas obras nestes sites, desde que sejam bem escritas!"
 
     show galdino nobook neutral
+    with dissolve
 
     g "Agora vamos ver quem estava prestando atenção na aula."
 
@@ -377,6 +411,7 @@ label q1_a3:
     g "A resposta está incorreta. webnovels podem ser feitas em qualquer idioma, inclusive em português."
 
     show galdino nobook amused
+    with dissolve
 
     g "Se esse não fosse o caso, pra que estaríamos aqui?"
 
@@ -444,6 +479,7 @@ label day1_class_end:
     g "Amanhã falaremos um pouco sobre gêneros de webnovels. Tenham um bom descanso, e até a próxima!"
 
     hide galdino
+    with dissolve
 
     "O professor deixa a sala, e os alunos começam a se preparar para sair."
 
@@ -478,6 +514,7 @@ label day1_class_end:
     "Ao terminar de comer, decido subir para o meu quarto. Mas antes que eu possa sair da cozinha, uma figura familiar surge."
 
     show fabio sheathed smug at center
+    with dissolve
 
     f "!!"
 
@@ -507,6 +544,9 @@ label day1_class_end:
 
     p "Bom, ainda quero aprender mais nas aulas. Daí eu vejo de escrever algo. Aliás, você disse que já escreve a dois meses, certo?"
 
+    show fabio sword angry
+    with dissolve
+
     f "Isso! Já evoluí bastante nesse tempo! Me considero um autor de rank S, ou pelo menos rank A!"
 
     p "Como assim? O que isso significa?"
@@ -518,6 +558,9 @@ label day1_class_end:
     p "Ah, é? Também curto animes!"
 
     "Espero que ele seja menos chato sobre isso"
+
+    show fabio sheathed smug
+    with dissolve
 
     f "Qual o tamanho do seu MyAnimeList?"
 
@@ -549,6 +592,7 @@ label day2:
     "Dia 2 - Terça-feira"
 
     show galdino nobook neutral at center
+    with dissolve
 
     g "Quero que me respondam: O que vocês gostariam de escrever?"
 
@@ -584,11 +628,13 @@ label day2:
 
     g "Isekai é claramente derivado de histórias de fantasia. A maior vantagem narrativa deste sub-gênero é a facilidade que o autor tem para apresentar o seu mundo para o leitor."
 
-    show nebi armsbehind smiling at left
+    show nebi armsbehind thinking at left
+    with dissolve
 
     n "Como assim, professor?"
 
     hide nebi
+    with dissolve
 
     g "Digamos que eu esteja escrevendo uma história de fantasia. Nesta história, eu tenho um mundo completamente diferente do mundo real, onde o protagonista nasceu e viveu."
 
@@ -626,13 +672,22 @@ label day2:
 
     g "Existem pessoas que se interessam em entender os mínimos detalhes de uma habilidade, ao ponto de querer saber até os valores numéricos envolvidos no cálculo de dano. Estes serão os seus leitores mais fiéis."
 
+    show galdino nobook thinking
+    with dissolve
+
     g "Tendo dito tudo isso, lhes pergunto: É permitido quebrar as regras, em uma história de sistema?"
 
     "A classe começa a debater entre si. A maioria das pessoas parece acreditar que não. Eu não tenho muita certeza."
 
+    show galdino nobook amused
+    with dissolve
+
     g "Sim, você pode. Porém, caso faça, é bom que tenha um motivo muito convincente para isso! Senão seus leitores podem achar que você estava apenas sendo preguiçoso e procurando um atalho para continuar a história!"
 
     g "Então tenham muito cuidado ao fazerem isso. Mas saibam que, sim, é possível."
+
+    show galdino nobook neutral
+    with dissolve
 
     g "E pra finalizar o assunto desta aula, falarei sobre histórias de {b}cultivo{/b}."
 
@@ -655,10 +710,12 @@ label day2:
     g "Artes marciais e conflitos envolvendo deuses também são recorrentes. Neste tipo de novel, os leitores desejam ver o protagonista sempre tornando-se mais e mais forte."
 
     show fabio sheathed smug at left
+    with dissolve
 
     f "Cultivo é brabo demais! Hehehe!"
 
     hide fabio
+    with dissolve
 
     g "Muito bem. Agora que falamos dos sub-gêneros mais populares, vamos para as perguntas!"
 
@@ -809,11 +866,13 @@ label q5_a3:
 
     g "Contudo, uma crítica comum a este gênero é a constante repetição do ritmo. Alguns leitores podem achar obras de cultivo, especialmente as mais longas, entediantes e não muito criativas."
 
-    show fabio sheathed smug at left
+    show fabio sheathed angry at left
+    with dissolve
 
     f "Hunf! Bando de nerds!"
 
     hide fabio
+    with dissolve
 
     jump day2_classend
 
@@ -830,6 +889,7 @@ label day2_classend:
     g "Que fique de tarefa de casa para a turma. Obrigado, e tenham uma boa tarde!"
 
     hide galdino
+    with dissolve
 
 label day2_afterclass:
     "Os alunos começam a se arrumar para sair. Antes que Galdino saia da sala, me dirijo a ele."
@@ -837,6 +897,7 @@ label day2_afterclass:
     p "Com licença, professor?"
 
     show galdino nobook neutral at center
+    with dissolve
 
     g "Alguma dúvida, [name]?"
 
@@ -846,6 +907,9 @@ label day2_afterclass:
 
     p "Pra falar a verdade, mesmo gostando de ler webnovels, eu não faço a mínima ideia sobre que tipo de história eu quero escrever."
 
+    show galdino nobook thinking
+    with dissolve
+
     "Enquanto eu falo, o professor me observa com atenção, como um médico escutando um paciente falando de seus sintomas."
 
     p "Mas eu ainda quero escrever uma história! Eu só não sei sobre o que..."
@@ -853,6 +917,9 @@ label day2_afterclass:
     p "Por acaso o senhor teria uma dica a respeito disso?"
 
     "O professor está pensativo. Talvez minha pergunta tenha sido muito vaga? Ou talvez ele esteja incomodado por eu estar tirando dúvidas após o horário da aula."
+
+    show galdino nobook neutral
+    with dissolve
 
     g "[name], por acaso você conhece o parque municipal?"
 
@@ -870,6 +937,9 @@ label day2_afterclass:
 
     p "Mas e a minha novel? Eu queria começar o quanto antes."
 
+    show galdino nobook amused
+    with dissolve
+
     g "Por enquanto, o seu foco é limpar a cabeça. É o que faço quando tenho dificuldades. E acredite, acontece bastante!"
 
     p "Sério? Bom, se o senhor tá falando..."
@@ -881,6 +951,7 @@ label day2_afterclass:
     g "Até amanhã, [name]!"
 
     hide galdino
+    with dissolve
 
     "Bom, ainda não entendi exatamente como isso vai me ajudar, mas não custa nada tentar. Decido ir visitar o parque após o almoço."
 
@@ -899,7 +970,8 @@ label day2_afterclass:
 
     n "Hum?"
 
-    show nebi armsbehind smiling at center
+    show nebi armsbehind happy at center
+    with dissolve
 
     menu:
         n "Ah! Olá!"
@@ -927,11 +999,17 @@ else:
 
 label nebi_remembers_bread:
 
+    show nebi armsbehind superhappy
+    with dissolve
+
     n "Você gosta de pão, né? Hihihi!"
 
     p "É..."
 
     "Não vão se esquecer disso tão cedo..."
+
+    show nebi armsbehind smiling
+    with dissolve
 
     jump nebi_park_continue
 
@@ -946,6 +1024,7 @@ label nebi_park_continue:
     p "Claro!"
 
     hide nebi
+    with dissolve
 
     "Me junto à Nebi e começamos a passear pelo parque."
 
@@ -972,6 +1051,7 @@ label try_talk:
     p "Então, Nebi, você é nova por aqui?"
 
     show nebi armsbehind smiling at center
+    with dissolve
 
     n "Sou sim! Vim do interior do estado, de uma cidadezinha que fica a umas quatro horas daqui."
 
@@ -983,7 +1063,8 @@ label keep_quiet:
 
     n "Hum... "
 
-    show nebi armsbehind smiling at center
+    show nebi armsbehind thinking
+    with dissolve
 
     n "Então, [name], você também se mudou pra cá recentemente?"
 
@@ -998,6 +1079,9 @@ label question_city:
 
         "De outra cidade, parecida com essa.":
 
+            show nebi armsbehind happy
+            with dissolve
+
             n "Então você deve se sentir à vontade por aqui! Eu ainda estou me acostumando com cidades grandes..."
 
         "De uma cidade pequena, em outro estado.":
@@ -1008,11 +1092,17 @@ label question_city:
 
         "Também vim do interior do estado.":
 
+            show nebi armsbehind happy
+            with dissolve
+
             n "Que legal! E fica longe daqui?"
 
             p "Não muito longe. Duas horas, ou menos."
 
     p "E o que está achando da Novel Brasil?"
+
+    show nebi armsbehind superhappy
+    with dissolve
 
     n "Bom, ainda é meio cedo pra ter uma opinião forte, mas por enquanto está sendo muito divertido!"
 
@@ -1032,11 +1122,15 @@ label question_city:
 
     "Ao ouvir a minha pergunta, Nebi rapidamente vira a sua atenção para uns patos que estão na lagoa."
 
+    show nebi handstogether smiling
+    with dissolve
+
     n "Olha só esses patinhos fofinhos! Será que consigo chegar perto deles?"
 
     p "Acho que não..."
 
     hide nebi
+    with dissolve
 
     "Nebi se dirige à lagoa com um andar levemente desajeitado. Corro atrás dela, pra me certificar que ela não caia na água."
 
@@ -1045,7 +1139,8 @@ label question_city:
 
     "O passeio inteiro pelo parque leva algumas horas. Após isso, nos dirigimos para a entrada."
 
-    show nebi armsbehind smiling at center
+    show nebi armsbehind happy at center
+    with dissolve
 
     n "Eu não fazia ideia de que esse lugar era tão grande! Não esperava encontrar tanta natureza por aqui."
 
@@ -1058,6 +1153,7 @@ label question_city:
     p "Sim, nos vemos amanhã!"
 
     hide nebi
+    with dissolve
 
     "Após nos despedirmos, vou até a estação do metrô."
 
@@ -1084,6 +1180,7 @@ label day3:
     "Dia 3 - Quarta-feira"
 
     show galdino nobook neutral at center
+    with dissolve
 
     g "Bom dia a todos!"
 
@@ -1100,8 +1197,10 @@ label day3:
     g "Basta que o trecho tenha três ou quatro falas. Ok?"
 
     show nebi armsbehind smiling at left
+    with dissolve
 
     show fabio sheathed smug at right
+    with dissolve
 
     n "C-certo!"
 
@@ -1110,8 +1209,10 @@ label day3:
     "Os dois imediamente começam a escrever."
 
     hide nebi
+    with dissolve
 
     hide fabio
+    with dissolve
 
     g "Enquanto isso, vamos iniciar uma conversa sobre discursos em narrativas."
 
@@ -1142,10 +1243,12 @@ label day3:
     "Fábio se levanta rapidamente."
 
     show fabio sheathed smug at right
+    with dissolve
 
     f "Acabei!"
 
     show nebi armsbehind smiling at left
+    with dissolve
 
     p "Aqui também!"
 
@@ -1154,6 +1257,9 @@ label day3:
     "{i}O mecânico disse \"O preço, é duzentos reais.\", daí o cliente respondeu: \"Que caro! Pode fazer 100?\" e o mecânico falou não...{/i}"
 
     "Galdino fica pensativo por um minuto."
+
+    show galdino nobook thinking
+    with dissolve
 
     g "Posso comentar sobre o que escreveu, Fábio?"
 
@@ -1164,6 +1270,9 @@ label day3:
     g "O discurso direto com aspas é comum em narrativas em inglês, mas para português é preferível que se use o travessão."
 
     "Galdino mais uma vez se dirige ao quadro para escrever."
+
+    show galdino nobook neutral
+    with dissolve
 
     g "Aqui está uma versão com os discursos corrigidos. Também tomei a liberdade de corrigir outros erros."
 
@@ -1180,6 +1289,10 @@ label day3:
     g "Agora vamos ver o trecho da Nebi."
 
     hide fabio
+    with dissolve
+
+    show nebi handstogether anxious
+    with dissolve
 
     "Nebi está claramente ansiosa. Eu também estaria, depois dessa."
 
@@ -1207,6 +1320,9 @@ label day3:
 
     g "Porém, a Nebi cometeu um erro ao usar o dicendi. O verbo dicendi usado após o fala é considerado parte do mesmo período. Isso significa que a fala não é pontuada, e o dicendi é escrito com letra minúscula."
 
+    show nebi handstogether thinking
+    with dissolve
+
     g "O primeiro discurso pode ser corrigido assim:"
 
     "{i}— Aqui está o preço do serviço. 1000 reais — disse o mecânico.{/i}"
@@ -1233,9 +1349,13 @@ label day3:
 
     "{i}— Infelizmente, nossos preços são fixos no país inteiro — respondeu o mecânico.{/i}"
 
+    show nebi handstogether smiling
+    with dissolve
+
     n "Entendi! Obrigado pela correção, professor!"
 
     hide nebi
+    with dissolve
 
     g "Outra forma de usar o travessão é quando o narrador insere uma informação no meio do discurso direto."
 
@@ -1279,10 +1399,12 @@ label q6_a1:
     g "Correto! Vocês se surpreenderiam com a quantidade de obras que são recusadas em sites de webnovels por não utilizarem travessão nos diálogos."
 
     show fabio sheathed smug at right
+    with dissolve
 
     f "Então deve ser por isso..."
 
     hide fabio
+    with dissolve
 
     jump q7
 
@@ -1414,6 +1536,7 @@ label day3_afterclass:
     "Assim que ela me vê, ela vem em minha direção."
 
     show nebi armsbehind smiling at center
+    with dissolve
 
     n "[name]! Vamos visitar outro lugar hoje?"
 
@@ -1427,6 +1550,9 @@ label day3_afterclass:
 
     p "Estou, sim. Mas pra onde vamos?"
 
+    show nebi armsbehind superhappy
+    with dissolve
+
     n "É segredo! Hihi!"
 
     p "Ok, agora quero saber... Aceito o convite!"
@@ -1434,6 +1560,7 @@ label day3_afterclass:
     n "Então vamos! Serei sua guia mais uma vez."
 
     hide nebi
+    with dissolve
 
     "E pensar que ambos somos novos na cidade. Ela já parece estar totalmente à vontade."
 
@@ -1444,15 +1571,19 @@ label day3_afterclass:
 
     "É fácil de perceber a empolgação estampada na cara da Nebi. Talvez este tipo de estabelecimento não seja comum pra ela."
 
-    show nebi armsbehind smiling at center
+    show nebi armsbehind thinking at center
+    with dissolve
 
-    n "Caraca! É bem maior do que eu imaginava!"
+    n "É bem maior do que eu imaginava!"
 
     p "O que te fez escolher esse café em especial?"
 
     n "É o que tem as melhores notas da região. Fiz uma pesquisa na noite passada."
 
     p "Realmente se preparou, hein?"
+
+    show nebi armsbehind superhappy
+    with dissolve
 
     n "É claro! Afinal, é aqui que encontraremos a arma secreta para nos tornarmos grandes escritores!"
 
@@ -1461,6 +1592,7 @@ label day3_afterclass:
     n "Vamos entrar, [name]?"
 
     hide nebi
+    with dissolve
 
     p "Espera aí!"
 
@@ -1474,6 +1606,7 @@ label day3_afterclass:
     "Vejo que Nebi já está se dirigindo a uma das mesas vazias. Apresso o passo para me juntar a ela."
 
     show nebi armsbehind smiling at center
+    with dissolve
 
     n "O que você vai pedir?"
 
@@ -1498,6 +1631,9 @@ label day3_afterclass:
 
     "Assim que decido o que pedir, o garçom aparece. Olho para a Nebi, mas ela ainda está tentando escolher algo."
 
+    show nebi handstogether thinking
+    with dissolve
+
     n "Er... Eu vou querer..."
 
     n "Um café! E dois pães de queijo!"
@@ -1521,6 +1657,9 @@ label day3_afterclass:
 
             $ coffeChoice = 2
 
+    show nebi handstogether smiling
+    with dissolve
+
     n "Ok! Vou seguir a sua sugestão."
 
     "O garçom anota nossos pedidos e se retira. Agora é a hora perfeita para matar a minha curiosidade."
@@ -1530,6 +1669,9 @@ label day3_afterclass:
     n "É o café!"
 
     p "Café? Mas por que?"
+
+    show nebi armsclosed smug
+    with dissolve
 
     n "Uma fonte confiável me disse que os maiores escritores começam seu dia com uma xícara de café, para ativarem seus neurônios e se manterem criativos durante o dia inteiro!"
 
@@ -1553,6 +1695,9 @@ label day3_afterclass:
 
     p "Bom, eu acho melhor tomar cuidado com o que o Fábio conta. Ele pode ser bastante... empolgado às vezes."
 
+    show nebi handstogether concerned
+    with dissolve
+
     n "Você acha que ele tava mentindo??"
 
     p "Tenho certeza."
@@ -1562,6 +1707,9 @@ label day3_afterclass:
     "Agora ela está claramente chateada. Por que estou me sentindo a pessoa malvada desta conversa?"
 
     "É... Veja bem... Talvez ele não esteja completamente errado! Acho que já li algo sobre escritores sempre beberem café!"
+
+    show nebi handstogether smiling
+    with dissolve
 
     n "Sério?"
 
@@ -1611,6 +1759,10 @@ label day3_afterclass:
         jump coffe_awful
 
 label coffe_notgreat:
+
+    show nebi handstogether thinking
+    with dissolve
+
     n "Não é ruim, mas também não é tão bom. Achei que sentiria um gosto mais forte."
 
     p "Talvez o leite tenha diluído demais o sabor original."
@@ -1620,6 +1772,10 @@ label coffe_notgreat:
     jump tasting_end
 
 label coffe_great:
+
+    show nebi armsbehind superhappy
+    with dissolve
+
     n "Achei bem gostoso! Sinto um pouco de amargura, mas o açúcar faz com que não fique forte demais."
 
     n "Acho que encontrei o meu tipo de café! Muito obrigado pela dica!"
@@ -1629,6 +1785,10 @@ label coffe_great:
     jump tasting_end
 
 label coffe_awful:
+
+    show nebi handstogether anxious
+    with dissolve
+
     n "Blergh..."
 
     n "É bem amargo, né?"
@@ -1646,6 +1806,9 @@ label coffe_awful:
     jump tasting_end
 
 label tasting_end:
+
+    show nebi armsbehind thinking
+    with dissolve
 
     n "Bom, essa foi uma grande experiência..."
 
@@ -1679,6 +1842,9 @@ label tasting_end:
 
     n "E o que você decidiu?"
 
+    show nebi armsbehind smiling
+    with dissolve
+
     p "Olha, na verdade eu ainda não sei sobre o que escrever. Mas vou continuar me esforçando nas aulas e lendo mais. Eventualmente vou encontrar algo."
 
     p "E com certeza, você também vai!"
@@ -1695,6 +1861,9 @@ label tasting_end:
 
     p "Peraí, como é??"
 
+    show nebi armsbehind thinking
+    with dissolve
+
     n "Atualmente eu tenho 49 ideias de webnovels, mas não consigo me decidir por qual começar! Isso tava me preocupando bastante, mas com a sua ajuda, me sinto mais tranquila!"
 
     p "D-de nada..."
@@ -1702,6 +1871,7 @@ label tasting_end:
     n "Tenho ideias para novels de cultivo, algumas de isekai, uma de romance, uma de artes marciais com sistema de mmo, outra de..."
 
     hide nebi
+    with dissolve
 
     scene bg cafe inside 1 dusk
     with fade
@@ -1721,7 +1891,8 @@ label tasting_end:
 
     "E falando nele..."
 
-    show fabio sheathed smug at right
+    show fabio sheathed smug at center
+    with dissolve
 
     f "Yo!"
 
@@ -1739,6 +1910,9 @@ label tasting_end:
 
     p "E você sempre come fora? Não fica muito caro?"
 
+    show fabio sheathed embarassed
+    with dissolve
+
     f "M-mas é claro que não! Sempre estou cozinhando aqui, v-você que nunca viu!"
 
     p "Não tem nada seu na geladeira, como que você cozinha assim?"
@@ -1746,6 +1920,9 @@ label tasting_end:
     "Fábio não conseguia encontrar uma desculpa convincente, e apenas continuou calado."
 
     p "Você não sabe cozinhar, Fábio?"
+
+    show fabio sword angry
+    with dissolve
 
     f "Absurdo! E-eu sou um grande cozinheiro! Assisti todos os episódios de Shokugeki no Soma!"
 
@@ -1760,6 +1937,9 @@ label tasting_end:
     f "..."
 
     f "Eu tenho um Rei Demônio selado dentro de mim! Sua energia me torna 250\% mais forte do que um humano comum. Não preciso destas futilidades!"
+
+    show fabio sheathed smug
+    with dissolve
 
     f "Além disso, quando o meu treinamento quântico for completado, serei reconhecido pelos oito grande demônios como o herdeiro da espada suprema! Terei milhares de servos para cozinhar pra mim!"
 
@@ -1785,6 +1965,7 @@ label day4:
     "Dia 4 - Quinta-feira"
 
     show galdino nobook neutral at center
+    with dissolve
 
     g "Bom dia, escritores. Hoje teremos mais uma aula sobre normas da língua portuguesa."
 
@@ -1828,15 +2009,20 @@ label day4:
 
     g "Fábio, pode me emprestar quarenta reais?"
 
-    show fabio sheathed smug at left
+    show fabio sheathed surprised at left
+    with dissolve
 
     f "Quarenta reais? Desculpa professor, mas não tenho nem vinte!"
 
     g "Tudo bem, este foi apenas um exemplo do uso do vocativo."
 
+    show fabio sheathed smug
+    with dissolve
+
     f "Ah, claro! Obviamente eu sabia, só estava fingindo!"
 
     hide fabio
+    with dissolve
 
     g "Tá certo. Como vocês viram, neste caso a vírgula separou o uso do vocativo do resto da oração."
 
@@ -1864,13 +2050,15 @@ label day4:
 
     "Nebi levanta a mão."
 
-    show nebi armsbehind smiling at right
+    show nebi armsbehind thinking at right
+    with dissolve
 
     n "Algo parece estar lhe incomodando."
 
     g "Correto. As reticências indicam uma interrupção no fluxo normal da fala."
 
     hide nebi
+    with dissolve
 
     g "Isso pode ocorrer por diversos motivos. O locutor pode estar sendo interrompido por alguma influência interna ou externa. Ele pode estar sendo distraído, pode ter se esquecido do que iria falar, ou talvez esteja pensando em outras coisas no momento."
 
@@ -2031,6 +2219,9 @@ label q11_a3:
 
 label day4_classend:
 
+    show galdino phone amused
+    with dissolve
+
     g "Bom, esta foi a nossa aula sobre pontuação. Existem diversos recursos na internet sobre este assunto, mas eu obviamente irei recomendar o artigo do {a=https://grimorioescritor.blogspot.com/2021/01/calma-respira.html}Grimório do Escritor{/a}."
 
     g "Se não houverem dúvidas, terminamos por aqui. Tenham uma boa tarde!"
@@ -2045,8 +2236,11 @@ label day4_afterclass:
 
     "Assim que a aula termina, explico para a Nebi sobre o Fábio. Nebi prontamente vai atrás dele, e nos encontramos mais uma vez na sala de aula."
 
-    show nebi armsbehind smiling at right
-    show fabio sheathed smug at left
+    show nebi armsbehind thinking at right
+    with dissolve
+
+    show fabio sheathed embarassed at left
+    with dissolve
 
     n "Fábio, você precisa aprender a cozinhar! Senão você vai gastar muito dinheiro comendo fora!"
 
@@ -2055,6 +2249,12 @@ label day4_afterclass:
     p "[name] me contou sobre isso. Podemos te ajudar a fazer algo!"
 
     f "Pois saiba que você está enganada! Minhas habilidades simplesmente foram seladas quando eu enfrentei o príncipe dos vampiros pelo controle do..."
+
+    show nebi armsclosed angry
+    with dissolve
+
+    show fabio sheathed surprised
+    with dissolve
 
     "Do nada, Nebi pega o Fábio pelo braço e caminha em direção a saída."
 
@@ -2076,7 +2276,10 @@ label day4_afterclass:
     "Desembrulhamos as compras e colocamos tudo no balcão da cozinha. Nebi lava as suas mãos e nos fala para fazermos o mesmo."
 
     show nebi armsbehind smiling at right
+    with dissolve
+
     show fabio sheathed smug at left
+    with dissolve
 
     n "Muito bem! Vamos rever o que compramos hoje!"
 
@@ -2088,6 +2291,9 @@ label day4_afterclass:
 
     p "Minha nossa..."
 
+    show nebi armsclosed angry
+    with dissolve
+
     n "Errado. Vamos fazer strogonoff de frango."
 
     n "[name]! Por acaso vocês tem maionese, ketchup, sal e pimenta sobrando?"
@@ -2098,7 +2304,13 @@ label day4_afterclass:
 
     f "Sim... sensei!"
 
+    show nebi armsclosed smug
+    with dissolve
+
     n "Sensei??"
+
+    show fabio sword angry
+    with dissolve
 
     f "Me ensine os segredos desta arte proibida! Prometo que serei um discípulo digno!"
 
@@ -2109,7 +2321,8 @@ label day4_afterclass:
     scene bg kitchen
     with fade
 
-    show nebi armsbehind smiling at right
+    show nebi handstogether thinking at right
+    with dissolve
 
     n "Me passa a panela e a frigideira, [name]?"
 
@@ -2117,7 +2330,8 @@ label day4_afterclass:
 
     n "Pode ligar o fogão, Fábio?"
 
-    show fabio sheathed smug at left
+    show fabio sheathed embarassed at left
+    with dissolve
 
     f "Er... meu nível de maestria neste equipamento ainda não é grão-mestre, mas talvez eu..."
 
@@ -2128,11 +2342,21 @@ label day4_afterclass:
     scene bg kitchen
     with fade
 
-    show nebi armsbehind smiling at right
+    transform slightleft:
+        xalign 0.25
+        yalign 1.0
+
+    transform slightright:
+        xalign 0.75
+        yalign 1.0
+
+    show nebi armsbehind smiling at slightright
+    with dissolve
 
     n "Fábio, usa o pegador pra virar o frango."
 
-    show fabio sheathed smug at left
+    show fabio sheathed embarassed at slightleft
+    with dissolve
 
     "Fábio se aproxima da frigideira, mas ao sentir o calor, dá um passo pra trás."
 
@@ -2146,6 +2370,9 @@ label day4_afterclass:
 
     "Lentamente Fábio consegue virar as peças de frango."
 
+    show fabio sheathed smug
+    with dissolve
+
     f "Eu dominei as chamas negras do inferno!"
 
     p "Muito bem."
@@ -2157,11 +2384,13 @@ label day4_afterclass:
 
     p "Bom apetite, pessoal."
 
-    show nebi armsbehind smiling at right
+    show nebi armsbehind superhappy at slightright
+    with dissolve
 
     n "Hehe!"
 
-    show fabio sheathed smug at left
+    show fabio sheathed smug at slightleft
+    with dissolve
 
     f "Itadakimassu!"
 
@@ -2209,7 +2438,13 @@ label day4_afterclass:
 
     "Acho que entendi porque a Nebi conseguiu botar ele nos eixos, mais cedo."
 
+    show nebi handstogether concerned
+    with dissolve
+
     n "Minha nossa! E o que os seus amigos achavam disso?"
+
+    show fabio sheathed embarassed
+    with dissolve
 
     f "Eu não tinha nenhum amigo..."
 
@@ -2229,7 +2464,13 @@ label day4_afterclass:
 
     "Ao perceber que havia saído do personagem, Fábio pigarreou e retomou sua postura de sempre."
 
+    show fabio sheathed smug
+    with dissolve
+
     f "Bom, já que vocês me ensinaram a técnica secreta do strogonoff de frango, acho que isso é o mínimo que posso fazer em troca!"
+
+    show nebi handstogether smiling
+    with dissolve
 
     p "Obrigado por compartilhar sua história conosco. Viver num ritmo rígido desses, e ser zoado por todos deve ser muito ruim mesmo."
 
@@ -2244,7 +2485,10 @@ label day4_afterclass:
     p "Achava que fossemos aliados..."
 
     hide nebi
+    with dissolve
+
     hide fabio
+    with dissolve
 
     "E a conversa se alongou até o final do dia."
 
@@ -2273,7 +2517,8 @@ label day5:
 
     "Falando nela, ela se aproxima da minha mesa."
 
-    show nebi armsbehind smiling at center
+    show nebi armsbehind thinking at center
+    with dissolve
 
     n "E aí, [name]?"
 
@@ -2284,6 +2529,9 @@ label day5:
     p "Bom, já é a terceira vez que você vem na minha mesa hoje."
 
     n "Nossa, eu nem tinha notado..."
+
+    show nebi handstogether concerned
+    with dissolve
 
     p "Hehe!"
 
@@ -2334,6 +2582,9 @@ label opinion_eval_a3:
 
     if score >= 5:
 
+        show nebi handstogether smiling
+        with dissolve
+
         n "Pois eu acho que você não está indo mal!"
 
     else:
@@ -2349,14 +2600,22 @@ label day5_class_start:
     "Antes que possamos terminar a conversa, Galdino chega na sala. Todas as conversas cessam, quase que imediatamente."
 
     hide nebi
+    with dissolve
 
-    show galdino nobook neutral at center
+    show galdino nobook thinking at center
+    with dissolve
 
     g "Estou sentindo uma tensão no ar, hoje..."
+
+    show galdino nobook amused
+    with dissolve
 
     g "Como esperado do final da primeira semana, hehe!"
 
     g "Aposto que todos devem estar empolgados para saber como se sairão na minha avaliação. Antes disso temos mais uma aula, por isso peço que sejam pacientes."
+
+    show galdino nobook neutral
+    with dissolve
 
     g "Então vamos partir direto para nossa última aula da semana. Hoje, falaremos sobre os {b}diferentes tipos de porquê{/b}."
 
@@ -2424,9 +2683,15 @@ label day5_class_start:
 
     "Absolutamente ninguém diz nada."
 
+    show galdino nobook frown
+    with dissolve
+
     g "Bom... agora vamos para as perguntas!"
 
     g "[name], me responda..."
+
+    show galdino nobook neutral
+    with dissolve
 
     menu:
         g "Onde utilizamos {b}por quê{/b}?"
@@ -2568,10 +2833,14 @@ label day5_evaluation:
     g "Começando pelo Fábio."
 
     show fabio sheathed smug at left
+    with dissolve
 
     f "Manda bala, professor! Quão bem eu me saí?"
 
     g "Não muito bem..."
+
+    show fabio sheathed surprised
+    with dissolve
 
     f "O quê? Como assim?"
 
@@ -2581,23 +2850,32 @@ label day5_evaluation:
 
     f "..."
 
-    f "..."
+    show fabio sheathed smug
+    with dissolve
 
     f "Então você quer dizer que eu praticamente já sei de tudo, mas faltam algumas coisinhas para ser o melhor dos escritores? Entendido!"
+
+    show galdino nobook thinking
+    with dissolve
 
     g "Ah... Veja bem..."
 
     f "Hahaha! Eu sou demais! Agora só preciso estudar mais para ser o melhor! Me aguardem!"
 
     hide fabio
+    with dissolve
 
     "Eu não sei dizer se essa foi uma grande demonstração de narcisismo, ou se é o jeito que ele lida com o fracasso..."
 
+    show galdino nobook neutral
+    with dissolve
+
     "Galdino continua a anunciar os resultados dos outros alunos. Após alguns minutos, ele chega na Nebi."
 
-    show nebi armsbehind smiling at left
-
     g "Nebi... Você se saiu muito bem!"
+
+    show nebi handstogether surprised at left
+    with dissolve
 
     n "Sério???"
 
@@ -2607,9 +2885,13 @@ label day5_evaluation:
 
     g "Porém, percebo que você frequentemente duvida de si mesmo e se sente insegura. Novamente, esse é um sentimento normal, mas não deixe que isso a impeça de crescer, ok?"
 
+    show nebi armsbehind superhappy
+    with dissolve
+
     n "Ok! Muito obrigado, professor!"
 
     hide nebi
+    with dissolve
 
     g "E por fim, temos [name]."
 
@@ -2623,6 +2905,8 @@ label day5_evaluation:
         jump terrible_score
 
 label perfect_score:
+
+    show galdino nobook amused
 
     g "Estou impressionado! Você acertou todas as questões que lhe perguntei!"
 
@@ -2656,17 +2940,23 @@ label mediocre_score:
 
 label terrible_score:
 
+    show galdino nobook frown
+
     g "Você ao menos prestou atenção no que eu falei durante essa semana?"
 
     g "Você não acertou quase nada. Seu desempenho foi similar ao do Fábio."
 
     show fabio sheathed smug at right
+    with dissolve
 
     f "Tamo junto!"
 
     hide fabio
+    with dissolve
 
     g "Se você quer seriamente escrever webnovels, sugiro que se dedique bem mais aos seus estudos."
+
+    show galdino nobook neutral
 
     g "Mas não se desanime. Acredito que com esforço, estudo e prática, conseguirá melhorar."
 
@@ -2675,17 +2965,27 @@ label terrible_score:
 
 label final_tally:
 
+    show galdino nobook neutral
+
     g "Seu placar final é {b}[score]\/14{/b}."
 
     g "Com isso, finalizamos nossa primeira semana na Academia Novel Brasil."
+
+    show galdino phone amused
+    with dissolve
 
     g "Espero que tenham tido uma experiência proveitosa. Não se esqueçam de conferir o servidor da {a=https://discord.com/invite/NdeapnT}Novel Brasil no Discord{/a}, e o blog {a=https://grimorioescritor.blogspot.com/}Grimório do Escritor{/a}."
 
     g "Continuem seus estudos e a prática da escrita. Mal posso esperar para ler suas webnovels no futuro próximo!"
 
+    show galdino nobook amused
+    with dissolve
+
     show nebi armsbehind smiling at right
+    with dissolve
 
     show fabio sheathed smug at left
+    with dissolve
 
     "Obrigado por jogar! Até a próxima!"
 
