@@ -130,6 +130,10 @@ label day1:
 
     g "Como podem ver, minhas expectativas são altas. Mas quero que saibam que nós da Novel Brasil estaremos aqui para ajudar-los durante esta jornada. Conte conosco, e chegaremos longe!"
 
+    g "Além desta academia, a Novel Brasil também possui um {a=https://discord.com/invite/NdeapnT}servidor no Discord{/a}, e um blog, o {a=https://grimorioescritor.blogspot.com/}Grimório do Escritor{/a}."
+
+    g "Sintam-se a vontade para juntarem-se ao servidor, e confiram os vários artigos de gramática e narrativa do blog!"
+
     "Os alunos começam a murmurar entre si. Apesar do discurso ter sido meio... cafona, não há dúvidas de que causou uma certa impressão na sala."
 
     "Parando pra pensar, a maioria dos meus amigos da minha escola antiga nunca nem ouviram falar em webnovels. Talvez ele esteja certo. "
@@ -2246,12 +2250,9 @@ label day4_afterclass:
 
     "Amanhã é o final da nossa primeira semana na academia. Também será o dia que o Galdino nos dará o resultado das nossas avaliações iniciais."
 
-    "Mas é melhor não se preocupar com isso, por enquanto. Senão não vou cair no sono."
+    "Mas é melhor não me preocupar com isso, por enquanto. Senão não vou cair no sono."
 
     "Em vez disso, vou checar os capítulos que foram postados na Kiniga nessa semana. Ainda não li nada desde que cheguei aqui..."
-
-    # á à ã â é ê É í ô ó õ ú ç
-    # não são está ção ções
 
 label day5:
 
@@ -2259,5 +2260,430 @@ label day5:
     with fade
 
     "Dia 5 - Sexta-feira"
+
+    "Hoje a classe está claramente empolgada. As conversas são mais altas do que o normal, e até os alunos mais quietos estão falando sobre suas expectativas para a avaliação do Galdino."
+
+    "A Nebi não para quieta. Acho que vi ela falando com todos os alunos da sala."
+
+    "Falando nela, ela se aproxima da minha mesa."
+
+    show nebi armsbehind smiling at center
+
+    n "E aí, [name]?"
+
+    p "Ansiosa?"
+
+    n "Como percebeu?"
+
+    p "Bom, já é a terceira vez que você vem na minha mesa hoje."
+
+    n "Nossa, eu nem tinha notado..."
+
+    p "Hehe!"
+
+    menu:
+        n "E você, como acha que vamos nos sair hoje?"
+
+        "Me sinto confiante.":
+
+            jump opinion_eval_a1
+
+        "Não faço a menor ideia.":
+
+            jump opinion_eval_a2
+
+        "Na real, acho que vou me sair mal.":
+
+            jump opinion_eval_a3
+
+label opinion_eval_a1:
+
+    n "Pois eu invejo a sua confiança. Quanto mais eu penso nisso, mais eu acho que vou me dar mal!"
+
+    p "Relaxa, Nebi. Ficar nervosa não vai ajudar muito."
+
+    n "Concordo, mas não consigo evitar! Gostaria de ser confiante que nem o Fábio."
+
+    "Realmente, o Fábio parece ser um dos mais tranquilos na turma. Bom pra ele."
+
+    jump day5_class_start
+
+label opinion_eval_a2:
+
+    n "Eu também não! Tô pra ficar louca..."
+
+    p "Bom, lembre-se que ainda temos mais uma aula antes da avaliação. Nunca se sabe o que pode acontecer."
+
+    n "E se for uma aula super difícil?"
+
+    p "Agora que você mencionou..."
+
+    n "Aaaaah! O que a gente faz?"
+
+    jump day5_class_start
+
+label opinion_eval_a3:
+
+    n "Você acha?"
+
+    if score >= 5:
+
+        n "Pois eu acho que você não está indo mal!"
+
+    else:
+
+        n "Bom, também não estou muito otimista. Mas o que importa é aprender, certo?"
+
+        p "Certo, certo..."
+
+    jump day5_class_start
+
+label day5_class_start:
+
+    "Antes que possamos terminar a conversa, Galdino chega na sala. Todas as conversas cessam, quase que imediatamente."
+
+    hide nebi
+
+    show galdino nobook neutral at center
+
+    g "Estou sentindo uma tensão no ar, hoje..."
+
+    g "Como esperado do final da primeira semana, hehe!"
+
+    g "Aposto que todos devem estar empolgados para saber como se sairão na minha avaliação. Antes disso temos mais uma aula, por isso peço que sejam pacientes."
+
+    g "Então vamos partir direto para nossa última aula da semana. Hoje, falaremos sobre os {b}diferentes tipos de porquê{/b}."
+
+    g "Temos quatro variações: Por que, Porque, Por quê e Porquê."
+
+    g "Obviamente, se eu só falar eles pra vocês, não conseguirão escutar a diferença, pois todos possuem o mesmo som. Vou escrever na lousa, para ficar mais fácil."
+
+    "Galdino vai ao quadro e escreve os quatro tipos de porquê."
+
+    g "Começaremos pelo {b}por que{/b}, separado e sem acento."
+
+    g "Este é usado em perguntas, mas também pode ser usado em respostas."
+
+    g "Para perguntas, ele pode ser substituído por {b}por qual motivo{/b} ou {b}para qual motivo{/b}, sem mudar o sentido da pergunta."
+
+    g "Para respostas, ele pode ser substituído por {b}pelo qual{/b}, {b}para qual{/b} ou {b}por qual{/b}, e o sentido da resposta continuará o mesmo."
+
+    g "Por exemplo:"
+
+    "{i}Por que você não pode ir para a festa?\nO motivo por que eu não posso ir é um segredo!{/i}"
+
+    g "Estes podem ser trocados por:"
+
+    "{i}Por qual motivo você não pode ir para a festa?\nO motivo pelo qual eu não posso ir é um segredo!{/i}"
+
+    g "Agora vamos para o segundo. Porque, junto e sem acento."
+
+    g "Este é usado em explicações, e pode ser substituído por {b}pois{/b}."
+
+    g "Por exemplo:"
+
+    "{i}Não gosto de refrigerante porque o gás me incomoda.\nNão gosto de refrigerante pois o gás me incomoda.{/i}"
+
+    g "Simples, não acham?"
+
+    g "O próximo é {b}por quê{/b}, separado e com acento."
+
+    g "Por quê é utilizado no final de perguntas, diferente da versão sem acento. O primeiro exemplo pode ser modificado para usar por quê:"
+
+    "{i}Você não pode ir para a festa? Por quê?{/i}"
+
+    g "E por último temos {b}porquê{/b}, junto e com acento."
+
+    g "Diferente dos anteriores, porquê é um substantivo. Sendo um substantivo, pode ser acompanhado de artigo, e também pode vir na forma plural."
+
+    g "O porquê pode ser substituído por {b}motivo{/b}, {b}causa{/b}, {b}razão{/b} ou {b}circunstância{/b}."
+
+    g "Vejamos como podemos usá-lo:"
+
+    "{i}Não consigo entender o porquê de Laura não gostar de música clássica.{/i}"
+
+    "{i}Alguém saberia me dizer um porquê para que ouro seja um metal precioso?{/i}"
+
+    "{i}Gostaria que alguém me o contasse o porquê de tanto barulho.{/i}"
+
+    g "Agora vamos substituí-los por outros substantivos:"
+
+    "{i}Não consigo entender {b}a razão{/b} de Laura não gostar de música clássica.{/i}"
+
+    "{i}Alguém saberia me dizer um {b}motivo{/b} para que ouro seja um metal precioso?{/i}"
+
+    "{i}Gostaria que alguém me o contasse {b}a causa{/b} de tanto barulho.{/i}"
+
+    g "Espero que essa explicação tenha clarificado o porquê de tantos porquês!"
+
+    "Absolutamente ninguém diz nada."
+
+    g "Bom... agora vamos para as perguntas!"
+
+    g "[name], me responda..."
+
+    menu:
+        g "Onde utilizamos {b}por quê{/b}?"
+
+        "No final de frases interrogativas.":
+
+            jump q12_a1
+
+        "No começo de perguntas.":
+
+            jump q12_a2
+
+        "Em respostas.":
+
+            jump q12_a3
+
+label q12_a1:
+
+    $ score += 1
+
+    g "Exatamente! Caso esteja no início de uma pergunta, usa-se o por que, sem acento."
+
+    jump q13
+
+label q12_a2:
+
+    g "Errado."
+
+    g "Caso esteja no início de uma pergunta, usa-se o por que, sem acento."
+
+    g "A versão separada e com acento é utilizada no final de perguntas."
+
+    jump q13
+
+label q12_a3:
+
+    g "Errado."
+
+    g "A versão separada e com acento é utilizada apenas para perguntas, especificamente no final de perguntas."
+
+    jump q13
+
+label q13:
+
+    g "Próxima pergunta..."
+
+    menu:
+        g "Me dê um exemplo de uma palavra que pode substituir o {b}porquê{/b}."
+
+        "Pois.":
+
+            jump q13_a1
+
+        "Contudo.":
+
+            jump q13_a2
+
+        "Razão.":
+
+            jump q13_a3
+
+label q13_a1:
+
+    g "Errado."
+
+    g "As palavras que podem substituir o porquê são outros substantivos, como {b}motivo{/b}, {b}causa{/b}, {b}razão{/b} ou {b}circunstância{/b}."
+
+    jump q14
+
+label q13_a2:
+
+    g "Errado."
+
+    g "As palavras que podem substituir o porquê são outros substantivos, como {b}motivo{/b}, {b}causa{/b}, {b}razão{/b} ou {b}circunstância{/b}."
+
+    jump q14
+
+label q13_a3:
+
+    $ score += 1
+
+    g "Correto!"
+
+    g "Eu também aceitaria {b}motivo{/b}, {b}causa{/b} ou {b}circunstância{/b}."
+
+    jump q14
+
+label q14:
+
+    g "Agora para a última pergunta desta aula..."
+
+    menu:
+        g "Dentre as alternativas, qual faz o uso correto de um dos porquês?"
+
+        "Por quê acha que tenho medo?":
+
+            jump q14_a1
+
+        "Minhas mãos tremem porque sinto frio!":
+
+            jump q14_a2
+
+        "Me pergunto o por que de Juliana não vir à aula":
+
+            jump q14_a3
+
+label q14_a1:
+
+    g "Incorreto. Para iniciar perguntas, utilizamos {b}Por que{/b}, separado e sem acento."
+
+    g "A alternativa correta é a segunda, pois utilizamos {b}porque{/b} em explicações."
+
+    jump day5_evaluation
+
+label q14_a2:
+
+    $ score += 1
+
+    g "Correto! Para explicações, utilizamos {b}porque{/b}, junto e sem acento. Pode ser substituído por {b}pois{/b}."
+
+    jump day5_evaluation
+
+label q14_a3:
+
+    g "Incorreto. Neste caso deve ser utilizado o {b}porquê{/b}, junto e sem acento."
+
+    g "A alternativa correta é a segunda, pois utilizamos {b}porque{/b} em explicações."
+
+    jump day5_evaluation
+
+label day5_evaluation:
+
+    g "E isso concluí nossas aulas desta semana! Espero que tenham aprendido uma coisa ou outra."
+
+    g "Sem mais delongas, agora é hora de saberem o resultado da avaliação inicial."
+
+    g "Anunciarei os resultados para cada aluno, baseado em como se saiu ao responder as perguntas das aulas."
+
+    g "Começando pelo Fábio."
+
+    show fabio sheathed smug at left
+
+    f "Manda bala, professor! Quão bem eu me saí?"
+
+    g "Não muito bem..."
+
+    f "O quê? Como assim?"
+
+    g "Você errou a grande maioria das perguntas. Minha recomendação é que estude novamente todos os assuntos das aulas anteriores, e procure aplicar tudo isso no seu texto."
+
+    g "Verdade seja dita, consigo notar um potencial criativo em você. Acredito que se melhorar a sua capacidade técnica, nada impede que se torne um autor decente."
+
+    f "..."
+
+    f "..."
+
+    f "Então você quer dizer que eu praticamente já sei de tudo, mas faltam algumas coisinhas para ser o melhor dos escritores? Entendido!"
+
+    g "Ah... Veja bem..."
+
+    f "Hahaha! Eu sou demais! Agora só preciso estudar mais para ser o melhor! Me aguardem!"
+
+    hide fabio
+
+    "Eu não sei dizer se essa foi uma grande demonstração de narcisismo, ou se é o jeito que ele lida com o fracasso..."
+
+    "Galdino continua a anunciar os resultados dos outros alunos. Após alguns minutos, ele chega na Nebi."
+
+    show nebi armsbehind smiling at left
+
+    g "Nebi... Você se saiu muito bem!"
+
+    n "Sério???"
+
+    g "Claro! Você está sempre prestando atenção na aula, e os frutos dessa dedicação estão no seu desempenho."
+
+    g "Você cometeu alguns erros aqui e ali, mas isso é absolutamente normal. Continue se esforçando, e você se tornará uma grande autora antes que perceba!"
+
+    g "Porém, percebo que você frequentemente duvida de si mesmo e se sente insegura. Novamente, esse é um sentimento normal, mas não deixe que isso a impeça de crescer, ok?"
+
+    n "Ok! Muito obrigado, professor!"
+
+    hide nebi
+
+    g "E por fim, temos [name]."
+
+    if score == 14:
+        jump perfect_score
+    elif score >= 10:
+        jump good_score
+    elif score >= 5:
+        jump mediocre_score
+    else:
+        jump terrible_score
+
+label perfect_score:
+
+    g "Estou impressionado! Você acertou todas as questões que lhe perguntei!"
+
+    g "Você claramente tem familiaridade com a escrita, ou no mínimo conseguiu absorver 100% do conteúdo das aulas."
+
+    g "Espero que continue demonstrando esse empenho nos estudos e na escrita."
+
+    jump final_tally
+
+label good_score:
+
+    g "Seu desempenho foi muito bom!"
+
+    g "Eu diria que você está em uma situação parecida com a Nebi."
+
+    g "Percebe-se que ambos prestaram atenção nas aulas, mas ainda possuem espaço para melhoras."
+
+    g "Espero que continue demonstrando esse empenho nos estudos e na escrita."
+
+    jump final_tally
+
+label mediocre_score:
+
+    g "Seu desempenho poderia ter sido melhor."
+
+    g "Recomendo que estude mais sobre os tópicos apresentados nas aulas."
+
+    g "Mas não se desanime. Acredito que com esforço, estudo e prática, conseguirá melhorar."
+
+    jump final_tally
+
+label terrible_score:
+
+    g "Você ao menos prestou atenção no que eu falei durante essa semana?"
+
+    g "Você não acertou quase nada. Seu desempenho foi similar ao do Fábio."
+
+    show fabio sheathed smug at right
+
+    f "Tamo junto!"
+
+    hide fabio
+
+    g "Se você quer seriamente escrever webnovels, sugiro que se dedique bem mais aos seus estudos."
+
+    g "Mas não se desanime. Acredito que com esforço, estudo e prática, conseguirá melhorar."
+
+
+    jump final_tally
+
+label final_tally:
+
+    g "Seu placar final é {b}[score]\/14{/b}."
+
+    g "Com isso, finalizamos nossa primeira semana na Academia Novel Brasil."
+
+    g "Espero que tenham tido uma experiência proveitosa. Não se esqueçam de conferir o servidor da {a=https://discord.com/invite/NdeapnT}Novel Brasil no Discord{/a}, e o blog {a=https://grimorioescritor.blogspot.com/}Grimório do Escritor{/a}."
+
+    g "Continuem seus estudos e a prática da escrita. Mal posso esperar para ler suas webnovels no futuro próximo!"
+
+    show nebi armsbehind smiling at right
+
+    show fabio sheathed smug at left
+
+    "Obrigado por jogar! Até a próxima!"
+
+    # á à ã â é ê É í ô ó õ ú ç
+    # não são está ção ções
 
     return
