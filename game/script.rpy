@@ -30,6 +30,8 @@ label day1:
 
     "Dia 1 - Segunda-feira"
 
+    play music "spring day.ogg" fadein 1.0 fadeout 1.0
+
     "Hoje é meu primeiro dia na Academia Novel Brasil."
 
     "Este lugar basicamente é o maior formador de talentos de webnovels no país inteiro."
@@ -327,6 +329,8 @@ label intro_continue:
 
     g "Já que vocês não tem nenhuma pergunta, vamos partir para a nossa primeira aula."
 
+    play music "funbgm.ogg" fadein 1.0 fadeout 1.0
+
     g "O assunto de hoje é direto ao ponto: Vamos falar sobre {b}o que é uma webnovel.{/b}"
 
     g "Uma webnovel é simplesmente uma novel, um romance, feita para a internet. Diferente de um livro, os capítulos são lançados separadamente."
@@ -370,6 +374,8 @@ label intro_continue:
     with dissolve
 
     g "Agora vamos ver quem estava prestando atenção na aula."
+
+    play music "squiggle.ogg" fadein 1.0 fadeout 1.0
 
     "Galdino observa os alunos, e seu olhar para na minha direção."
 
@@ -476,6 +482,8 @@ label q2_a3:
 
 label day1_class_end:
 
+    play music "canonindchillarrange.ogg" fadein 1.0 fadeout 1.0
+
     "O sino bate."
 
     g "Bom, com isso concluímos a nossa aula. Este é o primeiro passo nas suas jornadas para se tornarem escritores."
@@ -504,6 +512,8 @@ label day1_class_end:
 
     scene bg kitchen
     with fade
+
+    play music "relax.ogg" fadein 1.0 fadeout 1.0
 
     "Este é o dormitório que irei ficar durante a escola. Ele foi feito para estudantes de fora desta cidade."
 
@@ -589,6 +599,8 @@ label day1_class_end:
 
     "Bom, as aulas acabaram de começar. Acho que tenho tempo suficiente pra decidir isso. Agora vou dormir."
 
+stop music fadeout 1.0
+
 label day2:
     scene bg classroom
     with fade
@@ -601,6 +613,8 @@ label day2:
     g "Quero que me respondam: O que vocês gostariam de escrever?"
 
     "O que???"
+
+    play music "funbgm.ogg" fadein 1.0 fadeout 1.0
 
     g "Estamos em uma academia de escritores, eventualmente vocês irão escrever webnovels. Talvez alguns até já tenham começado."
 
@@ -720,6 +734,8 @@ label day2:
 
     hide fabio
     with dissolve
+
+    play music "squiggle.ogg" fadein 1.0 fadeout 1.0
 
     g "Muito bem. Agora que falamos dos sub-gêneros mais populares, vamos para as perguntas!"
 
@@ -896,6 +912,9 @@ label day2_classend:
     with dissolve
 
 label day2_afterclass:
+
+    play music "spring day.ogg" fadein 1.0 fadeout 1.0
+
     "Os alunos começam a se arrumar para sair. Antes que Galdino saia da sala, me dirijo a ele."
 
     p "Com licença, professor?"
@@ -962,6 +981,8 @@ label day2_afterclass:
     scene bg park entrance day
     with fade
 
+    stop music fadeout 1.0
+
     "Este é o parque municipal que o professor Galdino mencionou."
 
     "Ele fica meio perto da escola, então foi fácil chegar nele. Nenhum ponto em especial se destaca, mas o local como um todo parece ser muito bem cuidado."
@@ -976,6 +997,8 @@ label day2_afterclass:
 
     show nebi armsbehind happy at center
     with dissolve
+
+    play music "calmbgm.ogg" fadein 1.0 fadeout 1.0
 
     menu:
         n "Ah! Olá!"
@@ -1164,6 +1187,8 @@ label question_city:
     scene bg bedroom night dark
     with fade
 
+    play music "relax.ogg" fadein 1.0 fadeout 1.0
+
     "Foi uma surpresa ter encontrado a Nebi no parque. No começo me senti um pouco de receio de não conseguir conversar com ela, mas ela acabou se mostrando ser uma pessoa bem tranquila."
 
     "Acabei não pegando nenhuma rede social dela, mas espero que a gente continue se falando."
@@ -1173,6 +1198,8 @@ label question_city:
     "Continuo sem nenhuma ideia para uma história, mas tenho a sensacao de vai ficar tudo bem."
 
     "Sim. Vai ficar tudo bem."
+
+    stop music fadeout 1.0
 
     jump day3
 
@@ -1185,6 +1212,8 @@ label day3:
 
     show galdino nobook neutral at center
     with dissolve
+
+    play music "funbgm.ogg" fadein 1.0 fadeout 1.0
 
     g "Bom dia a todos!"
 
@@ -1377,6 +1406,8 @@ label day3:
 
     g "Estamos entendidos? Para mais detalhes neste assunto, recomendo dois artigos do grimório do escritor: Um sobre o {a=https://grimorioescritor.blogspot.com/2021/03/aspas-dois-pontos-ou-hifen-nao-use.html}uso do travessão{/a}. e outro sobre o {a=https://grimorioescritor.blogspot.com/2021/09/dicendi-que-mane-dicendi.html}verbo dicendi{/a}"
 
+    play music "squiggle.ogg" fadein 1.0 fadeout 1.0
+
     g "Agora vamos para as perguntas! [name]!"
 
     p "Aqui!"
@@ -1535,6 +1566,8 @@ label day3_afterclass:
     scene bg school corridor
     with fade
 
+    play music "canonindchillarrange.ogg" fadein 1.0 fadeout 1.0
+
     "Ao sair da sala, vejo alguns dos alunos no corredor, conversando entre si. Nebi também se encontra no corredor, mas ela não parece estar esperando alguém."
 
     "Assim que ela me vê, ela vem em minha direção."
@@ -1602,6 +1635,8 @@ label day3_afterclass:
 
     scene bg cafe inside 1 afternoon
     with fade
+
+    play music "jazzy shop.ogg" fadein 1.0 fadeout 1.0
 
     "Ao entrar no local, consigo sentir uma atmosfera relaxante e convidativa. Realmente parece fazer jus ao título de café mais bem avaliado."
 
@@ -1889,6 +1924,8 @@ label tasting_end:
     scene bg kitchen
     with fade
 
+    play music "relax.ogg" fadein 1.0 fadeout 1.0
+
     "Ao chegar no dormitório, preparo algo pra jantar."
 
     "A geladeira ainda possui um espaço vazio. Antes eu achava que estava faltando um aluno, mas percebi que tem uma pessoa que não toca nela desde o primeiro dia."
@@ -1961,6 +1998,8 @@ label tasting_end:
 
     f "Boa Noite!"
 
+    stop music fadeout 1.0
+
 label day4:
 
     scene bg classroom
@@ -1970,6 +2009,8 @@ label day4:
 
     show galdino nobook neutral at center
     with dissolve
+
+    play music "funbgm.ogg" fadein 1.0 fadeout 1.0
 
     g "Bom dia, escritores. Hoje teremos mais uma aula sobre normas da língua portuguesa."
 
@@ -2087,6 +2128,8 @@ label day4:
     "{i}O rapaz era determinado... pois não deu sequer um passo para trás.{/i}{b} \(Mesmo período.\){/b}"
 
     "{i}O rapaz era determinado... Seu amigo, porém, fugiu imediatamente.{/i}{b} \(Troca de sujeito.\){/b}"
+
+    play music "squiggle.ogg" fadein 1.0 fadeout 1.0
 
     g "Tudo certo? Então vamos ver se entenderam, mesmo."
 
@@ -2237,6 +2280,8 @@ label day4_afterclass:
 
     scene bg classroom
     with fade
+
+    play music "spring day.ogg" fadein 1.0 fadeout 1.0
 
     "Assim que a aula termina, explico para a Nebi sobre o Fábio. Nebi prontamente vai atrás dele, e nos encontramos mais uma vez na sala de aula."
 
@@ -2438,6 +2483,8 @@ label day4_afterclass:
 
     "Fábio coloca seus talheres no prato, fazendo uma cara pensativa, como se fosse um personagem que está prestes a iniciar um monólogo importante."
 
+    play music "calmbgm.ogg" fadein 1.0 fadeout 1.0
+
     f "Eu estudei em um colégio religioso. O rei dem... O diretor era muito restrito no código de conduta. Não podíamos falar sequer um piu durante as dez horas de aula."
 
     "Acho que entendi porque a Nebi conseguiu botar ele nos eixos, mais cedo."
@@ -2470,6 +2517,8 @@ label day4_afterclass:
 
     show fabio sheathed smug
     with dissolve
+
+    play music "relax.ogg" fadein 1.0 fadeout 1.0
 
     f "Bom, já que vocês me ensinaram a técnica secreta do strogonoff de frango, acho que isso é o mínimo que posso fazer em troca!"
 
@@ -2508,12 +2557,16 @@ label day4_afterclass:
 
     "Em vez disso, vou checar os capítulos que foram postados na Kiniga nessa semana. Ainda não li nada desde que cheguei aqui..."
 
+    stop music fadeout 1.0
+
 label day5:
 
     scene bg classroom
     with fade
 
     "Dia 5 - Sexta-feira"
+
+    play music "canonindchillarrange.ogg" fadein 1.0 fadeout 1.0
 
     "Hoje a classe está claramente empolgada. As conversas são mais altas do que o normal, e até os alunos mais quietos estão falando sobre suas expectativas para a avaliação do Galdino."
 
@@ -2603,6 +2656,8 @@ label day5_class_start:
 
     "Antes que possamos terminar a conversa, Galdino chega na sala. Todas as conversas cessam, quase que imediatamente."
 
+    stop music fadeout 1.0
+
     hide nebi
     with dissolve
 
@@ -2620,6 +2675,8 @@ label day5_class_start:
 
     show galdino nobook neutral
     with dissolve
+
+    play music "funbgm.ogg" fadein 1.0 fadeout 1.0
 
     g "Então vamos partir direto para nossa última aula da semana. Hoje, falaremos sobre os {b}diferentes tipos de porquê{/b}."
 
@@ -2691,6 +2748,8 @@ label day5_class_start:
     with dissolve
 
     g "Bom... agora vamos para as perguntas!"
+
+    play music "squiggle.ogg" fadein 1.0 fadeout 1.0
 
     g "[name], me responda..."
 
@@ -2827,6 +2886,8 @@ label q14_a3:
     jump day5_evaluation
 
 label day5_evaluation:
+
+    play music "spring day.ogg" fadein 1.0 fadeout 1.0
 
     g "E isso concluí nossas aulas desta semana! Espero que tenham aprendido uma coisa ou outra."
 
