@@ -21,7 +21,7 @@ label start:
 
 label day1:
 
-    scene bg classroom
+    scene bg school outside day
     with fade
 
     "Dia 1 - Segunda-feira"
@@ -42,8 +42,8 @@ label day1:
 
     "Chega de devaneios! Hora de entrar."
 
-    #scene bg school_hallway
-    #with fade
+    scene bg school corridor
+    with fade
 
     "O corredor está vazio. Mas ainda escuto vozes de alunos. Provavelmente já estão em sala, mas a aula ainda não deve ter começado."
 
@@ -451,7 +451,7 @@ label day1_class_end:
 
     "Inclusive, o cansaço tá batendo. Hora de pegar o metrô pra casa."
 
-    scene bg classroom
+    scene bg train dusk
     with fade
 
     "Antes de voltar para o dormitório, decido fazer umas compras para a semana."
@@ -884,7 +884,7 @@ label day2_afterclass:
 
     "Bom, ainda não entendi exatamente como isso vai me ajudar, mas não custa nada tentar. Decido ir visitar o parque após o almoço."
 
-    scene bg classroom
+    scene bg park entrance day
     with fade
 
     "Este é o parque municipal que o professor Galdino mencionou."
@@ -948,6 +948,9 @@ label nebi_park_continue:
     hide nebi
 
     "Me junto à Nebi e começamos a passear pelo parque."
+
+    scene bg park inside day
+    with fade
 
     "Após uns vinte minutos, percebo que a atmosfera tranquila do local acabou fazendo com que a gente só andasse sem falar quase nada."
 
@@ -1037,7 +1040,7 @@ label question_city:
 
     "Nebi se dirige à lagoa com um andar levemente desajeitado. Corro atrás dela, pra me certificar que ela não caia na água."
 
-    scene bg classroom
+    scene bg park entrance day
     with fade
 
     "O passeio inteiro pelo parque leva algumas horas. Após isso, nos dirigimos para a entrada."
@@ -1058,7 +1061,7 @@ label question_city:
 
     "Após nos despedirmos, vou até a estação do metrô."
 
-    scene bg classroom
+    scene bg bedroom night dark
     with fade
 
     "Foi uma surpresa ter encontrado a Nebi no parque. No começo me senti um pouco de receio de não conseguir conversar com ela, mas ela acabou se mostrando ser uma pessoa bem tranquila."
@@ -1403,7 +1406,7 @@ label day3_classend:
 
 label day3_afterclass:
 
-    scene bg classroom
+    scene bg school corridor
     with fade
 
     "Ao sair da sala, vejo alguns dos alunos no corredor, conversando entre si. Nebi também se encontra no corredor, mas ela não parece estar esperando alguém."
@@ -1434,7 +1437,7 @@ label day3_afterclass:
 
     "E pensar que ambos somos novos na cidade. Ela já parece estar totalmente à vontade."
 
-    scene bg classroom
+    scene bg cafe outside 1 afternoon
     with fade
 
     "Após uma curta viagem de ônibus, e alguns minutos andando, parece que chegamos no nosso destino: Café Memoria."
@@ -1461,7 +1464,7 @@ label day3_afterclass:
 
     p "Espera aí!"
 
-    scene bg classroom
+    scene bg cafe inside 1 afternoon
     with fade
 
     "Ao entrar no local, consigo sentir uma atmosfera relaxante e convidativa. Realmente parece fazer jus ao título de café mais bem avaliado."
@@ -1700,13 +1703,16 @@ label tasting_end:
 
     hide nebi
 
+    scene bg cafe inside 1 dusk
+    with fade
+
     "E isso se alongou por algum tempo. Ela falou de alguns gêneros que nunca ouvi falar."
 
     "Sinto que vou acabar aprendendo bastante com a Nebi. Sua paixão pela leitura e por webnovels é incomparável."
 
     "Depois de terminarmos nosso lanche, nos despedimos e retorno para casa."
 
-    scene bg classroom
+    scene bg kitchen
     with fade
 
     "Ao chegar no dormitório, preparo algo pra jantar."
