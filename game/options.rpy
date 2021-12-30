@@ -13,7 +13,7 @@
 ## The _() surrounding the string marks it as eligible for translation.
 
 define config.name = _("NovelBrasilAcademy")
-
+define config.language = "Portuguese"
 
 ## Determines if the title given above is shown on the main menu screen. Set
 ## this to False to hide the title.
