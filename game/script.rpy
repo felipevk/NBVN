@@ -15,6 +15,10 @@ default coffeChoice = 0
 
 label start:
 
+    "Este jogo foi desenvolvido por um fã, e não representa necessariamente as opiniões e valores dos membros da Novel Brasil."
+
+    "Caso encontre bugs ou tenha alguma dúvida, entre em contato com {b}Azdhar{/b}, no servidor da Novel Brasil."
+
     python:
         name = renpy.input("Digite o seu nome")
         name = name.strip() or "Protagonista"

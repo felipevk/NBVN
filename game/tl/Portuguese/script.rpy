@@ -5658,3 +5658,17 @@ translate Portuguese strings:
     old "Me pergunto o por que de Juliana não vir à aula"
     new "Me pergunto o por que de Juliana não vir à aula"
 
+# TODO: Translation updated at 2021-12-30 13:59
+
+# game/script.rpy:18
+translate Portuguese start_234faf46:
+
+    # "Este jogo foi desenvolvido por um fã, e não representa necessariamente as opiniões e valores dos membros da Novel Brasil."
+    "Este jogo foi desenvolvido por um fã, e não representa necessariamente as opiniões e valores dos membros da Novel Brasil."
+
+# game/script.rpy:20
+translate Portuguese start_709b9075:
+
+    # "Caso encontre bugs ou tenha alguma dúvida, entre em contato com {b}Azdhar{/b}, no servidor da Novel Brasil."
+    "Caso encontre bugs ou tenha alguma dúvida, entre em contato com {b}Azdhar{/b}, no servidor da Novel Brasil."
+
