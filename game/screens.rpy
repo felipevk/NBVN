@@ -560,8 +560,25 @@ screen about():
             if gui.about:
                 text "[gui.about!t]\n"
 
-            text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
+            text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]\n\n")
 
+            label "Créditos"
+            text _("{b}Desenvolvimento e roteiro{/b}")
+            text _("Azdhar\n")
+
+            text _("{b}Arte dos personagens{/b}")
+            text _("Johnny Lucas\n")
+
+            text _("{b}Design Original da Nebi{/b}")
+            text _("Novel Brasil\n")
+
+            text _("{b}Planos de fundo{/b}")
+            text _("Noraneko Games")
+            text _("Uncle Mugen\n")
+
+            text _("{b}Trilha Sonora{/b}")
+            text _("Tim Reichert — VN Audio Pack")
+            text _("syncopika\n")
 
 ## This is redefined in options.rpy to add text to the about screen.
 define gui.about = ""
