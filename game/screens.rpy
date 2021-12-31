@@ -569,14 +569,14 @@ screen about():
             text _("{b}Arte dos personagens{/b}")
             text _("Johnny Lucas\n")
 
-            text _("{b}Design Original da Nebi{/b}")
+            text _("{b}Design original da Nebi{/b}")
             text _("Novel Brasil\n")
 
             text _("{b}Planos de fundo{/b}")
             text _("Noraneko Games")
             text _("Uncle Mugen\n")
 
-            text _("{b}Trilha Sonora{/b}")
+            text _("{b}Trilha sonora{/b}")
             text _("Tim Reichert — VN Audio Pack")
             text _("syncopika\n")
 
