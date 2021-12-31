@@ -1283,7 +1283,7 @@ label day3:
     show nebi armsbehind smiling at left
     with dissolve
 
-    p "Aqui também!"
+    n "Aqui também!"
 
     g "Excelente. Vamos ver o trecho do Fábio."
 
@@ -1368,7 +1368,7 @@ label day3:
 
     g "Um exemplo disso seria:"
 
-    "{i}— Aqui está o preço do serviço. 1000 reais. — O mecânico disso ao cliente.{/i}"
+    "{i}— Aqui está o preço do serviço. 1000 reais. — O mecânico disse ao cliente.{/i}"
 
     g "Outra coisa que notei no texto da Nebi foi o uso do narrador para introduzir a última fala do mecânico."
 
@@ -1545,7 +1545,7 @@ label q8_a2:
 
 label q8_a3:
 
-    # score += 1
+    $ score += 1
 
     g "Correto!"
 
@@ -2295,7 +2295,7 @@ label day4_afterclass:
 
     f "Urgh!"
 
-    p "[name] me contou sobre isso. Podemos te ajudar a fazer algo!"
+    n "[name] me contou sobre isso. Podemos te ajudar a fazer algo!"
 
     f "Pois saiba que você está enganada! Minhas habilidades simplesmente foram seladas quando eu enfrentei o príncipe dos vampiros pelo controle do..."
 
@@ -2313,7 +2313,7 @@ label day4_afterclass:
 
     f "S-sim, senhora!"
 
-    p "Vamos, [name]!"
+    n "Vamos, [name]!"
 
     "Esse é um lado da Nebi que eu não esperava ver..."
 
@@ -2465,7 +2465,7 @@ label day4_afterclass:
 
     n "Então quer dizer que somos amigos!"
 
-    f "Sempre que estiverem em apuros, lhes emprestarei um pouco do meu poder selado! Estarão segundos comigo."
+    f "Sempre que estiverem em apuros, lhes emprestarei um pouco do meu poder selado! Estarão seguros comigo."
 
     p "Legal..."
 
@@ -2948,7 +2948,7 @@ label day5_evaluation:
 
     g "Você cometeu alguns erros aqui e ali, mas isso é absolutamente normal. Continue se esforçando, e você se tornará uma grande autora antes que perceba!"
 
-    g "Porém, percebo que você frequentemente duvida de si mesmo e se sente insegura. Novamente, esse é um sentimento normal, mas não deixe que isso a impeça de crescer, ok?"
+    g "Porém, percebo que você frequentemente duvida de si mesma e se sente insegura. Novamente, esse é um sentimento normal, mas não deixe que isso a impeça de crescer, ok?"
 
     show nebi armsbehind superhappy
     with dissolve
@@ -2975,7 +2975,7 @@ label perfect_score:
 
     g "Estou impressionado! Você acertou todas as questões que lhe perguntei!"
 
-    g "Você claramente tem familiaridade com a escrita, ou no mínimo conseguiu absorver 100% do conteúdo das aulas."
+    g "Você claramente tem familiaridade com a escrita, ou no mínimo conseguiu absorver 100\% do conteúdo das aulas."
 
     g "Espero que continue demonstrando esse empenho nos estudos e na escrita."
 
@@ -3052,7 +3052,7 @@ label final_tally:
     show fabio sheathed smug at left
     with dissolve
 
-    "Obrigado por jogar! Até a próxima!"
+    "{b}Obrigado por jogar! Até a próxima!{/b}"
 
     # á à ã â é ê É í ô ó õ ú ç
     # não são está ção ções

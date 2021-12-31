@@ -338,3 +338,59 @@ translate Portuguese strings:
     old "Menu"
     new "Menu"
 
+# TODO: Translation updated at 2021-12-30 21:55
+
+translate Portuguese strings:
+
+    # screens.rpy:563
+    old "Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]\n\n"
+    new "Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]\n\n"
+
+    # screens.rpy:566
+    old "{b}Desenvolvimento e roteiro{/b}"
+    new "{b}Desenvolvimento e roteiro{/b}"
+
+    # screens.rpy:567
+    old "Azdhar\n"
+    new "Azdhar\n"
+
+    # screens.rpy:569
+    old "{b}Arte dos personagens{/b}"
+    new "{b}Arte dos personagens{/b}"
+
+    # screens.rpy:570
+    old "Johnny Lucas\n"
+    new "Johnny Lucas\n"
+
+    # screens.rpy:572
+    old "{b}Design original da Nebi{/b}"
+    new "{b}Design original da Nebi{/b}"
+
+    # screens.rpy:573
+    old "Novel Brasil\n"
+    new "Novel Brasil\n"
+
+    # screens.rpy:575
+    old "{b}Planos de fundo{/b}"
+    new "{b}Planos de fundo{/b}"
+
+    # screens.rpy:576
+    old "Noraneko Games"
+    new "Noraneko Games"
+
+    # screens.rpy:577
+    old "Uncle Mugen\n"
+    new "Uncle Mugen\n"
+
+    # screens.rpy:579
+    old "{b}Trilha sonora{/b}"
+    new "{b}Trilha sonora{/b}"
+
+    # screens.rpy:580
+    old "Tim Reichert — VN Audio Pack"
+    new "Tim Reichert — VN Audio Pack"
+
+    # screens.rpy:581
+    old "syncopika\n"
+    new "syncopika\n"
+

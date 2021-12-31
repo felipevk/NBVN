@@ -5672,3 +5672,55 @@ translate Portuguese start_709b9075:
     # "Caso encontre bugs ou tenha alguma dúvida, entre em contato com {b}Azdhar{/b}, no servidor da Novel Brasil."
     "Caso encontre bugs ou tenha alguma dúvida, entre em contato com {b}Azdhar{/b}, no servidor da Novel Brasil."
 
+# TODO: Translation updated at 2021-12-30 21:55
+
+# game/script.rpy:2298
+translate Portuguese day4_afterclass_aa0d32fa:
+
+    # n "[name] me contou sobre isso. Podemos te ajudar a fazer algo!"
+    n "[name] me contou sobre isso. Podemos te ajudar a fazer algo!"
+
+# game/script.rpy:2316
+translate Portuguese day4_afterclass_e90f3112:
+
+    # n "Vamos, [name]!"
+    n "Vamos, [name]!"
+
+# game/script.rpy:2978
+translate Portuguese perfect_score_49af1831:
+
+    # g "Você claramente tem familiaridade com a escrita, ou no mínimo conseguiu absorver 100%% do conteúdo das aulas."
+    g "Você claramente tem familiaridade com a escrita, ou no mínimo conseguiu absorver 100%% do conteúdo das aulas."
+
+# game/script.rpy:3055
+translate Portuguese final_tally_fce402cf:
+
+    # "{b}Obrigado por jogar! Até a próxima!{/b}"
+    "{b}Obrigado por jogar! Até a próxima!{/b}"
+
+# TODO: Translation updated at 2021-12-30 22:58
+
+# game/script.rpy:1286
+translate Portuguese day3_510079d2:
+
+    # n "Aqui também!"
+    n "Aqui também!"
+
+# game/script.rpy:1371
+translate Portuguese day3_8a2749d3:
+
+    # "{i}— Aqui está o preço do serviço. 1000 reais. — O mecânico disse ao cliente.{/i}"
+    "{i}— Aqui está o preço do serviço. 1000 reais. — O mecânico disse ao cliente.{/i}"
+
+# game/script.rpy:2468
+translate Portuguese day4_afterclass_74eaa408:
+
+    # f "Sempre que estiverem em apuros, lhes emprestarei um pouco do meu poder selado! Estarão seguros comigo."
+    f "Sempre que estiverem em apuros, lhes emprestarei um pouco do meu poder selado! Estarão seguros comigo."
+
+# game/script.rpy:2951
+translate Portuguese day5_evaluation_ffe49543:
+
+    # g "Porém, percebo que você frequentemente duvida de si mesma e se sente insegura. Novamente, esse é um sentimento normal, mas não deixe que isso a impeça de crescer, ok?"
+    g "Porém, percebo que você frequentemente duvida de si mesma e se sente insegura. Novamente, esse é um sentimento normal, mas não deixe que isso a impeça de crescer, ok?"
+
